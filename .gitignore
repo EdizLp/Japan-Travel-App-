@@ -1,0 +1,14 @@
+# Ignore the virtual environment
+venv/
+.venv/
+env/
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore local environment variables
+.env
+
+# Ignore those big test HTML files you're scraping
+*.html
