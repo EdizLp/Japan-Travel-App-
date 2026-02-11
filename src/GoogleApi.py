@@ -2,6 +2,7 @@ import requests #To send a POST request to google
 import os#for hiding api
 from dotenv import load_dotenv # for hiding api key 
 
+load_dotenv()
 
 def request_information(info = dict): 
     api_key = os.getenv("GOOGLE_API_KEY") #Grab key from .env so its not public

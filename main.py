@@ -5,7 +5,7 @@ from src.GoogleApi import request_information
 
 
 #this is effectively someone pasting a link, so requesting details 
-with open('./tests/test1.html', 'r', encoding='utf-8') as f: #Opening our test file using encoding for japanese characters
+with open('./tests/test2.html', 'r', encoding='utf-8') as f: #Opening our test file using encoding for japanese characters
     tabelogData = f.read()
     soup = BeautifulSoup(tabelogData, 'html.parser') #Soup object for scraping with beautifulsoup
 
