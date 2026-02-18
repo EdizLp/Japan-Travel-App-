@@ -4,3 +4,6 @@ The primary use will be the ability to create tables to store information on any
 The key information will be autofilled into your table significantly reducing the amount of time required to gather the information manually.
 Users will have their own account to store their tables and create sub-tables for specific food catgeories or areas. 
 
+Technologies used:
+
+Python, NodeJs, Supabase (SQL Postgres), Vercel, Google AI Studio, Google Cloud, FastAPI. 
