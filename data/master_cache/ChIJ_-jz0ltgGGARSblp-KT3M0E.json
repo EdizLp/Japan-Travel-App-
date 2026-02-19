@@ -1,0 +1,559 @@
+{
+    "Tabelog": {
+        "name": "ふくろう",
+        "rating": 3.2,
+        "address": "東京都大田区蒲田5-21-13ペガサスステーションプラザ 1F",
+        "coords": [
+            35.56199033797131,
+            139.7190957820514
+        ],
+        "url": "https://tabelog.com/tokyo/A1315/A131503/13096993/",
+        "reservation_info": "N/A",
+        "opening_hours": [
+            {
+                "days": [
+                    "Tue",
+                    "Wed",
+                    "Thu",
+                    "Sun"
+                ],
+                "time_slot": "18:00 - 01:00"
+            },
+            {
+                "days": [
+                    "Fri",
+                    "Sat"
+                ],
+                "time_slot": "18:00 - 03:00"
+            },
+            {
+                "days": [
+                    "Mon"
+                ],
+                "time_slot": "Closed"
+            }
+        ],
+        "reservation_availability": "Yes",
+        "operational_info": "N/A"
+    },
+    "Google": {
+        "id": "ChIJ_-jz0ltgGGARSblp-KT3M0E",
+        "types": [
+            "bar",
+            "point_of_interest",
+            "establishment"
+        ],
+        "internationalPhoneNumber": "+81 3-3732-5324",
+        "formattedAddress": "Japan, 〒144-0052 Tokyo, Ota City, Kamata, 5-chōme−21−１３ 1F",
+        "addressComponents": [
+            {
+                "longText": "1F",
+                "shortText": "1F",
+                "types": [
+                    "subpremise"
+                ],
+                "languageCode": "ja"
+            },
+            {
+                "longText": "13",
+                "shortText": "13",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "21",
+                "shortText": "21",
+                "types": [
+                    "sublocality_level_4",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "5-chōme",
+                "shortText": "5-chōme",
+                "types": [
+                    "sublocality_level_3",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "ja-Latn"
+            },
+            {
+                "longText": "Kamata",
+                "shortText": "Kamata",
+                "types": [
+                    "sublocality_level_2",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "ja-Latn"
+            },
+            {
+                "longText": "Ota City",
+                "shortText": "Ota City",
+                "types": [
+                    "locality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Tokyo",
+                "shortText": "Tokyo",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Japan",
+                "shortText": "JP",
+                "types": [
+                    "country",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "144-0052",
+                "shortText": "144-0052",
+                "types": [
+                    "postal_code"
+                ],
+                "languageCode": "en"
+            }
+        ],
+        "location": {
+            "latitude": 35.5619817,
+            "longitude": 139.7190869
+        },
+        "viewport": {
+            "low": {
+                "latitude": 35.5605745697085,
+                "longitude": 139.71766556970852
+            },
+            "high": {
+                "latitude": 35.5632725302915,
+                "longitude": 139.7203635302915
+            }
+        },
+        "rating": 4.2,
+        "googleMapsUri": "https://maps.google.com/?cid=4698371124191934793&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "websiteUri": "https://www.shotbar-fukurou.com/",
+        "regularOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 1,
+                        "hour": 1,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 1,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 1,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 4,
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 1,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 3,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 18,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 3,
+                        "minute": 0
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: Closed",
+                "Tuesday: 6:00 PM – 1:00 AM",
+                "Wednesday: 6:00 PM – 1:00 AM",
+                "Thursday: 6:00 PM – 1:00 AM",
+                "Friday: 6:00 PM – 3:00 AM",
+                "Saturday: 6:00 PM – 3:00 AM",
+                "Sunday: 6:00 PM – 1:00 AM"
+            ],
+            "nextOpenTime": "2026-02-20T09:00:00Z"
+        },
+        "utcOffsetMinutes": 540,
+        "adrFormatAddress": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒144-0052</span> <span class=\"region\">Tokyo</span>, <span class=\"street-address\">Ota City, Kamata, 5-chōme−21−１３ 1F</span>",
+        "businessStatus": "OPERATIONAL",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 144,
+        "displayName": {
+            "text": "Shotbar Fukurō",
+            "languageCode": "en"
+        },
+        "currentOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 22
+                        }
+                    },
+                    "close": {
+                        "day": 1,
+                        "hour": 1,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 23
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 24
+                        }
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 1,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 25
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 25
+                        }
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 1,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 26
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 4,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 26
+                        }
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 23,
+                        "minute": 59,
+                        "truncated": true,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 26
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 0,
+                        "minute": 0,
+                        "truncated": true,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 20
+                        }
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 1,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 20
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 20
+                        }
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 3,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 21
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 21
+                        }
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 3,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 22
+                        }
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: Closed",
+                "Tuesday: 6:00 PM – 1:00 AM",
+                "Wednesday: 6:00 PM – 1:00 AM",
+                "Thursday: 6:00 PM – 1:00 AM",
+                "Friday: 6:00 PM – 3:00 AM",
+                "Saturday: 6:00 PM – 3:00 AM",
+                "Sunday: 6:00 PM – 1:00 AM"
+            ],
+            "nextOpenTime": "2026-02-20T09:00:00Z"
+        },
+        "primaryType": "bar",
+        "photos": [
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfXPIfVdRx3MDQSsrtswluD_v3CEQeAfmwHkvG7jK23_PARgs2gBy0_KsQyrZbotVQ4GCqwAzfGJ2UHYInnuwe-9i5eDYZg8ej1oFYO-xigUq80mP9DHrmu1icHrgJzEfBV3JGR0joAbPOU5TWAbVNZDX0C7P1wPk53mvh0XdCv9LlO6ev3Z4admSXfOVxZK7r9LTXYz6eGW_3mKZk_oitG3tldv_Byr1Ezjs0BjkBwjtCQUtct33dbGWB4J2caVesJDPnGvDtUmqDT9OYPT9a6y_1xCLysGchTv_mMM-xv0FA",
+                "widthPx": 681,
+                "heightPx": 384,
+                "authorAttributions": [
+                    {
+                        "displayName": "ショットバーふくろう",
+                        "uri": "https://maps.google.com/maps/contrib/107885535987129033481",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVZFHrM-Pow_Mh4vBZVAQww5evK-98mEUbNaXsdm1tnUdtivhY=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNupMc6UXzyJiHpK9xXCq0b7dRVJys2UA1Q0YMK&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNupMc6UXzyJiHpK9xXCq0b7dRVJys2UA1Q0YMK!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfUJsGM7wKHV3RsNg4I8x3HJOnLjtK_pMbWc8fJ17NSPue7n-s857Qw8kKxtDpTDkUJoMdvwhyv_l_c3RkA91rC30l_J5eTLj8dpB0aukTYw1sImdCNRBgz4MyaBuw-uuZfwEMoog989QojlOxWBw8n4B010OdX16q-TlDRIEd9kWG-Ztkw0W9wOU49M710wnQAfnzh_7Ibr9MUW6vdZqY-cR-j3PiXOnBZ088wnllbgjX_81opnUBdQOrclLxdXxEuNU6Neze0722NLqc8J634KSFxd4TA5EW8MapPRT6vJWg",
+                "widthPx": 2160,
+                "heightPx": 2160,
+                "authorAttributions": [
+                    {
+                        "displayName": "ショットバーふくろう",
+                        "uri": "https://maps.google.com/maps/contrib/107885535987129033481",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVZFHrM-Pow_Mh4vBZVAQww5evK-98mEUbNaXsdm1tnUdtivhY=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipP6zxMqKFEhE7gdcEWz_qxIBNOkKDREAKBXiYZw&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP6zxMqKFEhE7gdcEWz_qxIBNOkKDREAKBXiYZw!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfUn98Qt2utPSK7_k-F9IfUa98OlRg7DFTPlwlHtMqrohDJ67hveOkHU_bND0xiN1iImgSXEppQGCqoNspr8loVuV53sOKdmpeviJSDggc9DskX85ffgX5BUO3Hkz0Ux-edBflVP9lQYlyFopwF5ekSBrUDnKwLkRqJx6I72bwlrDvzhOxDgzglkEQkZzcNYCfBOQMVu-nOwqhor-DOkv_jjDqgv76bMIkLRBlJ4gvukH2B5EEWf8cZ5e8dK_-weiH6lQtiHWOh_fEgwRipDHEbL_qXlkPGGknVtygfIiks-owPmBObneBm0JmforEsWV3BsRrfGYXu3tCwT6IQ0XQz63CEFEdhCkjjiRs3r7EnyFredz04RjYOGfvfZrH6kUI53hBxcbvVmPTfLHGE7UGOTB-Uc_uXFFTF6pkFaY_A",
+                "widthPx": 3911,
+                "heightPx": 2933,
+                "authorAttributions": [
+                    {
+                        "displayName": "Hayato Onishi",
+                        "uri": "https://maps.google.com/maps/contrib/113073399677704443395",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUVd0tGWy2gPapD4LARBfskCCbQlsYjSTFAt_XpTaCh6qUO_Kw9GQ=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMDgx7DYBw&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDgx7DYBw!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfWvGLI_RI7FoI9jONE1HTU_YeKm1ep4TmTQuIJDaqS1ZUjvNEwi6PCxOacXwpVfpkYyqO_v9-kdEs1sasim2GK5vXeqKaYe5bYohaIAEnEiGMajz3pX6pSPdB5tA_AX--Z6jbYEuYLZQAJC368ZbXIWpMG6hpkWdKFPWnX_j4EI3dhes4bpap79QwYNFuHi42cMTy96_lyXet6fD-7foKoEAnL_GBYgg4VO1vZB6xDidp6Uu8ljVpFYEYREWcS0sMMBuxx8o_mseu0d_fCEg6yf4JtnzTzKgMTB38fOxVmETbk9sYQcxt2PAiQAHtI7Z-wRTwI2OROB3bqPkL04hRCGht2JbbjgGzcx8TUy-IkATfBq7LIVfl-Iuw11t3o3IasgMUPdv_AtKsoA5s37n9Jo40LaAT392N44YFFY_LM42w",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Y U",
+                        "uri": "https://maps.google.com/maps/contrib/101923619700046021665",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXESuuVG5ti5e6aNKpQLB5lPNPRB_oJLmRm7Mbra5YmTAbuAluB=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgID7lsmFOQ&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID7lsmFOQ!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfUw9p57bEmkvDp5FC_t3W8wVD2dBMsBF0xqkf0Vae2WiCDdC_G6tfuj9vP6KPgXMTmjJU4GSS2lJ1_pRpylrMCtYai4jAQuKhq5wwJuTlMcv5reQnkm1_fmJCFaKaGTX0Ma_vZqfRPehmeMnj6kOIEDkTp6i-GFpqDnLqUKWanY3zaivoLv_cwtDAJVHDSVwUehqFGktDfEPJhw9Nv14O9wUIT-qRxym97HTt-Ongomi0jK7KcuGzdXZolQodlG2LjuuUiOXq6yLOMxMH7oZUmgQu3yoNKcjTD9AwKlDUgxb3vJZXJ7wahA7qeLh89CGguhrOjZAsV4Cmx3x_uyhlUCTb-1pRXINlljeY8YMKerA1WhH6SoWSK1AA9QWE4-cZVOQWn3hq1ChzInUyaoklFRtgY6wT3KyQPzshR1DwEkNTUnJgwrxB-bJkZ0ZxjL",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Pacal Masa",
+                        "uri": "https://maps.google.com/maps/contrib/111652451181337589202",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqGh7qe46vwT6Y_CeCeyn03xtIDtPQ3fCmUUoH4WEQ1Xa_aeIRTw=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCJdVtD7Ly7X5gYOyRuWwt8&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCJdVtD7Ly7X5gYOyRuWwt8!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfVlmbnApSZ_kzp2A2SnyxJCnzO3lAFwFMjjpo-MI0W7ZEYzKfMUdHAwwZRRUvweWWtX7taBjZaWS_H8CV9GiM5FPfwbwox7_jdeqkFYHh4xNb3fFDzMxUUcR5dLPiq2se8totvQiyBpD4v8t0P14hoJT0n97_bJgzlJgHN7npUQLSL0YSLBLRYgdhjKIiC344GLkleE5lWDijGH7zht1ynTDn0aEAAe5dPzcVCN2QCEYT4eyA2ukB2L8c5GZRz1qgcwHEob2o7PvT_Zeizb96ZGRKKru2lM-cfFyC6oF28iW4cBaDGd3i-CnfWaKOUHwqvFw-2NZefHpPkfPsl05vgyvmo7RKfMZebSxzIMov9zt-QauNR2FUit02YNAgtdV5JO6UNnWfPMy7si5sykTZrGKbcqVXGLqK37GEaFpiy1DQ",
+                "widthPx": 4800,
+                "heightPx": 3600,
+                "authorAttributions": [
+                    {
+                        "displayName": "Hayato Onishi",
+                        "uri": "https://maps.google.com/maps/contrib/113073399677704443395",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUVd0tGWy2gPapD4LARBfskCCbQlsYjSTFAt_XpTaCh6qUO_Kw9GQ=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMDgx7DYew&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDgx7DYew!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfVxKQs212m7KrQC3RtATzfbl9gXSZkbYvVLvGUL_1Kuph5u_oZQaSdoNioApgHjpQhx4wKdAjbCif_69MZCUHEAHdIxyshrN75po4DAzg-prgTj2a_b_1ojWe3_CAmWLa4IFTKg5PtPHx15GYnViCx_cot6cUhlr4EmTPmuOOkmERBhmukN1sq9P9IlewqtyygomLknmDQUR2TNsCyB15GPIF0hc4RpTlecOQUyz9QCL8njIfD5Ut-jE06lmzG_ZrutiC8yoNmEc0adUJqIGed-twMhIwd-4Q3EVcIboWOtsPwxQ8qqWHTku99mUzj7og_KZQbTHR0r9XkfVgu6AmIVRRLWlvVTJNnfl68xNzHHvTGXtPIIKn4tof77TrK-V_48Xd6zIfm0dkIm0nEvmOi6Nzhhrv1m3Mr1MrzZ5cK8WPQ",
+                "widthPx": 4800,
+                "heightPx": 3599,
+                "authorAttributions": [
+                    {
+                        "displayName": "Hayato Onishi",
+                        "uri": "https://maps.google.com/maps/contrib/113073399677704443395",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUVd0tGWy2gPapD4LARBfskCCbQlsYjSTFAt_XpTaCh6qUO_Kw9GQ=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMDgx7DYmwE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDgx7DYmwE!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfUqTqBFU2numjV125K4OmJLbYnZMLyavohnf2O_i0-X-8zxiXf0l5hzLABS1rLl72jxDFR_luluqFFSyo06ih7VXygqmLe5_SldMB0jCr8hRWiWTuJIntuaqSS6gUErgW09Vs70OFp35yru7AWryN2PYkK2I2snLQBVFtTC4PYa2VTF5VNwIHkwV7Sb3A5BRrlL0jARuStYWtyK-kDypdAbyCaVma-1eyI4QubcDURnJ5XuV-DR2cSGTNcQ1A6Y5nwi20ADnKQIELAbMiHA27WqJoFMY2uIcDP4ahLqiu8TeXNPxLXSBEA7tAjKRn2S1ouiIr3IZJyZc67j3ikcjXPjobRCJXnz4G0jzH6Bh2MppdZIItNKnrST1ThjK-mBV8IjuwbwmtQP9-ORPy-nSQJjZdsaQD-u96LdNFz2eQbvGCe2my3WM34AYxRGZw",
+                "widthPx": 4000,
+                "heightPx": 3000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Pacal Masa",
+                        "uri": "https://maps.google.com/maps/contrib/111652451181337589202",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqGh7qe46vwT6Y_CeCeyn03xtIDtPQ3fCmUUoH4WEQ1Xa_aeIRTw=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBMyEEV51B9IzRYb4ETQAA-&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBMyEEV51B9IzRYb4ETQAA-!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfVf9TPG7323UUQSm8l2ig8xO2k4o11202GwF1p6lcW5v1Wen4ZazXu6OTmzsZCZvA2i92WV5k55jzoPZtWzPA1CfWawS7AdFGAncOqt3dgxEyzpr4XeH-dQShJkOdgrBBt4WC14k4Jq_K6Tc-LURaWcuqhqPRRQqjjwwJes3y_6i_dhhgPOXKeDAEUFziB5uqSR-Gzw5ucaWzSotJhOw6G2X6gR0UpbPrd4ps_zM131qD5h3SQG_s0NRVbe3eWA_s8Ubn0PYBggtSMwUgwjBQeQXNoEUBEfULO571zRgtLIaU6NOru51xsSqVjDtogAId_czb5iFLXVaRj5YbynZPjohnoA0AGbormFP2tJsjqKddlen1lhmqHBXW5TJAE3Mys-p2GRc-R1ij2ee3g4Fp6p6e7B_9o2hkTclN6CLKda4PbsDQQTo6A82-WdqA",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Pacal Masa",
+                        "uri": "https://maps.google.com/maps/contrib/111652451181337589202",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqGh7qe46vwT6Y_CeCeyn03xtIDtPQ3fCmUUoH4WEQ1Xa_aeIRTw=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAOfIi24m1qunZypZhN4EMe&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAOfIi24m1qunZypZhN4EMe!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            },
+            {
+                "name": "places/ChIJ_-jz0ltgGGARSblp-KT3M0E/photos/ATCDNfWWkOdPN6qrJiEXREDNFzBCjdMRjS6DjBUE2ppVjMHl7F5BgrbXIUG0hoBlF3NIRC3swA-9KZOXEWxQEEgczLQh4mipkNQCclt3ZEnuF3on_HPJlXXOLZS0--x7glUrosWAIgYI6p-Fur2B9K5vHNX3z_H6e8fr8Ov0A1kKnhc2VNgSvpcYYHnfzhm8AUCWbBOtbdDOE3eVszt_7ZuaHWP81orD3XOeBE8r4T1P_Wd4188FuynWVK0TNU-EGpAIcixYzbdNP72qWNkffToZHUf4XLXqmYTu-cTANq0z5csEPM36bXa3JnVs9RNOGrs-HXYTfWWRaSniyXeAs7ozumsdx7u_7mQSQEtGWwsM9X_cq2Hrk6yWe7paip5d341NEeRG0MTy2sHuXdSTW1-j_A_pcnb0Q-lnAsRcYy_ls6H7q8tmdkNQS56_Dc2Yyc_5",
+                "widthPx": 4000,
+                "heightPx": 3000,
+                "authorAttributions": [
+                    {
+                        "displayName": "Pacal Masa",
+                        "uri": "https://maps.google.com/maps/contrib/111652451181337589202",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXqGh7qe46vwT6Y_CeCeyn03xtIDtPQ3fCmUUoH4WEQ1Xa_aeIRTw=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCKY9CdcIuMoxKmrtqS6cPy&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCKY9CdcIuMoxKmrtqS6cPy!2e10!4m2!3m1!1s0x6018605bd2f3e8ff:0x4133f7a4f869b949"
+            }
+        ]
+    }
+}

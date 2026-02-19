@@ -1,0 +1,278 @@
+{
+    "Tabelog": {
+        "name": "Tea stand TOKINE",
+        "rating": "N/A",
+        "address": "東京都目黒区中央町2-19-4WACASU 1F",
+        "coords": [
+            35.632493495715906,
+            139.68802639490448
+        ],
+        "url": "https://tabelog.com/tokyo/A1317/A131702/13319265/",
+        "reservation_info": "N/A",
+        "opening_hours": [],
+        "reservation_availability": "N/A",
+        "operational_info": "N/A"
+    },
+    "Google": {
+        "id": "ChIJo7exdU-THmARX9IODeC4wTM",
+        "types": [
+            "cafe",
+            "bar",
+            "meal_takeaway",
+            "restaurant",
+            "point_of_interest",
+            "food",
+            "establishment"
+        ],
+        "formattedAddress": "Japan, 〒370-0044 Gunma, Takasaki, Iwaoshimachi, 14−１５ ココレーヌ岩押 1階A号室",
+        "addressComponents": [
+            {
+                "longText": "1階A号室",
+                "shortText": "1階A号室",
+                "types": [
+                    "subpremise"
+                ],
+                "languageCode": "ja"
+            },
+            {
+                "longText": "ココレーヌ岩押",
+                "shortText": "ココレーヌ岩押",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "ja"
+            },
+            {
+                "longText": "15",
+                "shortText": "15",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "14",
+                "shortText": "14",
+                "types": [
+                    "sublocality_level_4",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Iwaoshimachi",
+                "shortText": "Iwaoshimachi",
+                "types": [
+                    "sublocality_level_2",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "ja-Latn"
+            },
+            {
+                "longText": "Takasaki",
+                "shortText": "Takasaki",
+                "types": [
+                    "locality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Gunma",
+                "shortText": "Gunma",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Japan",
+                "shortText": "JP",
+                "types": [
+                    "country",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "370-0044",
+                "shortText": "370-0044",
+                "types": [
+                    "postal_code"
+                ],
+                "languageCode": "en"
+            }
+        ],
+        "location": {
+            "latitude": 36.3202945,
+            "longitude": 139.0212183
+        },
+        "viewport": {
+            "low": {
+                "latitude": 36.318944119708505,
+                "longitude": 139.01981996970846
+            },
+            "high": {
+                "latitude": 36.321642080291504,
+                "longitude": 139.02251793029146
+            }
+        },
+        "rating": 4.8,
+        "googleMapsUri": "https://maps.google.com/?cid=3729465238870741599&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "websiteUri": "https://tokine-takasaki.com/",
+        "utcOffsetMinutes": 540,
+        "adrFormatAddress": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒370-0044</span> <span class=\"region\">Gunma</span>, <span class=\"street-address\">Takasaki, Iwaoshimachi, 14−１５ ココレーヌ岩押 1階A号室</span>",
+        "businessStatus": "CLOSED_TEMPORARILY",
+        "userRatingCount": 12,
+        "displayName": {
+            "text": "茶房TOKINE",
+            "languageCode": "ja"
+        },
+        "primaryType": "cafe",
+        "photos": [
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXYkDw83R6TXtEvBRb9yEOh4fM_MYeB_mjorOZOBqoh1uWSIUpg8jboZylxGReCUqI7zQITJNb298NveTnUm7vmeq__68uGQo7Z-W8YVvf8X7t1ey5JDQ7sWHoFsnrJ18zpYkCT6H_xKlJQhvP1TRLQnoRC84G2KTdhBf7_f7wrRN6T2aYACpvyqVj453B__1XNlb8y2nxWC-bY6ZFgLJLOCeVlLA1FQGpf6-_sZXCcPv7VqFl_8rr1H2_zcB374E1VVxqXckkuHXsfj5wM3siKEwk2JDS6NxN18A34r6ffrg",
+                "widthPx": 4000,
+                "heightPx": 2667,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPkbEm6VlQzG9Eu3MKKP3m9pLRP6tbRzCj-rzBV&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPkbEm6VlQzG9Eu3MKKP3m9pLRP6tbRzCj-rzBV!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfVC6gudnapBKEQDNK-rB6Ia_jRwb2dwf53RMWaWzOKqbFqwmNF3BCWK-MKSfDOtb8i-QSC49y4PLiSq21jbDGuI0Xu_pzcSxtymYdv9cyg0bAaEs9W2n0_jsVTIsvb5x4kQE90NfeKeT9rgVqQK7wi94womAgYgcoUKslIiWVbax9yTPOnn1mLVWdK7--hfzZQbbHGJ5KlBTLWx9AmMCHp6tKNr1bYeDPwOfsCCduxIuj7105pDUI6HJ0IlkZYQ6kDnkU4OAnB1C7_jK603v4x3ikGoyeI50BTNd-oHcQFCag",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPuwkSyJ7I7ELKOkENpj4ie0xWVxb1aC0r0_q-4&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPuwkSyJ7I7ELKOkENpj4ie0xWVxb1aC0r0_q-4!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfWDzylWZlaRZcUvWLinhySu9jELZg_svn1CFHIA6WEflB5U2w1J7Qc0wpc_kGEu8e89pLs2y9N13IGA7cyTZem95B5tgk-2Zz1s7co2NLwuSnEstjtHR1NXtLqD9YZjpku1dHxX8xRazoaypMxWVnma9Yg1pwXSkKKksmS0J7IRZZ1dv3S2yA2cvteUSKSJT5GriFEvGa96nIxBP_Nkx9G9xh7qwNzHttgpl8-HBDygVpR7sccfR1L3wgfazY2OzGVev1DQYZzL-wJKpvPkMyyXYicfpMpF1qm1oZvwiAkwng",
+                "widthPx": 1080,
+                "heightPx": 1350,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipP2xXpesTXF-Eged_UUMjFMOMcPlZF3WCbSGUk7&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP2xXpesTXF-Eged_UUMjFMOMcPlZF3WCbSGUk7!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUKFC56vc8_wP-rTBQMIAREenMlaAhPlqm3fwfU8lIap9SsV49HNOKm34Gwy4DmwMf-X7cFUp5TjDpLeupmglqcIBk_XiTUK4rt8GwWOWlqgorfKUOlskVGmff5lGFvZfi76QoJg63j6ZDXH9iFYZQvwCiTmFZXwD4JnKeoJRy1ZjagT6104plEm18CFi1XBhsSCT7wmZ8BaMQs0ZKnpencG1NUXL3ll_dBXmsZrg86w3fg7VyuszaxeLhwfixQzRvaKtrEsrVOQvWoPGfxOtLtth4n7m9pa5pTa0wfXN_fNw",
+                "widthPx": 1477,
+                "heightPx": 1108,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipO5LfEsVJXRyaq2QXugDtyKAmC87rML6JY7uZz9&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO5LfEsVJXRyaq2QXugDtyKAmC87rML6JY7uZz9!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXLpsjTahzxpzh3kKMVxlKNJ2WEi8bfyqfGWMbpnSS4xNrFllx5UjnQju0d1p7VT6h6nGCSQgDqW6h4LbUUfqrt6t5wHImUNBzmAZ-K5tPu7m8RuYAE0uJgC0kPw59u3fo3udmtqUqzKrwPMCwmzdvbWE02MdKpdl7ffdn-OmPRk4dWqP9hYlgr2FMmsJs0gvcrtNhcJEDQRbW6iGB5SJZg2iFu52a-tIP2tvm5uz7BuIz_B1Jt_E12461by0AtWzDprx9HHs7Y5dSDVr3LcEIA1BTgcRWTte-gO1xNXEp9NP97a5U4NHyIGhXh5vULAJ51QLw_Rc6nuLbtlHNUTTE2k1otUJ5DKlyetNI1BJzpWLv6kA5l43NBi6pqu6hjG-7NfrBxUbJi36vBJCfN6_b8zHE1gGyhBXEX9h6uxr4SIM3L",
+                "widthPx": 2992,
+                "heightPx": 2992,
+                "authorAttributions": [
+                    {
+                        "displayName": "吉田恭子",
+                        "uri": "https://maps.google.com/maps/contrib/105702746538329125219",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocI4dgViUN0_AYEKL_vdWE4sbb5ZYyxYL0WMeMYPAbvr79tI5A=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIC9z4ST4QE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC9z4ST4QE!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUgZeXgbtgT6_arpRb635yZZTAGaEXKbTIgBcd0QLG5Whu9fcfdtlntXQnIwRoT85I8f2TGx0HYu6rQmOeanHpEE8UE3u51WQmtTId6LJRo7aKL4lI-2ZtNKIzxYGFXW0pYIuoU7b1f0GfT_t5sfUkAR6JyzyX1-xemJK3eN1r7pqQ6bnIv2pUTf958_yY7jz9IIWzwj7FLrt7Uc2qUGiw37M0vSkVAQ71DHiAUvWw_lAsPAYTmqO-1EvmhyitPD_mW0uVoxOeLJdzHlukEX_WuZf6mrQPSc54vqGkbKxr2IA",
+                "widthPx": 1477,
+                "heightPx": 1108,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPHgxNoFt4CVb5c-2PWpOt3DZvUq43-3SEVwhFk&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPHgxNoFt4CVb5c-2PWpOt3DZvUq43-3SEVwhFk!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUPzMo-PDvjo8Bx4weR-Oraegms36ZUOiOoTz1pr1Ot5-FFn08hxYzCtnwWoyqTC8qay5wvWWgM9rMDgyBOeVA1-1eg5Hf_9YsVXfTBZMmFPL5ODSXeo21LAnDQdQYr3TdJC_ixRTMRTzP6pMTQfwOR5KQKFI9bXvtcTYnf4ydVztJpAAUKIK7cE5-5a4pgiRnvVASPVYYRk46uz41y0zBzcm9_5VjJCO7MnUModhxQqmM5QzOuVptlEqYyAY2PV1CWgzx0R2C0cpPkiQzv-G5YYxARzgYL6R0l7t3QjRJqmQ",
+                "widthPx": 1108,
+                "heightPx": 1477,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNu4OJXufn96DxUA-SgC9iA1ioUvV5nSwGKM4Rb&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNu4OJXufn96DxUA-SgC9iA1ioUvV5nSwGKM4Rb!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXGSWXx8TZxWNpUENelfKnTuStcweLzLnOWziAkdTUXvbb31ChkNRhL6q6njUapeuqEjvfBxcyoVfr4kcymLIbK-C2vJQkyOTpFFWS_j8tLeqzO-eiXmYtPjn7DrLj0vwRJ4yIomDk4qsdAXgHh83cxA6ZvUJTUW8hVaPVLYVcpt6UJrkqcgWxdRVf8HrZrdzpas49N9Dd-Bsx56H4ilBsdyGVO3Ks-zJWHr9f58uLe7NV_2CbWSEQE8Q7mKzydeJNMy3ozgIeVaBbCK4cXg2DebZyGDqCFRfE6By3HVUPssw",
+                "widthPx": 1108,
+                "heightPx": 1477,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipN-ZNEfhV6EgAvNGK9LFSW6JkspBqiAS5Z4u_PL&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN-ZNEfhV6EgAvNGK9LFSW6JkspBqiAS5Z4u_PL!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfW1qs3wGb_eNG3pP1GmmrDSOM6cKB3QluCvR5qMFMvPUcP-qKKRQ7k7mIjEDEONN_n7lOhLnd448FgukdI3OayhkWNOllC1mlCkdrwGxzdM7Y5Guhwgws5MjAlhUYD1meC1y_1kgYKZaM6QXS2sdoGbjnzAubUY4Mi2-q-6lwcOajg-pKw18EolVHsesIlRg6m-f8iegHYg_gpEcEt_rTRgISCa71DZNU9F7Um7wE2dFXlY52eYFMmLitXkS3V7QUg60Pn7xmlcjf522OiHKI__RnXtI4t2xOSZ1OteNhLj6w",
+                "widthPx": 1477,
+                "heightPx": 1108,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipP07DTMzdIGBx-yy-R7G9pox8tduAsmfJ0mbN2f&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP07DTMzdIGBx-yy-R7G9pox8tduAsmfJ0mbN2f!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            },
+            {
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUmqQIakoZQsulabl1rShwNwJ7NAH4u0X7G5ydOX6oRx2yVEWjowG8fO64vEoN-7uJKQPgoPq6jRQXEWN6PcHCAYEFhVMHO7zM-z480svhvQ-kjFRPniHaMa5fhP9rMsUDl61xZMB_R47-DRsmE9Q1DYKDb9IgG2XFGXja-qLAcyCntnm9-crOBUjEyaPOo7Z6jZ7t3VU7npWpJ5V2MU2rxBZSy0t_RLTku6EcQ9JJIDsL9o5zPN2lqPOk1UqHPPH55lkwsQ9ocbEupKVVXVkLS5QX5fVH0u9qu8P7gFRelCA",
+                "widthPx": 3600,
+                "heightPx": 4800,
+                "authorAttributions": [
+                    {
+                        "displayName": "茶房TOKINE",
+                        "uri": "https://maps.google.com/maps/contrib/114644705098069396282",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXzmeRX2S1YFE2onaN_la8YqBjeM70YaVRrc-I78giMh7Z-jPk=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPXu_yoXQ3aq4mxiPDxC8i-_JDIz3h6cepd0nmy&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPXu_yoXQ3aq4mxiPDxC8i-_JDIz3h6cepd0nmy!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
+            }
+        ]
+    }
+}

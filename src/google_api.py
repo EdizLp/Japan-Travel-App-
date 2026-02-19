@@ -31,6 +31,7 @@ class GooglePlacesManager:
         Given a dictionary that contains the coords and name of a restaurant
         This will find the google information via the google places api. 
         """
+        
         name = info.get("name")
         coords = info.get("coords")
         if name == "N/A" or coords =="N/A" or not name or not coords:

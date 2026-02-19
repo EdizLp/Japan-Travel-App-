@@ -1,4 +1,4 @@
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 from .utils import extract_substring_between, load_schema #use . as we run this from main, the . tells python look in the same folder as this module 
 
 
@@ -7,58 +7,102 @@ class TabelogScraper:
         self.schema = load_schema("tabelog")
         self.ai = ai_manager
     
+    def _safe_get_attribute(self, tag: Tag | None, attribute: str) -> str:
+        """Safely gets an attribute (like 'href' or 'src') from a Tag."""
+        try:
+            attribute_string =  tag[attribute]
+        except (ValueError, AttributeError):
+            attribute_string = "N/A"
+        return attribute_string
+
+    def _safe_get_text(self, tag: Tag | None, separator: str = "", strip: bool = True) -> str:
+        """Gets text between tags, strips it, and returns 'N/A' if tag is missing."""
+        try:
+            tag_text = tag.get_text(separator, strip=strip)
+            
+        except AttributeError:
+            tag_text = "N/A"
+        return tag_text
+
 
     def find_restaurant_name(self, soup: BeautifulSoup) -> str:
         """This method returns the restaurant name as a string, it will return "N/A" if the name could not be found"""
 
         restaurant_name_header = soup.find("h2", class_= "display-name") #Grabbing where the information is stored, if they change the html this needs to all change
-        try: #if soup cannot find the name then it will return none
-            restaurant_name = restaurant_name_header.get_text().strip()
-        except AttributeError:
-            restaurant_name = "N/A"
+        restaurant_name = self._safe_get_text(restaurant_name_header) 
         
         return restaurant_name
-    
 
-
-    def find_restaurant_rating(self, soup: BeautifulSoup) ->  float | str:
-        """This method returns the restaurant rating as a float, it will return "N/A" if the rating could not be found"""
-
-        restaurant_rating_score = soup.find("span", class_= "rdheader-rating__score-val-dtl") #if soup cannot find the rating then it will return none
-        try: 
-            rating_of_restaurant = float(restaurant_rating_score.get_text().strip())
-        except (AttributeError, ValueError):
-            rating_of_restaurant = "N/A"
-        
-        return rating_of_restaurant
-    
 
     def find_restaurant_address(self, soup: BeautifulSoup) -> str:
         """This method returns the restaurant address as a str, it will return "N/A" if it could not be found"""
 
         restaurant_address_container = soup.find("p", class_= "rstinfo-table__address") 
-        try: #Checks if it can find the address
-            address_of_restaurant = restaurant_address_container.get_text().strip()#Get returns everything outside of the tags etc
-        except AttributeError:
-            address_of_restaurant ="N/A"
+        address_of_restaurant = self._safe_get_text(restaurant_address_container)
         
         return address_of_restaurant
+
+
+    def find_opening_hours(self, soup: BeautifulSoup) -> str:
+        """This method returns the restaurants opening hours from tabelog in Japanese as a String, it will return "N/A" if it could not be found """
+        try:
+            opening_hours_td = soup.find("th", string="営業時間").find_next("td")  #Finds the table after the heading 営業時間 and takes all the information
+        except AttributeError:
+            opening_hours_td = None
+        opening_hours = self._safe_get_text(opening_hours_td, "\n")
+        
+        return opening_hours
+    
+
+    def find_reservation_info (self, soup: BeautifulSoup) -> str:
+        """This method returns the restaurants reservation information from tabelog in Japanese as a String, it will return "N/A" if it could not be found """
+        
+        reservation_status_td = soup.find("th", string="予約可否").find_next("td")
+        reservation_info = self._safe_get_text(reservation_status_td)
+    
+
+        return reservation_info
+
+    
+    def find_restaurant_rating(self, soup: BeautifulSoup) ->  float | str:
+        """This method returns the restaurant rating as a float, it will return "N/A" if the rating could not be found"""
+
+        restaurant_rating_score = soup.find("span", class_= "rdheader-rating__score-val-dtl") #if soup cannot find the rating then it will return none
+        try:
+            rating_of_restaurant = float(self._safe_get_text(restaurant_rating_score))
+        except ValueError:
+            rating_of_restaurant = "N/A"
+           
+        
+        return rating_of_restaurant
+
+    
+
+
+    
+
 
     def find_restaurant_coords(self, soup: BeautifulSoup) -> tuple | str:
         """This method returns the restaurant address as a tuple containing two floats, it will return "N/A" if it could not be found"""
 
         restaurant_coord_container = soup.find("img", class_="rstinfo-table__map-image")
+        restaurant_coords = self._safe_get_attribute(restaurant_coord_container, "data-lazy-src")
+
+        if restaurant_coords == "N/A":
+            return "N/A"
+        
+
         try:
-            restaurant_coords = restaurant_coord_container.get("data-lazy-src")#This gets the container tabelog uses for the url 
-            restaurant_coords = extract_substring_between(restaurant_coords, "center=", "&style")
+            restaurant_coords = extract_substring_between("center=", "&style", restaurant_coords)
             restaurant_coords = restaurant_coords.split(",") #Doing this to separate longitude and latitude to turn it into a tuple.
             latitude = float(restaurant_coords[0])
             longitude = float(restaurant_coords[1])
             restaurant_coords_tup = (latitude, longitude)
-            
-        except AttributeError:
-            restaurant_coords_tup = "N/A"
         
+        except (ValueError, IndexError, AttributeError):
+            return "N/A"
+
+
         return restaurant_coords_tup
     
 
@@ -67,35 +111,10 @@ class TabelogScraper:
         """This method returns the restaurants tabelog webaddress as a str, it will return "N/A" if it could not be found"""
 
         canonical_tag = soup.find("link", rel="alternate", hreflang = "ja")             #Find the link for the Japanese site (This will work for any language.)
-        try:
-            tabelog_url = canonical_tag["href"] #Using find as the link is inside the tags as opposed to .get_text()
-        except AttributeError:
-            tabelog_url = "N/A"
+        tabelog_url = self._safe_get_attribute(canonical_tag, "href")
         
         return tabelog_url
     
-    def find_opening_hours(self, soup: BeautifulSoup) -> str:
-        """This method returns the restaurants opening hours from tabelog in Japanese as a String, it will return "N/A" if it could not be found """
-
-        opening_hours_td = soup.find("th", string="営業時間").find_next("td")  #Finds the table after the heading 営業時間 and takes all the information
-
-        try:
-            opening_hours = opening_hours_td.get_text("\n", strip=True)   #Gets the text from this table and if theres breaks or separate lines it joins the text with \n (So new line for us)
-        except AttributeError:
-            opening_hours = "N/A"
-        
-
-        return opening_hours
-    
-    def find_reservation_info (self, soup: BeautifulSoup) -> str:
-        """This method returns the restaurants reservation information from tabelog in Japanese as a String, it will return "N/A" if it could not be found """
-        reservation_status_td = soup.find("th", string="予約可否").find_next("td")
-        try:
-            reservation_info = reservation_status_td.get_text("\n", strip=True)      
-        except AttributeError:
-            reservation_info = "N/A"   
-
-        return reservation_info
     
 
     def scrape_raw_data(self, soup: BeautifulSoup) -> dict:

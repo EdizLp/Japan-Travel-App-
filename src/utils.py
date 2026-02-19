@@ -1,8 +1,9 @@
 import json
 from bs4 import BeautifulSoup
 
-def extract_substring_between(text : str, start_substring: str, end_substring: str) -> str:
+def extract_substring_between(start_substring: str, end_substring: str , text : str = "",) -> str: #Maybe future proof this 
     """ Extracts a substring between two given substring markers and given a given string """ 
+
     temporary_container = text.split(start_substring)
     temporary_container = temporary_container[1].split(end_substring)
     target_substring = temporary_container[0]
