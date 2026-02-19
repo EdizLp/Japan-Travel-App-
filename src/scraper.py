@@ -21,14 +21,13 @@ class TabelogScraper:
     
 
 
-    def find_restaurant_rating(self, soup: BeautifulSoup) ->  int | str:
+    def find_restaurant_rating(self, soup: BeautifulSoup) ->  float | str:
         """This method returns the restaurant rating as a float, it will return "N/A" if the rating could not be found"""
 
         restaurant_rating_score = soup.find("span", class_= "rdheader-rating__score-val-dtl") #if soup cannot find the rating then it will return none
         try: 
-            rating_of_restaurant = restaurant_rating_score.get_text().strip()
-            rating_of_restaurant = float(rating_of_restaurant)
-        except AttributeError:
+            rating_of_restaurant = float(restaurant_rating_score.get_text().strip())
+        except (AttributeError, ValueError):
             rating_of_restaurant = "N/A"
         
         return rating_of_restaurant
@@ -147,10 +146,10 @@ class TabelogScraper:
             
         
         translated_info = self.translate_information(info_to_translate)
-
         core_information["reservation_availability"] = translated_info["reservations_availability"]
         core_information["reservation_info"] = translated_info["reservation_info"]
         core_information["opening_hours"] = translated_info["opening_hours"]
+        core_information["operational_info"] = translated_info["operational_info"]
         
         return core_information 
 

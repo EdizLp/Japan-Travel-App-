@@ -1,0 +1,36 @@
+{
+    "google_id" = ,
+    "japanese_name" 
+    "tabelog_rating"
+    "tabelog_address"
+    "tabelog_url"
+    "reservation_info"
+    "reservation_availability"
+    "tabelog_hours_mon"
+    "tabelog_hours_tue"
+    "tabelog_hours_wed"
+    "tabelog_hours_thu"
+    "tabelog_hours_fri"
+    "tabelog_hours_sat"
+    "tabelog_hours_sun"
+    "type"
+    "genre" = ,
+    "phone_number"
+    "city" = ,
+    "prefecture" = ,
+    "google_rating" = ,
+    "google_url" = ,
+    "google_hours_mon"
+    "google_hours_tue" = ,
+    "google_hours_wed" = ,
+    "google_hours_thu" = ,
+    "google_hours_fri" = ,
+    "google_hours_sat" = ,
+    "google_hours_sun" = ,
+    "price_level" = ,
+    "website" = ,
+    "google_coords" = ,
+    "tabelog_coords" = ,
+    "google_viewport" =,
+
+    }

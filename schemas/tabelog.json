@@ -21,7 +21,11 @@
                 }
             },
             "description": "List of day/time slots. If no days are listed, assume Mon-Sun."
+        },
+        "operational_info": {
+            "type": "STRING",
+            "description": "Only use this to describe the specific week-based rules (e.g., 1st Monday) that the 'days' array can't show. in English. Use 'N/A' if empty."
         }
     },
-    "required": ["reservations_availability", "reservation_info", "opening_hours"]
+    "required": ["reservations_availability", "reservation_info", "opening_hours", "operational_info"]
 }

@@ -1,6 +1,5 @@
 from google import genai
-from dotenv import load_dotenv # for hiding api key 
-from .utils import load_schema
+
 
 
 

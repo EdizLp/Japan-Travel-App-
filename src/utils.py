@@ -82,10 +82,10 @@ def add_to_tracker(tabelog_url: str, google_id: str) -> None:
         json.dump(url_map, f, ensure_ascii=False, indent=4)
         
     
-def load_schema(schema_path:str) -> dict:
+def load_schema(schema_name: str) -> dict:
     """This will function will load a json schema up from the schemas folder and return it as a python dict"""
 
-    with open(f'./schemas/{schema_path}.json', 'r', encoding='utf-8') as f:                                                                                   
+    with open(f'./schemas/{schema_name}.json', 'r', encoding='utf-8') as f:                                                                                   
             schema_as_json =  json.load(f)
 
     return schema_as_json
