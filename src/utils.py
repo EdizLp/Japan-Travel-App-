@@ -100,4 +100,10 @@ def load_html(file_path : str) -> BeautifulSoup:
 
     return soup
 
-
+def list_to_string(separator:str, default_string:str = "", my_list: list = []):
+        """Given a list of strings, it will join the list together by a separator, it will return default_string otherwise
+        default_string has a default value of ""
+        """
+        if my_list:
+             return separator.join(my_list)
+        return default_string

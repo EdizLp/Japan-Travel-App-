@@ -1,10 +1,11 @@
 import string
+from .utils import list_to_string
 
 
-
-class Supa():
+class SupaFormatter:
+    """This class handles formatting things to upload to my supabase"""
     def __init__(self):
-        self.export = {} #Clear this after each use?
+        self.export = {}  
         self.days = ["mon", "tue", "wed", "thu", "fri", "sat", "sun"]
         self.simple_exports = [
                             ("Google", [
@@ -31,9 +32,11 @@ class Supa():
 
 
 
-    def _format_tabe_days(self, list_to_format: list) -> dict:
+    def _format_tabe_days(self, list_to_format: list) -> list:
         """
-        This takes an 
+        This loops through a list of dictionaries containing strings for values and days as the key. 
+        For each dictionary it changes the values to be only the first 3 characters in lowercase
+        It returns the formatted list of dictionaries.
         """
 
         
@@ -43,25 +46,32 @@ class Supa():
         return list_to_format
         
     def _extract_tabe_hours(self, data_source: dict) -> None:
-
+        """If we have the tabelog hours, this function will grab the hours for each day and output add them to self.export as KVP in the format
+        day:opening hours
+        tabelog_hours_DAYOFWEEK : XX:XX - YY:YY ||
+        For example:
+        11:00 - 14:00 ||16:30 - 19:00 ||
+        """
         opening_hours = data_source.get("opening_hours")
         if not opening_hours or opening_hours == "N/A":
             return
 
         formatted_days = self._format_tabe_days(opening_hours)
         
-        
         for day in self.days:
-            hours_formatted = ""
+            hours_formatted = []
             for section in formatted_days:
                 if day in section["days"]:
-                    hours_formatted += f"{section["time_slot"]}\n"
+                    hours_formatted.append(section["time_slot"])
         
             if hours_formatted:
-                self.export[f"tabelog_hours_{day}"] = [hours_formatted.rstrip()]
+                
+                self.export[f"tabelog_hours_{day}"] = list_to_string( separator=" and ",  my_list=hours_formatted)
 
+        
 
     def _extract_tabe_coords(self, data_source: dict) -> bool:
+        """This extracts the coordinates scraped from tabelog and formats them as a list"""
         if data_source["coords"] == "N/A":
             return False
         else:
@@ -71,6 +81,10 @@ class Supa():
     
 
     def _extract_google_price(self, data_source: dict) -> bool:
+        """This extracts the price level changing it from the format:
+        PRICE_LEVEL_MODERATE
+        to:
+        Moderate"""
 
         price_level = data_source.get("priceLevel")
         if price_level:
@@ -80,7 +94,7 @@ class Supa():
         return False
         
     def _extract_google_coords(self, data_source: dict) -> bool:
-        
+        """This extracts the coordinates given by google"""
         location = data_source.get("location")
         if location:
             self.export["google_coords"] = [location["latitude"], location["longitude"]]
@@ -89,7 +103,7 @@ class Supa():
         return False
 
     def _english_name_extract(self, data_source: dict) -> bool:
-        
+        """This extracts the display name given by google, in the rare cases it's not in English that is added on """
         display_name = data_source.get("displayName")
         if display_name:
             if display_name.get("languageCode") != "en":
@@ -101,7 +115,7 @@ class Supa():
              
 
     def _extract_genre(self, data_source: dict) -> bool:
-
+        """This extracts the primaryType field from our google data, formatting it nicely"""
         primary_type =  data_source.get("primaryType")
         
         if primary_type:
@@ -126,10 +140,16 @@ class Supa():
         address_components = data_source.get("addressComponents")
         if address_components:
             for components in address_components:
-                if "locality" in components["types"]:
-                    self.export["city"] = components["longText"]
-                if "administrative_area_level_1" in components["types"]:
-                    self.export["prefecture"] = components["longText"]
+                try:
+                    if "locality" in components["types"]:
+                        self.export["city"] = components["longText"]
+                except KeyError:
+                    continue
+                try:
+                    if "administrative_area_level_1" in components["types"]:
+                        self.export["prefecture"] = components["longText"]
+                except KeyError:
+                    continue
             return True
         return False
 
@@ -154,10 +174,9 @@ class Supa():
 
 
 
-    def format_master_list(self, full_data: dict) -> dict:   #think about KeyError if it doesn't exist
-        """Formats data pulled from google and tabelog to send to supabase"""
+    def format_master_list(self, full_data: dict) -> dict:   
+        """Formats data pulled from google and tabelog to send to supabase""" 
         self.export = {}
-        
 
         for source_name, field_list in self.simple_exports:
             source_data = full_data.get(source_name) #Just checks Tabelog and Google are in our data
@@ -182,10 +201,25 @@ class Supa():
         if tabe_data:
             self._extract_tabe_coords(tabe_data)
             self._extract_tabe_hours(tabe_data) 
-
+    
         return self.export
 
+
+    def format_multiple_lists(self, list_of_data: list) -> list:
+        list_of_formatted_data = []
         
+        for data in list_of_data:
+            print(f"We are on {data['Google']['id']}")
+            list_of_formatted_data.append(self.format_master_list(data))
+        return list_of_formatted_data
+
+    def testing(self, full_data):
+        """You can choose what specific data u want to test, I believe supabase has a way to check as well but this is almost a pre_check."""
+        google_data = full_data.get("Google")
+        tabe_data = full_data.get("Tabelog")
+        self._extract_tabe_hours(tabe_data) 
+
+        print(self.export)
 
         
 

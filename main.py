@@ -4,8 +4,10 @@ from dotenv import load_dotenv
 import os 
 from src.gemini_api import GeminiManager as gemini
 from src.google_api import GooglePlacesManager as google_api
-from src.supaformatter import Supa as sup_format
-from supabase import create_client, Client
+from src.supa_formatter import SupaFormatter
+from supabase import create_client
+from src.supa_methods import SupaMethods 
+import json
 
 def main() -> None:
 
@@ -15,59 +17,59 @@ def main() -> None:
     google_key = os.getenv("GOOGLE_API_KEY")
     supa_key = os.getenv("SUPABASE_API_KEY")
     supa_url = os.getenv("SUPABASE_API_URL")
-    supabase: Client = create_client(supa_url, supa_key)
+    
     if not ai_key:
-        print("Error: API Key not found. Check your .env file.")
+        print("Error: Gemini API Key not found. Check your .env file.")
         return
     
     if not google_key:
-        print("Error: API Key not found. Check your .env file.")
+        print("Error: google API Key not found. Check your .env file.")
         return
     
-
-
+    if not supa_key:
+        print("Error: Supa API Key not found. Check your .env file.")
+        return
     
+    if not supa_url:
+        print("Error: Supa URL not found. Check your .env file.")
+        return
+
     ai_manager = gemini(ai_key)
     google_manager = google_api(google_key)
-    
-    #adding_new_html(google_manager, ai_manager)
-    #checking_supabase_upload()
-    uploading_to_supa(supabase)
-def adding_new_html(scraper, google_manager, ai_manager):
-
+    supabase_client = create_client(supa_url, supa_key)
     scraper = tabelog(ai_manager)
-    soup = load_html("./tests/bar7")   
-
-    tabe_info = scraper.core_tabelog_information(soup)
     
 
-    if tabe_info: 
-        tabe_url = tabe_info.get("url") 
-        restaurant_info = check_master_records(tabe_url)                                                                               
-        if restaurant_info:                                                      
-            print(restaurant_info) 
-        else:
-            google_info = google_manager.find_restaurant_by_coords(tabe_info)
-            json_to_add = combine_two_dictionaries("Tabelog", "Google", tabe_info, google_info)
-            add_to_records(json_to_add)
-            print("Oingo boingo")
-def checking_supabase_upload():
-    pick = load_restaurant_json("ChIJW_oSLQDhVDURWuBCUakgil8")
-    super = sup_format()
-    test = super.format_master_list(pick)
-    print(type(test["amount_google_ratings"]))
+    
 
 
-def uploading_to_supa(supabase):
-    pick = load_restaurant_json("ChIJW_oSLQDhVDURWuBCUakgil8")
-    super = sup_format()
-    test = super.format_master_list(pick)
+    supaa = SupaMethods(supabase_client)
+    json_list = []
+    supa_form = SupaFormatter()
+    file_path = f"./data/url_map.json"
+    with open(file_path, 'r', encoding='utf-8') as f:
+        master = json.load(f)
+        for value in master.values():
+            json_list.append(load_restaurant_json(value))
 
-    response = (
-    supabase.table("Master Restaurant List")
-    .upsert(test)
-    .execute()
-)
+ 
+    
+
+    supa_list_upload = supa_form.format_multiple_lists(json_list)
+    uploaded = supaa._upsert("master_restaurant_list", supa_list_upload)
+    print(uploaded)
+            
+
+    #data = supaa._fetch_data("master_restaurant_list", ["tabelog_hours_mon","tabelog_hours_tue","tabelog_hours_wed","tabelog_hours_thu","tabelog_hours_fri","tabelog_hours_sat","tabelog_hours_sun"])
+    #print(data)
+
+
+    
+    
+            
+
+
+
 if __name__ == '__main__': #Will only run when main is ran, not imported. 
     main()
 

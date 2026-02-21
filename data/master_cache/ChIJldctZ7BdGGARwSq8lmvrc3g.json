@@ -1,33 +1,30 @@
 {
     "Tabelog": {
         "name": "とんとんとんきぃ スタジアム横浜バル街店",
-        "rating": "N/A",
+        "rating": -1.0,
         "address": "神奈川県横浜市中区港町1-1-1スタジアムサイドテラス 1F",
         "coords": [
             35.44365977223618,
             139.6380665684049
         ],
         "url": "https://tabelog.com/kanagawa/A1401/A140104/14102165/",
-        "reservation_info": "Reservations accepted. Cash payments are not accepted. Only cashless payments are accepted.",
+        "reservation_info": "Reservations accepted. Cash payments are not accepted; only cashless payments are available.",
         "opening_hours": [
             {
                 "days": [
-                    "Monday",
-                    "Tuesday",
-                    "Wednesday",
-                    "Thursday",
-                    "Friday",
-                    "Saturday",
-                    "Sunday",
-                    "Public Holidays",
-                    "Day Before Public Holiday",
-                    "Day After Public Holiday"
+                    "mon",
+                    "tue",
+                    "wed",
+                    "thu",
+                    "fri",
+                    "sat",
+                    "sun"
                 ],
                 "time_slot": "11:00 - 23:30"
             }
         ],
         "reservation_availability": "Yes",
-        "operational_info": "Last order is at 23:00. Closed on January 1st."
+        "operational_info": "Closed only on January 1st."
     },
     "Google": {
         "id": "ChIJldctZ7BdGGARwSq8lmvrc3g",
@@ -255,7 +252,7 @@
                 "Saturday: 12:00 PM – 12:00 AM",
                 "Sunday: 12:00 – 11:30 PM"
             ],
-            "nextOpenTime": "2026-02-20T08:00:00Z"
+            "nextOpenTime": "2026-02-22T03:00:00Z"
         },
         "utcOffsetMinutes": 540,
         "adrFormatAddress": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒231-0063</span> <span class=\"region\">Kanagawa</span>, <span class=\"street-address\">Yokohama, Naka Ward, Hanasakichō, 1-chōme−３９−７ 横浜ドリームランド 1F</span>",
@@ -368,14 +365,13 @@
                         }
                     },
                     "close": {
-                        "day": 4,
-                        "hour": 23,
-                        "minute": 59,
-                        "truncated": true,
+                        "day": 5,
+                        "hour": 0,
+                        "minute": 0,
                         "date": {
                             "year": 2026,
                             "month": 2,
-                            "day": 26
+                            "day": 27
                         }
                     }
                 },
@@ -387,7 +383,7 @@
                         "date": {
                             "year": 2026,
                             "month": 2,
-                            "day": 20
+                            "day": 27
                         }
                     },
                     "close": {
@@ -397,7 +393,7 @@
                         "date": {
                             "year": 2026,
                             "month": 2,
-                            "day": 21
+                            "day": 28
                         }
                     }
                 },
@@ -409,17 +405,18 @@
                         "date": {
                             "year": 2026,
                             "month": 2,
-                            "day": 21
+                            "day": 28
                         }
                     },
                     "close": {
-                        "day": 0,
-                        "hour": 0,
-                        "minute": 0,
+                        "day": 6,
+                        "hour": 23,
+                        "minute": 59,
+                        "truncated": true,
                         "date": {
                             "year": 2026,
                             "month": 2,
-                            "day": 22
+                            "day": 28
                         }
                     }
                 }
@@ -433,12 +430,12 @@
                 "Saturday: 12:00 PM – 12:00 AM",
                 "Sunday: 12:00 – 11:30 PM"
             ],
-            "nextOpenTime": "2026-02-20T08:00:00Z"
+            "nextOpenTime": "2026-02-22T03:00:00Z"
         },
         "primaryType": "japanese_restaurant",
         "photos": [
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfW7djI8_Hrt70-pr9HIAOgrsldIaXXQxHZGZ7D6u7shqXncGSmjIqAXiTjDY1YIQ0F6_OL_EZ53Ak-x4fVDhjIzLVmaae2YgfdCeK-Ul7troaMcJ1K-W0kBnTtfKIkBUdg2bCrYeYG-T5THNcZJSoIo8HswXfP3jQSheEkWqIBbzmm5llH2Y7gmuwThX5kJIO5QC-PgQpnIvOZI_qbKXKR5J8MwVJJgIMltwQo2qvGiGebSWxHP6p9uyFlfNl6Mb9KSsisFK80n7Vbn2lttMXiQejPR2iiGxydNcqIOBkc8ffTsaTL8FjlKX5C4ukurdjcYA9PwOGg0Ss76JMvMQ_puGfvtur7hQSnn7Ri2bHjURdbqAUhm-88yCzxOPw4aheUmsD9wy8-kFgFlzmgDZmt7ATfjPn6GkeuAyPFqi5JaKKor",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfXzrRkRYGSwZxOcD7UEWoKMQJxr8vCTgEIevcZixhnjdxuQ5WP-5TCO8sFvyQBy3b_UKSTlWYCDTud36162SnjFzz5Avfl2lQMZhJrfc8cEPBcxs7ySf3YiifvAzQC2FJliMTFvieAPUjbsBMtjhWiByVxzB9bigoLjFn6wJbXGmivI08qhJDOMOhTv6Fkj_xbJeRV6DeULtsLrJwUcRGqv2UI19QCnuWwQJT2E2wI2YcEZnUdOgpoCjMq_QL_MeFoJT2UwmUJDgSaCM30JEMunbbYgN_oSP4Y0JviKqoarHMk3LMKwn3b7LnOHi6iLFVGBAzHvfddmqnbKjW8crFberqblvogP0SlUHhosYhU4ITVi3WSjYiXzh6jCfZ6u-LRv3wx2Z4d5hoHAwXI0h33ZXCpcERj07n88AGguuJl2gFl9",
                 "widthPx": 4032,
                 "heightPx": 3024,
                 "authorAttributions": [
@@ -452,7 +449,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICXhIahxQE!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfV76Q50Seh5pF-4G0l4uLyF3pqbz7aBhYUxYKm97JU392lVL6qzw5uJa89jv0AQo2xrmYEQsyIaY7rVSHNgPLGqDZa-ZndG1M0KQoWYT-SfYgpSWItrqnzZWlhsK3Vd9NArMsCotPJHASRx1tyi8mGa_jKS8W-KAO7sqqkc7HrsFInnIP4A87YGiIWBfCgEJIrG7Ewaq6oK6qaq6B9fc5qYl8pya9nkR4aFVJJz5dzCbk5EOh8q_6FnCV5Jer3kikSADVJR8JefRMc2cRVdgz79HW8qeHPapXchiXYx4JlpnksLa07VmOo5_xuwp2AvKzAz0QUeSRiJcgcJjcNAvW12JG091q0UoEPXKawi8jZcp8e7Ztn5lF28cRcXVcp9tjQYvHp019LITayMAPat24egVaE0yIU_BASW2lJhxWqvN-_r",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfV7KXRHMyXKEBwlv14Ekxz83m5aTj7GskUxacPXQ8wDVMw4ZchrangsUhgsY8VKZvJ190BA1QyEnw55TJAMM1xfIQhw0sUdHZlrC9fC-94Foz6m2kK7sBnBVu2kAd9zSMVes_3lmNBDlCcm9rydJ2Zr6ghZxdrEU9BpNnQLSUmcFcqotk0BtfkZYnwYoU0VqBvcAQNvDJ__FQVm0v6Sg8XcussygUvY87ZsTHS7qJf76PwaXmnBKQZiPxXKXkLug4EWqIPGpI18jUShsM3ujObjZQzwLaxSlhWcXx9yYmjsAX-3f5sMt7XKjJJ3Q8JoFHPkpy95A9CHZ77dVyaWTByxPuG25o_scGPdwQxAnt_VUqgeSAtGQk0u1dj3bP5k04hqRlKBy_-lT2t8FEjeooEB5RU_ffvpCm6TIMLsW5_t1h4Y",
                 "widthPx": 4800,
                 "heightPx": 3200,
                 "authorAttributions": [
@@ -466,7 +463,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCo-vrs7wE!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfXZgqA78tFz6Zm-g_fyb1lTWjywxy1igWUN8dwJEsR4LbvQFugvnu_tU0JMb0nBW_re1dKOgxcG4czuHca5E414KuaiqiXdCTXIfkwSSNyXZhzI9YWGO5DENgcfL34HjTGvIAyX3CVqqYqig9dvtQSqigu7Wtj7731z1gyt5fJOwz8RAIXuaXGA_aNXq2_Tu9nHIswX4SHVmTCvLHMWKw-uslY4uuA7BVzaRACg7DGnGhVarvIdv2wSmLR5D8LNWw4tnVCydCs3SNo9iT0XTkdnpjDoKNABbEaK5rauQ7VryeWYhMj96GU8gKFzqtAXo-2Bs4b-kMUcIDwNv8v5FFF4FHq3RdzUFqAYyhvsKRTf57j5vZ1WmbyXO4zp1bJNgvoRIP_q_TKT8x-t0myn7DUbkJ0VYRD2PJ-V2ygtm88qEtfF5Qj64NXBTCbGSg",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfVKGRvt52-Z72P5CeKrk23B4Vupoi9fMQE_bI9SGKRs0Qr9TX4bl9ZFPnHF87eZIljLVlzwT8CQqCR9_sMxgTZY1VDdOReizH8uJVRNtkBZfoD2EUIt5aQil1_IgybAzO4KN-kyctEj-GR1zDey08ZIn3I1ctsONYSukzyn7a5UnpzzHY428yHTBmxZLXrHn2yqsfs9mli_I5R5UzLryst9Fuiqiyb5DuWPoOFKUnR-U6JhpIB7bGFRYPPNXaNqK0YC7mnKxyM_aqixP3InJ5xp6pAcbUGCPWacKALX0Qe3wAepwwKOlsrsg7JXXpeBbJeYG21FjneQUhiq8oYrcXwYxNr-tMCytxbErT4-t_I6eUE5QoINVRPVm9ykhqFiFNIU7J6tZ_R-XrFiQeTNxFKm6vdPm3_-dBC1sAVjAWU0ny6n21eg5LX8PDzw1w",
                 "widthPx": 3600,
                 "heightPx": 4800,
                 "authorAttributions": [
@@ -480,7 +477,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB_u2n4Owfxw-gDJ_ZtZ9VK!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfWtCvcZ_dVwlYg5k1V2xfLrsMjWMBxc1sZpfO0d1_j2a2vg4wXPyL-LwOsU1LkPbMrcE8Hlb057962x0HGfWHO1XIU4M7f7QRmpdbwnmdvfLetMEbPsDvaMseNkhQv-BJ06YAnE4APAIreN5ktr6Ca666PN0CN72ek2cPKZ9jA4faAlD8tKBEjGn5M9juDGbVZ8rJ7JH-_Zia-jLw4gBHS1NreyLXNO4C4U57EUG34YQuq_4u1ph7YnM9jbr3rhKytWng1olb2Ua1l3IqWznb5eQRDrcdcnc_EEVWetTO8aaclZrdmuC7DCFZGuqY11O5AUa90klGv8aGBdZ-yD0v3vLPT6lRl5fNrL5dLGNZElKN1RfJWb1Rz85YG5_IGe5YuOJYDxB0IfCd1g2PyY02Y0Y7V_0QJilhSrR98D4Qw",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfUhtdx7QCUAAPlYmI4krNP9nKrennl0edKdOsFqHi5HJNwfDICIGsTzdSWpBw67q3o0wJRyl-XHOWEAIVnKYJsu4ewY_kNthXe4K_WbTm2c7_GdCzpotF9Of2TycJ23sKTdIrMg0I3nk4ONEv6SmxmT86-AU5kCCZRYWI7KVci4Wx0oFBb13_AI0WLehPNdJJNK9o0TBSCHc3FlD_WD2f-q8P8MBvP6Kf8K29P6WpAf02a8qZ0FHYF_QaCVNOrEm1XGuzUyld7mHhPSH833OdEaLbnFuU570fEqEmj_pEglkuqFPqRjoPANG6cKLg6j0He9JcckYLRFr4wekC74hGVO-SwZzMaG_XO0CdjZcZFr5bzG2SxZyzkNZnPdtXPnLHqR_Y0hVi0t4rbrgr8yEtnZDehlnZYmad-7keEuyVc",
                 "widthPx": 2160,
                 "heightPx": 2880,
                 "authorAttributions": [
@@ -494,7 +491,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEKT8joiage6NQQ!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfXOoNpXdyt3khiOrWbMGWGCk1p3OvrqvOTnrJFc0_A8NvhkL9QAUM9hphbmWoDfGGtYytBJm-Zn4jpuRysbL3j-l6qhc54fwbUuwd8wT9LzkjSPUoc4M3rruSNpUR_ZhBuRRo8o9KW-ZGDClBbYhlI2xYyY_mLy_tiPb-YAPpdLE-6nS7_WVlFpCB5H2MvwF02SMOfQqd3767FZyf5PwZDbGA8oZpT5PAwXjOMNmUCLhUti7wQPMZW9bsie5suGCZTYDQ4eNYujdU6r8SsNBCeKplxMNBb89UXtyEJ1DGlnh0zqOCjCoXfxtxhnOve9IU5Ks6_FiKW2rCalxxNhXJBa78ZV0ht_pRNOPKaSeZtDbRq6XHarL8g017GlWL3ZzKafl7evGDatw-UMokk8MtRMfKLeIcTTuY3JmKosDpXF2Vc6irAQ7jIG9YtStdgd",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfW3I2TRfi7ci0T0jOXn76Xi4wq5H8VGtAlmpMGV5q4yKT4UQhw0PpR9XdiaHPn1O4M2NPsYlRBFmEMwa6AIog-HsiPyzT6oxg1_obeGe_mt_gT2-YRHc6038IvD8lUYhYvyT_-RuVw6yWigtDNA_Q_omL4W4QKXM4yN031BNo8zfLncl-ACFL3xsYt8PVCGxURvz1dmDtJnGuwdE_ohG9ro7qViQUXXacuDFf58wfl_1YsQXcuNi8ebUqAFEPucJI_sdNn5mkQKc4xOfZOxSt7QK1U-4FJ7KJ2plyl1PRHi3lz543LxRcoaPgSQ21lLzwOYXcs2UutQVShlGDJXPx-pO1ePVbKTXyj_AM3UUGZYIwzLCEPceeDEMyKgBNxdyk4Vc9pR9StuECUgUWJZX_aWGUaD0YbdR5bfTmfZAKqXTlnRPu0pWlzFd33rk-d1",
                 "widthPx": 2700,
                 "heightPx": 4800,
                 "authorAttributions": [
@@ -508,7 +505,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCuFm8hWNWEVBTsFogJmDwj!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfUbuekEA--xc00QUJpIU3E-6ujxTL0-iPmoWl18K5eBcJ_k5HreTnPencnNwvjh3AOWwm0Ovd_97AUEsU5y8uTjnH6ozB20hB9qUaeI_kAc-KTNRZ85pBTrfQdN44LoUhihiaVIGRwwnZgvDQUG9uLJASyhT2gcklqpf7PufxGblPmMAwSS9EdjwycG_ZAC_2bTm3USZvJGJ7NLB9CpDDU53v0BckvsIZ1XFzgetitiBlauaUFfWQ4_diwx-OT_rtJWrZNqO7g_dYlqlsKb2e_0XP0x3nv--WKEzR0OfimP_eLdDPSwQNNQqiEvNSV1r1A52oZuXNsXWCFX90gmf4cCCiVlGxJNpEOrbRyFMUt7L8U987V_p2gr0rgdWGanRjnlPkhYhJ6gRmMXgM62g2dOVsE3gEBR-ZxJRLrKR_t-3BVN",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfUCWT5Q5oO_u8cdeOkFK8sbtUPs41uGBK4pHB0TWEpGtpsANAE2pF5Ys609EzffMMkeBQGLDTM5p3B8G6Mfh-H20qzu8hv85EYQbguRJqp8t_1CXtBXu13T6v1fKQuHCtIChKjSbniu-7IzS-_JsDviUDDDRaPHDepV8V-TXyw5a7njJecD0wSG15Vbx0HRy0EtL_ADxWqVbdS8NSzhSCUrcm80Fbm3ejja6o0hRa2ghhIFnHKOkZ8J9BtX33U-eF_Sws_ahH7NMGX54KfbhQQPsysBSQOVnHJdiXUrXEPU8LB8dov7XzCDc9PWFpSYIWgJiVQnKnTv8pE_xSTk7CCsZfmjA9O7VWzh852S8B34t39kRgk7D2jNBD4znoOESc_pSGFdaq5fBtiDPszERDf3A-wsHkz-NalOSWNVy21JrqVV",
                 "widthPx": 4080,
                 "heightPx": 3060,
                 "authorAttributions": [
@@ -522,7 +519,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEIH5573TzpuLlgE!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfUC5RiSmECZQR3N4kc7YEMixQtMbxhW9ReSW5HcQfqnKv_RmwAyIo9Ta91KrteGSpRPhYs_DuW5cVPAt8-BWWaPFZUlwfcbpC7trsnPYE2tKWNIkLerSvOsNiV5hWzFAXG6M6wuPmZ0WaLPNhFDGE74g4gu3FiSudjRP9xTbmMGdovgYPj5LHKg7tLCz1XwieoQRdvIc61zv_uK4u25J0DIYhBOWh0_t-ZsQ4c1edrHuJPDz4p9Y5LR9PPcpJ6PU1C2DAlMefZuxkrDI_-VIuSL4Fx-_yrv692LZdyLVil4rF6AS49tkuNo7llhMOrT2pB1THEelEJ6JApsw8_MzFGCbHP6Cd68ssfPiV3wqq9RzsmUI5EC2fBn46Bfy0ULGUeZLOeDnkajHZBTlZhSlzRMRgm_gOGNCnWdlCCWQ_wndwwU7mBj6PY3RVHaAPNm",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfVL7rfv69Ctmg7EjZzhn6d3f0LI5uMFlPtHxVfkiZHVyD518w5C1YLBiVpKc7INhUSjMeV6WG0NArndscFDngn7Vc6eMn12imlN5t_jKcWJ_ND9S7P1yiQT72pu_R_I4ncrowhSUGPYYpqjCOkKH3_Z1lZo1v35C9WS2FmXO047B8gbD5q6xR2XCEoA3atHgKc4AyjYcWdzkoUOize3ABPvSwuDX45A__xMqjyJ-23ZrB2464WtynJS-5HzGJwV_p316HhqBsR-Hy93PfifumP5sSzbK-pbIKUJ9zwvzCDFZrPPPPBm0HUfnbLsYi59wwANZy7LnJN9XnpwO99l1a-yJyT3tvkg2_Bf85aTrm5QHuqM3sSQi0oI0FIVSpV4Dbf3_LZ-16nqUyT0R-16Nld5B23K41h13PQDiUm3gE1JWNphz_aWcsLTPV5pxsdU",
                 "widthPx": 3024,
                 "heightPx": 3024,
                 "authorAttributions": [
@@ -536,7 +533,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAxtlDGAsifQR5zfkal_UQn!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfX3MU_m_uOWHixXLtYYNERjFjWMVKSkdytUh5USEXW8Y5pg-Cd5wLOJCHGURW0AtAfWS0jMXmG8XCjtloW5f-g7T4ZSYGT54UnE9pISzA4jtSzi_uSnXdNpHKnn0MvLpLDPYtWOKQr5hrOc5YQEHMw9kxypNxJNyLcHJlcTNuQkyEpyT1VsII5zXnv7fNkDBCluCJ30fLsQJH-d5e9_qHyU5ORXoznGtWT4lgWLQNaVK3SZQtA7_H2gIGdTXawmGlwTOmTX8OhhQCOdz6QqNkV1p14hRy595moeMlxoilsaZzdX6gmU6Mot5-UIf3qvLtVrWtyBH0dVzjAy275mHQ93gg43d3j3rnj_5z-7vG4ZapN0wshKQ6sf_7hNqG3MwDgLi09djILVUYnBIawoWSTpTpuK-xXLscHGrf0MiOuO-sihujtST8HLfoPKCw",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfV-aGJoi7UDAIzkz8P4OofabRhUEvqr2AQFYgPF1LO1yOxtzgdsg2MTV8dvjY7tyrB_9OfwSD7SrQ-YPBMNguwjeSsT83KXn0e8q2v-eHJxw-YSyRduBvbU6ioJJU13YoAoo1RYEj-3OXjeF_8_dGgwzI-H4ulQt_Dhr8zLOySv-kMyIR2DEMTqLMuPCrGODm00vFVW0Pq0_ItIAvtCe16AQlk5-o_a-rjQKZ3UUHAU88t9Marw8GEPVgFDUUgVjCzQQSiaptl1cYG5P_GJjs8vOaWkZZv8a4rIFLRxJqZvzI0lxSN6cu4OS1OyWe3-K4k_5uwI8Sph78K9iPfL5V6EcFMGSk-8JFjJ_a6B9lAgcZvoZ9PWfWF_v0cHKSrQePmgH67kG_YzLHLYQbzxGvAiBmNcwJLy397TbEJh7Do65je032OCMhMfuAqd-g",
                 "widthPx": 2880,
                 "heightPx": 2160,
                 "authorAttributions": [
@@ -550,7 +547,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhA4IqVhA8Ft8k58yTua5tpW!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfWAKR1SYpdaiSuRbqVzLgx2v8sdnm_Bl6RCD_vYfM-rbV3qEsasglRysJih9TAnT3NaK-MG4udVQ-pbtG1hNBoWAziKD6TS7rHyXVj-Tp_lalT7POUaKogZtbztitEP5lCjG_byGrzbM1qj40x6hfkubRaplYhB8ecNb07Il3Rr4WbBrRb7yacdKG0eiU_MsJJhFWSDkSsnSJybaH-w5KJ0GbxOsbO_krc0l8fzgiWLVNNIsxEZ8dbmHTlIQGhy9SKea-lG4UnLJXhtxt7J--MlPqvjHFgF1HOrQB-z_HvdFlXsqr4sKhCa1S-_x-dJ8c4_d6x_4MuQ8f5LrBPrM0lnn34YeTq7d2bW4ursSR2f6Fc21pQRTXAfdzISkVsgPPcOoNAeTqP-CBSUzy8A3Cw7R1Z_Jr9-1oq025JupeSrhXZUUJFGLbw6pPAg74Tz",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfUmKH_TRh4J2pME2m6-1swXfFLANEJGkTq35DHm_XejFB1AYciJjtEpjVOxu8e4Q4me-Ke_DgYvQgIzJr8TS_Hm68i5nQrvzQsYZ-sN9fBjmSXOLYBoV4DvDQgNrnt7eLp_M_jbkJ3a3T0M8tUXO31zy27j8ThmMwlnrmr-P6NiP-5kw82_0LWBWl9OGnkeZ5NbuFWriS9lI2PTrGTZzFztBsZSx2w0XJwolEIUlhzJuxDKFq3U2IqOmOF0vWjln3DQh5Ub8E0cVGKYnC7BTq_DEJV5GFr8O-RWnmg672pRoHNjz8rnx4CHH_fFVxNGoWiUjt3P4JhMPpdm4yZtojwGzn7M1ewI8WDRjW7MoBpeSZIkbJz7_3fl9FoIIl2539SeZ0yi6wj75BjY_UAkN74ldAhLS7_FeydVS4suVPoT9uIPwLSEPtJ4wuOhZkOi",
                 "widthPx": 2880,
                 "heightPx": 2160,
                 "authorAttributions": [
@@ -564,7 +561,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD3KQci-yzG1A5PnJB0v60p!2e10!4m2!3m1!1s0x60185db0672dd795:0x7873eb6b96bc2ac1"
             },
             {
-                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfVAfAXaULhQ_63zlLPIY_wxdziC4xTT2hfV2j0Atp7McVnQ7KlnYo6fY22rVzVV2_ozPsCiN7US9F-c6CH_P5xziasaN-ZkRH9ZQsjMNCLCl4PaNHxo2lYxL4ZYK-O2himhiU-UUk356Xgk7g7tfF9b5WrcII0qXJCgEgrsUo4z89GyTaWiEGHGJkWhIB_hJN5OaaTn8LEwxOwVB6CwUQ5XTHVzWXUf6g5K5VIgjJlSNRGaOEzXERz3QGX9WrK3iqQyytzdQVBc744FQPZyYHVmkJSwqobkMAnAqiMoz7C9Lo8jdOdwMMMiXiI9yUM85HwrNFn-ZN6RPHuyGejNwrV3xpnmN3PYNPpjTm4rcwfxbUGTBb7otwYMpYQ0Lv0Zmu0iOFg8wt37Cl7Ei_V79iOvP1cmTWboBumIkB0MGrGPHQ",
+                "name": "places/ChIJldctZ7BdGGARwSq8lmvrc3g/photos/ATCDNfV9hruXtDr5z9jMzh7lh7DWrfedxxLsESR_PXHLEzhvk87DDWyfmqHp6VZUGSPNZw5cqCrOcMpZMsN2FLbRCa3cSTjhQS8pc7-3xZRfoZlvgLdyryJAu2Eg6ANJ15CnT5wyPLeRxH-X2rVCQR1NzWSpgj5xlpXGgSZFBJp8VAHQDnMDEk9HADGPBgePM0x8KqyNG9LCqGX-jsDx-E0QKSlM7icHRPsF2Wxxu6b2B4vWE8ks8c835tYoBtrdvneSpSOnXfa3RVRP2aQv04L7JU3zLhVOvjgvL9YnsjR_hwoQ0vyx6S0MmocuQJtQ5XsSpoH7fJ-jF8tX1oqzBlJLHXC6d9s6m912vAyZwHur76DdYhu6sPPbYju7PEsSCT78Yy3t-PU4SzCZ04umunC3EGHeRoylvWjm_vzbfOL5aCFqqg",
                 "widthPx": 3060,
                 "heightPx": 4080,
                 "authorAttributions": [

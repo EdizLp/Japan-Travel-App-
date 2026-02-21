@@ -1,0 +1,532 @@
+{
+    "Tabelog": {
+        "name": "タツリキショップ",
+        "rating": 3.43,
+        "address": "兵庫県姫路市駅前町188-1姫路地下街グランフェスタ2番街 B1F",
+        "coords": [
+            34.828232647641265,
+            134.69050285932641
+        ],
+        "url": "https://tabelog.com/hyogo/A2805/A280501/28044327/",
+        "reservation_info": "Not Possible",
+        "opening_hours": [
+            {
+                "days": [
+                    "mon",
+                    "tue",
+                    "wed",
+                    "thu",
+                    "fri",
+                    "sat",
+                    "sun"
+                ],
+                "time_slot": "10:00 - 20:00"
+            }
+        ],
+        "reservation_availability": "No",
+        "operational_info": "Opening hours and regular holidays are subject to change, so please check with the store before visiting."
+    },
+    "Google": {
+        "id": "ChIJo0RulxLgVDURgDmFM-O-aSA",
+        "types": [
+            "bar",
+            "liquor_store",
+            "store",
+            "point_of_interest",
+            "establishment"
+        ],
+        "internationalPhoneNumber": "+81 79-221-3562",
+        "formattedAddress": "188-1 Ekimaechō, Himeji, Hyogo 670-0927, Japan",
+        "addressComponents": [
+            {
+                "longText": "188-1",
+                "shortText": "188-1",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Ekimaechō",
+                "shortText": "Ekimaechō",
+                "types": [
+                    "sublocality_level_2",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "ja-Latn"
+            },
+            {
+                "longText": "Himeji",
+                "shortText": "Himeji",
+                "types": [
+                    "locality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Hyogo",
+                "shortText": "Hyogo",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Japan",
+                "shortText": "JP",
+                "types": [
+                    "country",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "670-0927",
+                "shortText": "670-0927",
+                "types": [
+                    "postal_code"
+                ],
+                "languageCode": "en"
+            }
+        ],
+        "location": {
+            "latitude": 34.8282251,
+            "longitude": 134.6904935
+        },
+        "viewport": {
+            "low": {
+                "latitude": 34.826882919708495,
+                "longitude": 134.6891410697085
+            },
+            "high": {
+                "latitude": 34.829580880291495,
+                "longitude": 134.69183903029148
+            }
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=2335607764799535488&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "regularOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 1,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 1,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 2,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 4,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 19,
+                        "minute": 0
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: 10:00 AM – 7:00 PM",
+                "Tuesday: 10:00 AM – 7:00 PM",
+                "Wednesday: 10:00 AM – 7:00 PM",
+                "Thursday: 10:00 AM – 7:00 PM",
+                "Friday: 10:00 AM – 7:00 PM",
+                "Saturday: 10:00 AM – 7:00 PM",
+                "Sunday: 10:00 AM – 7:00 PM"
+            ],
+            "nextOpenTime": "2026-02-22T01:00:00Z"
+        },
+        "utcOffsetMinutes": 540,
+        "adrFormatAddress": "<span class=\"street-address\">188-1 Ekimaechō, Himeji</span>, <span class=\"region\">Hyogo</span> <span class=\"postal-code\">670-0927</span>, <span class=\"country-name\">Japan</span>",
+        "businessStatus": "OPERATIONAL",
+        "priceLevel": "PRICE_LEVEL_INEXPENSIVE",
+        "userRatingCount": 118,
+        "displayName": {
+            "text": "タツリキショップ",
+            "languageCode": "ja"
+        },
+        "currentOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 22
+                        }
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 22
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 1,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 23
+                        }
+                    },
+                    "close": {
+                        "day": 1,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 23
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 24
+                        }
+                    },
+                    "close": {
+                        "day": 2,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 24
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 25
+                        }
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 25
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 4,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 26
+                        }
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 26
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 27
+                        }
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 27
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 28
+                        }
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 19,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 28
+                        }
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: 10:00 AM – 7:00 PM",
+                "Tuesday: 10:00 AM – 7:00 PM",
+                "Wednesday: 10:00 AM – 7:00 PM",
+                "Thursday: 10:00 AM – 7:00 PM",
+                "Friday: 10:00 AM – 7:00 PM",
+                "Saturday: 10:00 AM – 7:00 PM",
+                "Sunday: 10:00 AM – 7:00 PM"
+            ],
+            "nextOpenTime": "2026-02-22T01:00:00Z"
+        },
+        "primaryType": "bar",
+        "photos": [
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfWZDvCpinPUrzN9bg42maj0MCKO5mD2p8XOVwABltAlkM-X7NXwGtiZ1oVosM8OSTn33W1KjGcip3jzLUq2crjEd1SUqCJPH5oBZnQk8rYYt15TQhWO1qDR6RU9pj71kEnTQPXNUfXB31soWRw7X08_8ASaSC9BLGjnkC3QsqOEqhcHRzbTRq6HZk7AkygCZKud51TcjkOh0UsWArvpf_VjJD7jgpxcqiurkWz-hXMsO_htIjLCE62p-34vzytygurlQacYwZ6DxhMFw0l_tysixs7aLulfMfiCgqD6DOxieaHowL0F1OK1HcIp2S3RINmyKMg7oS3VX2gU6sQGDrg2A2nhfbJKUCihnfJG0gGSm0bOyvHyz95rVTio9898Gzceigj2xKbzTpxuGxAdhpzlrxiqYX6DHqIhTOiEnPu8Rede",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "関友美 Tomomi Seki",
+                        "uri": "https://maps.google.com/maps/contrib/107757432140794346093",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV9Q5XjpquSrf_hAdTB6DTd3hp3F3VH9GGuzRhBhYQ41Z2U5G2g1w=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICSosq37wE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICSosq37wE!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfWzN7WLt7PgHMHun22ihtCxAl5s3PCVwD_OdGliAQszs8tBBoyFAi79e93ZzLx-KIj5F0M_cmKx_S79T5EP74a_e5evhc6KToZT_OvWsxvwpavTU31YiIBnr1LLB9-SthX3sgekfimy3b92jDnoytt6rlm4_PReAbN2H20Etw3pEAb3bNABHhUownrSAzHdXqlyD8V8aneEJRgJkM3n1OcV51IxiJuiJA9ek66pRwJKPW5b5batPK2LPUEXMN1WUyrXK-oR4WBBnjtU8-_JhJD384So_z-XtsIbscMo1nbn5Bg644E0fWY84TjKjX10YbTbQPp4tm3aSgNUFu4qlHcTBtuaNyt2LJZMExlYsXKId6rF_WN-vuIMmgNQOs7sDl-46Krha6Nf70-bB_3nyrgr9xfariwHMSohQG_iPtA",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Seiichi MORIMOTO",
+                        "uri": "https://maps.google.com/maps/contrib/113595779837634972105",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW9IfK6dHCNJpSAy5Z8OkttVRql8fw2bSZ06jNkl9pCVy5YFtYhZA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgID-ruzyTw&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgID-ruzyTw!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfWZsBKa-rVl0HJ09bCJONWIPg2d5h_NWZq2X_MUvOftrZjcnZ5ZPMBl--Mn82nnBYLY3IXM1TM2R4YAVq1aBG3e4f_HfiF6UYUQP4CEI7dEFyuF5JZwl2JOdemI5lcKVG-KiSbl2LLpbuRqEvzl-Ii317LT8DjjqQbQnsrZQIFlShdbjuOlJBT5M_QTbZsaGO0g7IDk374XqR9uaIfCuErj52FpFMWakwZiVZPN0K2MiKFsXaT6pW29YbCLnbfMyotnNq95kd0s9u4s0OYjgAO6_hzDpYsHfXUlrhKfGqpFh2Cw9ti3ZgISko2meEr9g8M4A16JxqJJE96r4SZLuhhcVB18byGwsB8bF8DVv2VS8IYNCqHHhLWJglemU-tSsgi6TVpriYBkhb4tQCedm2_q5plIxThYWkpuXJSuJdNpAcs",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Ethan Chou",
+                        "uri": "https://maps.google.com/maps/contrib/108419807188579732218",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXehPaLf-eRXD63jGmH_KttlHsz_Suiy6QM8CPs_A5uowe_8U5M=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMCgmv_ZkAE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCgmv_ZkAE!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfXAimcyVum5IC0STV9F7yRElJdx8zoAaqOULG3cFyaoSynR-llC4TraxVbviI6pJjTEWmxOgRSYYkxQ-DAEhaLvksihgzEwy1OZfKo6LQcaspe2PWenQzaNYFzFJrIT5leMg2M5ygsIGs5YQsLlGw6nOCCm1ZVmr0LOUWSCZasTsNHrZfbhZYhKT22XQvvXttB6quSJ5lVkRyIquDTmz2apw0WLhk1VdWuhpWWVJ33-S-Pow8-1k_JBGAMDCHHZ6vtTbBMCSVgL8bWpGPYdeoVueI7pv3czmMPXOc7RrycONfMyUwcKn8WBjBLCKYl5jDs0XMhvfQqyYfVVGlIDTaLFUm8O1VKr0UHLwlG5SXCc5NtIBJ9EURcQL8PxoDOm6dHSF3L8GRewYPlzEf6L5RbWL0PBI0a94ybulYX0rEVIduPJab0gbaMmo1sF5C2r",
+                "widthPx": 3024,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "A K",
+                        "uri": "https://maps.google.com/maps/contrib/110105812663297675351",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLUG9Rc6mgIu6dzIrgAY_RnGPojcd83rPSJ_sRS7DZThpX1bQ=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAvQltwvp7_V88XR1unYtT4&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAvQltwvp7_V88XR1unYtT4!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfUEYbVeKNf-aFn1TQoPvUxN7r_R9pAtp0ldTpozHEFkKVClwtDLRSAaQWihEG49P_BLe2JbghlV5IFMMYPvNH3VgeO1bWPuhSgy0CKgN9KtFgBtYycMIK8eQ0pTwkeEH8tNrlt2_zCO60y8H9VDV6bPw173acpJI_566NBSEl-NRvw3Ey5BRuyMHA8MU_sUl4P8ZAWNGB04SsOvigsy0zRDLhNPFWnM3msNN1MGa-WXsOSRO8wTAqRKhLBO463uDO1bldd0SlvaiP3N-xfy8UfJTEeDD6ZAZxvs2Ku2rLk3855IzrPX8dKGcRkpt_nmNVgMj13BiCEuFiIDp-EUYxISek_xM40lwZc0DBNFA5vX2tru44YzwSjMaA4LQ4vpPbBSYZFNWKSKBET9gpKsSRMV91m5tVpyK4OBAziN_KCXkbYA946TLCFqKfVDeg",
+                "widthPx": 4096,
+                "heightPx": 3072,
+                "authorAttributions": [
+                    {
+                        "displayName": "櫻井太郎",
+                        "uri": "https://maps.google.com/maps/contrib/103268008516178903466",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLM3AzAFUiAzsAtLcKsCx07YzyRHeLwPtwxrQQ1Itc19hF_Kg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhC6dNHcNQ6thuId976u-L9E&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhC6dNHcNQ6thuId976u-L9E!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfX_oGs4nRjjRYFunKXbidYRYQ-I8qIlSz21IDodGdeNxbfC_zhMO2cVLfd7chjtLqmzSAVIEWoX2DAO-rq0nJZmK2GSekV1YINo6pGQydsJgj0A_Rk7SrB_BKVREuINZHK7UKqz7EEpAlwGZVIpw_DZBwyUhy0SYzRpFbR70GCRkeuFYaU0DhSyctjmwS1m8J45L7cUY_mrRPx_I8X9YVuuLmSpI3OjarKUHl0SVLediWX31fD3kaIQBQdcYQXnTHLHGt1-7dL1RiLcFmJRbBLk0avRiWA4PIEKdzoyOsb66UhtBRZQFrtXjczY8VYDW_TKLzS79GXn6_xzp6_6xnxeIGAG6dRsMx8nnwap5UtFpHuItlE5xUv2BVDhPdv_LzMeBRT90CJMF2CpHQoQCl9I5ac38FBZhm7343HljB5glns",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Seiichi MORIMOTO",
+                        "uri": "https://maps.google.com/maps/contrib/113595779837634972105",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjW9IfK6dHCNJpSAy5Z8OkttVRql8fw2bSZ06jNkl9pCVy5YFtYhZA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICl38ejxwE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICl38ejxwE!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfU0N_va-dlrw60K8MUV_WBKbQmapVWwIUiG9kgtBbasBo1p2BOiMNK892szAUmaY13wBHl46Z6cnD5SMdD_OpmvPEHx4N5ljOgIwEIGXPLDdDJI81elStonFJh76rwmLc2T8mkpcTlaO0_Z_u_LlE2wggHe52dub3bsqPNiX1IS1CPC0sTmosNzKOV-DVQXKRiGqAfVkUebA6Fl6MO5olbUmQhJ48U2R-SiGQQOZLFEBaFXU7-kqBcLPPAQ8qDHNFVFY2FY4SIUNYpfdgFUfsCK3rZAUPKnO4UzWnISubJ-a968oqX_5rbpdvRnMos9mH3nbOo70UV3r3Jw2_RXV6exZ2uG2pOtC97CpnTy4wMJYqgwmmyUa9yTO-hr-ziMXLr8FSWYABoeTwMyiYQsqdJfkmPieuJ3L0kjee-TZC6zbhXX",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "ranen O",
+                        "uri": "https://maps.google.com/maps/contrib/107698427172462908870",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocJOQXsozhh1-XclIGhUJcwUWDntBiHeqtdIepGT4LUzCXn62g=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICerYmh4wE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICerYmh4wE!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfXsRH3myqBDcVM7aimFxfoySxaU32c_c66c9laQzxpP12EwkeLoxy61EX58yZBcSWdsaA0OU_8GOy0xW0ygXijb6Sep-wQmFjAAfrzBKkqf51GfHj5qDaLp-rihcTVPo4mvPBeVm2tt7wC4gpkgHnBxSr6GIqN1eHK_3o8WJkTk82qQgwNdxHrYuBDLfbJAhg7IEwRScQotqkS4SZQ34WV-Q90Sv6KdfxzV141zTPJlNiUeWJinMxTZUPhwVpOnfzZE00-cPHs8Bt-PryP_wWfCTgmdBw14PlndwPazCoWAmxnbxbokLHHOSsb8_8RBx5w5YDFUAhnVTgoH5h9tTdIH05zV0LQXQF28VWPqEQ9XPnW2lMwDmm216kZbtVpFukzmLrTo1bKOZy0u3HdRpWzKNP-vSA12zkvhK6SdAvu-VmqH",
+                "widthPx": 4617,
+                "heightPx": 3464,
+                "authorAttributions": [
+                    {
+                        "displayName": "ヒデキ（大仏様）",
+                        "uri": "https://maps.google.com/maps/contrib/115962634439473079636",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKTQyn_Vqj5OZpAzAmBZR5_sj4aCIB8CdgQy-XIt3FEffIahvg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICcjqLFtwE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICcjqLFtwE!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfWyjqvmFWypBDKx784y6Xnn0Ix5-q9JVVveXKuqR86-n-F3T9Gcba9qWcCI5wuB_J_Skc3vAiR6FGUEjsotWKGLNX6FPOTKpsbrgt39ChPNKOZf0qiJyT0lawAIxPlzDs-FVsf44B35Jgfr0AyeVnMJloiJiX8Zg80BxU_5ZzmS9zST9GCjWzvyy2iIEPpLlxLoIocyOtcU-k2sqH2D5r0m3_qLbfN4ZYI0Wd2t4jhTneI7OOCdzk5GMsp1i311H88uZuv269qlpKnh67sRIwV85NI_ufS_Q6jsxp3MUddPqv6Ky-gaM42T8QXyTGstu00AC3evRiKbrFoVQ4l-VoQZV878fstJwN-Z6AlMwe7YBtgumdKDtLcmn0u-qb7VKQzKNPUcdS6Asi4SYK-e7mVgrUcVhp6zl-hv_fX8Q96JWa3n",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Ethan Chou",
+                        "uri": "https://maps.google.com/maps/contrib/108419807188579732218",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXehPaLf-eRXD63jGmH_KttlHsz_Suiy6QM8CPs_A5uowe_8U5M=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMCgmv_ZoAE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMCgmv_ZoAE!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            },
+            {
+                "name": "places/ChIJo0RulxLgVDURgDmFM-O-aSA/photos/ATCDNfWBljxHl00XKegxhT8VtD7_HxIZcoO23nfS5iO6mrX-SR_MQHcRASOMUcdk0zvVK9Juu1q1seWsBeWzSWdGkHD0w_iLY19vhfg94fMzrhQw-lWFGBL-q4Ur5MTp4NiqfUG_NzaSxQPj4CYuZB5gjLfLtla90E8ApxLYGOcidypqEyBZVP6wAW_G8AAUty1v2KHpUhtEPjahOMHKD1KXVt0XXgBSHO69s2OYl2qgJIsb9yf9OhpdqffxjVMAdtxo3pC4KwRFK9-wcXubEAhpq58KbML4ltM_GBebCCLaBcf-gS2O9MJJEJolba9gFfye5_0GjmRJt3_YVy8RUGuGbe-zflfzOZFDGlVle9zQB9RR0QALpRyLuXyRBtAyxJ0q39dZXAgXIPh7IyAzzfWUzCadslbJdPhpBJf24S_7rihuVIp20-TOrsEuGQBlmA",
+                "widthPx": 3000,
+                "heightPx": 4000,
+                "authorAttributions": [
+                    {
+                        "displayName": "渡辺信二郎",
+                        "uri": "https://maps.google.com/maps/contrib/108960402589382418518",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocLl2lQVnT2FSv3ZJF163scM7D7bMRD514WZku0ihkv3ne4Sbw=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBSEe-kT4olvfFw45Zoxrst&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBSEe-kT4olvfFw45Zoxrst!2e10!4m2!3m1!1s0x3554e012976e44a3:0x2069bee333853980"
+            }
+        ]
+    }
+}

@@ -13,3 +13,6 @@ __pycache__/
 
 # Ignore those big test HTML files you're scraping
 *.html
+
+#Ignore Python test file
+test.py

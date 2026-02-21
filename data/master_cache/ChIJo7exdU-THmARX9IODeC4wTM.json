@@ -1,7 +1,7 @@
 {
     "Tabelog": {
         "name": "Tea stand TOKINE",
-        "rating": "N/A",
+        "rating": -1.0,
         "address": "東京都目黒区中央町2-19-4WACASU 1F",
         "coords": [
             35.632493495715906,
@@ -9,7 +9,20 @@
         ],
         "url": "https://tabelog.com/tokyo/A1317/A131702/13319265/",
         "reservation_info": "N/A",
-        "opening_hours": [],
+        "opening_hours": [
+            {
+                "days": [
+                    "mon",
+                    "tue",
+                    "wed",
+                    "thu",
+                    "fri",
+                    "sat",
+                    "sun"
+                ],
+                "time_slot": "N/A"
+            }
+        ],
         "reservation_availability": "N/A",
         "operational_info": "N/A"
     },
@@ -17,11 +30,11 @@
         "id": "ChIJo7exdU-THmARX9IODeC4wTM",
         "types": [
             "cafe",
-            "bar",
             "meal_takeaway",
+            "bar",
             "restaurant",
-            "point_of_interest",
             "food",
+            "point_of_interest",
             "establishment"
         ],
         "formattedAddress": "Japan, 〒370-0044 Gunma, Takasaki, Iwaoshimachi, 14−１５ ココレーヌ岩押 1階A号室",
@@ -134,7 +147,7 @@
         "primaryType": "cafe",
         "photos": [
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXYkDw83R6TXtEvBRb9yEOh4fM_MYeB_mjorOZOBqoh1uWSIUpg8jboZylxGReCUqI7zQITJNb298NveTnUm7vmeq__68uGQo7Z-W8YVvf8X7t1ey5JDQ7sWHoFsnrJ18zpYkCT6H_xKlJQhvP1TRLQnoRC84G2KTdhBf7_f7wrRN6T2aYACpvyqVj453B__1XNlb8y2nxWC-bY6ZFgLJLOCeVlLA1FQGpf6-_sZXCcPv7VqFl_8rr1H2_zcB374E1VVxqXckkuHXsfj5wM3siKEwk2JDS6NxN18A34r6ffrg",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfW_UY1HW-xgtubaGY8K89waQlVXfO92AFk28v-ZwoDIo7flt8BzsOvURv2Mu9tosLAKpCK0Y378t8zvGpOAzwlUS0v4vOnyCkrLqiObOkZLBWj900NRYFcKoSQAzolxm8uXidgzOdSX2ODrUaKuAohhqLWT1_otEVvXUAWxzMwHJPsNqHYgIfOO-gmS6M8sXisIw4WBPQvERhklLbMY8ElnPThJ-9uaJgiX3liTKS06cgDdN43-A8j7ECV6hw6bXTTezAWcAeOJ8kgXuX8qjB-POBibSDLkYzNbICXfn9nfuA",
                 "widthPx": 4000,
                 "heightPx": 2667,
                 "authorAttributions": [
@@ -148,7 +161,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPkbEm6VlQzG9Eu3MKKP3m9pLRP6tbRzCj-rzBV!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfVC6gudnapBKEQDNK-rB6Ia_jRwb2dwf53RMWaWzOKqbFqwmNF3BCWK-MKSfDOtb8i-QSC49y4PLiSq21jbDGuI0Xu_pzcSxtymYdv9cyg0bAaEs9W2n0_jsVTIsvb5x4kQE90NfeKeT9rgVqQK7wi94womAgYgcoUKslIiWVbax9yTPOnn1mLVWdK7--hfzZQbbHGJ5KlBTLWx9AmMCHp6tKNr1bYeDPwOfsCCduxIuj7105pDUI6HJ0IlkZYQ6kDnkU4OAnB1C7_jK603v4x3ikGoyeI50BTNd-oHcQFCag",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfV0ap7DGagbXMeThsz65DNPwe2a_mlnN-Qv5gba0UpSQ4AXjp8iJCQbPM8CVQijqeQ-Gp2FmxMcd0Et0fHADEp_2JEk4rczrB4qBdXLHgY9Io2WQ6hxJKuEohFZ0fXbPafy_4mCoa8Vs6YHtmWDZEj9Ir14aJscoLCfAuSSImEli_dvf9I0L_RjLq9lUnyy3WvVVnzgOVlEa-XZdXNv374dWUPeJzhFOv2CE_MbOmGJSALivX78EsMhpzaL32tnh7CL1CW1-8ITOx0863X5Tg-9S1Y0X0FHJssNtQn3yRqvMA",
                 "widthPx": 4032,
                 "heightPx": 3024,
                 "authorAttributions": [
@@ -162,7 +175,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPuwkSyJ7I7ELKOkENpj4ie0xWVxb1aC0r0_q-4!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfWDzylWZlaRZcUvWLinhySu9jELZg_svn1CFHIA6WEflB5U2w1J7Qc0wpc_kGEu8e89pLs2y9N13IGA7cyTZem95B5tgk-2Zz1s7co2NLwuSnEstjtHR1NXtLqD9YZjpku1dHxX8xRazoaypMxWVnma9Yg1pwXSkKKksmS0J7IRZZ1dv3S2yA2cvteUSKSJT5GriFEvGa96nIxBP_Nkx9G9xh7qwNzHttgpl8-HBDygVpR7sccfR1L3wgfazY2OzGVev1DQYZzL-wJKpvPkMyyXYicfpMpF1qm1oZvwiAkwng",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfVYgU1UZPwTNLqRcDmr2zQmHJfVdtcd7Qqrvxkol0eXX16BTo3YaeouqMi5ljtV0lpiT9SKjtF4fqO_M5z6euuR40f6hIOXMGbfrkcty-PIslsqopuAdXVbJD0GKgt7dBwvvTZZD78ly112Tvn_9qdB34gZRhb2HBHAva_E9o-rjH58tHU_pTzrWeXixVUtoWdL2Qg-i6CG79Wdo3I8dL5_-cySzUWr33HcoosQ19mu1zIc9Sf2VGK40AFvzYNo6k_KMFoPyOxB_x_gmxONTqCwDFS6K_DIdDnYd1hO8WnZbw",
                 "widthPx": 1080,
                 "heightPx": 1350,
                 "authorAttributions": [
@@ -176,7 +189,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP2xXpesTXF-Eged_UUMjFMOMcPlZF3WCbSGUk7!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUKFC56vc8_wP-rTBQMIAREenMlaAhPlqm3fwfU8lIap9SsV49HNOKm34Gwy4DmwMf-X7cFUp5TjDpLeupmglqcIBk_XiTUK4rt8GwWOWlqgorfKUOlskVGmff5lGFvZfi76QoJg63j6ZDXH9iFYZQvwCiTmFZXwD4JnKeoJRy1ZjagT6104plEm18CFi1XBhsSCT7wmZ8BaMQs0ZKnpencG1NUXL3ll_dBXmsZrg86w3fg7VyuszaxeLhwfixQzRvaKtrEsrVOQvWoPGfxOtLtth4n7m9pa5pTa0wfXN_fNw",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUNQuJ0DQ18oSZ3hW1pU49iYDZfY32tnta7FYgX2IOSq83KeCht3l5dh1hpsWV3UgSip2JStVDUHrWjaH5eCnz9gwPBHNDQwIuXi9caZ6ggjZTNz4V5B9YGYw5ZvK2CBXh4_ZejlVad55EQBLCdydF0tx5uS-po4Cah3UJCs5z40c1jEks8YvguR3aJQRNUITaWIYcJBxQd6sAk-WszpRGTgUy5zQJ_IpyN_gbzMlktWbHEOf_3G8jGMs4ATp-34CR47hRKLwNeQtin-WnnmGiTB9345XYCtgj9q6jd1KKwBQ",
                 "widthPx": 1477,
                 "heightPx": 1108,
                 "authorAttributions": [
@@ -190,7 +203,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipO5LfEsVJXRyaq2QXugDtyKAmC87rML6JY7uZz9!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXLpsjTahzxpzh3kKMVxlKNJ2WEi8bfyqfGWMbpnSS4xNrFllx5UjnQju0d1p7VT6h6nGCSQgDqW6h4LbUUfqrt6t5wHImUNBzmAZ-K5tPu7m8RuYAE0uJgC0kPw59u3fo3udmtqUqzKrwPMCwmzdvbWE02MdKpdl7ffdn-OmPRk4dWqP9hYlgr2FMmsJs0gvcrtNhcJEDQRbW6iGB5SJZg2iFu52a-tIP2tvm5uz7BuIz_B1Jt_E12461by0AtWzDprx9HHs7Y5dSDVr3LcEIA1BTgcRWTte-gO1xNXEp9NP97a5U4NHyIGhXh5vULAJ51QLw_Rc6nuLbtlHNUTTE2k1otUJ5DKlyetNI1BJzpWLv6kA5l43NBi6pqu6hjG-7NfrBxUbJi36vBJCfN6_b8zHE1gGyhBXEX9h6uxr4SIM3L",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXjmxRmox_ou9dqUwJb8DdchOEULVyQXOx3UZy5QyU9COv74IvEkkcowhbhHl0fVA44o4aUygtea2EUs9Fw9MNmYdFQ0EdctdBGgC1CPyg__JvHx0-eOGxG8KMCWMdMpsUulzN34PYENwJ5IQIPk75BOnq-y6YBgwsI002ypAPXNDBU6CWDt0x7Pog0YfwSKEtff7fXrpN2gK3sXMkfH-TnRVwTsT1um9dCxi9EaB8GL7tRe3b7pvl_AujI79GxPhDDJC7OLaqBFCNL8aDx--WlAdd-r9T0QuoxHJrfFut_bvwX_eR0bVsBk97N6NyoQppHyZIxmEeSVGju5vrdn-c925mo-o05hTLoE9aXpr4IarMMg5Wr8Txl0Crj_Wu77HrQIoT0FP96J2rxjbNiadKpOzyxey0x792PbDdKe4s7ODbW",
                 "widthPx": 2992,
                 "heightPx": 2992,
                 "authorAttributions": [
@@ -204,7 +217,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIC9z4ST4QE!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUgZeXgbtgT6_arpRb635yZZTAGaEXKbTIgBcd0QLG5Whu9fcfdtlntXQnIwRoT85I8f2TGx0HYu6rQmOeanHpEE8UE3u51WQmtTId6LJRo7aKL4lI-2ZtNKIzxYGFXW0pYIuoU7b1f0GfT_t5sfUkAR6JyzyX1-xemJK3eN1r7pqQ6bnIv2pUTf958_yY7jz9IIWzwj7FLrt7Uc2qUGiw37M0vSkVAQ71DHiAUvWw_lAsPAYTmqO-1EvmhyitPD_mW0uVoxOeLJdzHlukEX_WuZf6mrQPSc54vqGkbKxr2IA",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfW4FWxX_6Zd-55_yFamRGAB4XbWH-uhfIKyCLtTRGkEvjdtfd9Lo8TPGhdTQCCgmIGD24kCmsZHN1rrv4KHGZdHkNFQku0EKTKI0MJNTfteGNxUca6bLTfM2tU0yr3MdQfBkO6CInb2ROX46Hd8MlWR7I2K7m4ghqJKNEKmEfweeRViS5tf-6efflChwrylwRw0I-6HPypE9pE199yohq5OyqhHtBui_WTXPcf8RpqdirHd_DnNcJFyT-08W0nsVexYdbPihhi_O2uYfxefXNSZBY8-3ic0iCNZHrc2UXtx-Q",
                 "widthPx": 1477,
                 "heightPx": 1108,
                 "authorAttributions": [
@@ -218,7 +231,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPHgxNoFt4CVb5c-2PWpOt3DZvUq43-3SEVwhFk!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUPzMo-PDvjo8Bx4weR-Oraegms36ZUOiOoTz1pr1Ot5-FFn08hxYzCtnwWoyqTC8qay5wvWWgM9rMDgyBOeVA1-1eg5Hf_9YsVXfTBZMmFPL5ODSXeo21LAnDQdQYr3TdJC_ixRTMRTzP6pMTQfwOR5KQKFI9bXvtcTYnf4ydVztJpAAUKIK7cE5-5a4pgiRnvVASPVYYRk46uz41y0zBzcm9_5VjJCO7MnUModhxQqmM5QzOuVptlEqYyAY2PV1CWgzx0R2C0cpPkiQzv-G5YYxARzgYL6R0l7t3QjRJqmQ",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfWFRKexWMnqHeHnWDhUojbsJQKCtG-2LFzFF7pVwVPdy4J31BXxvqVHocQ42HHUqMei72yU98CtHsUAG8On6gVQpFkDi0ApvYukY0sTX5MZ3dEcgSELavZ8EcgzlIGY0LILdNW0MX4YZHNrSUthQxq8EOhH9iozwA1TV_gQrfqemg40yVydzZjxgqfOET2bVpPOMuiuR1B8DrQbsSv5u9r38oUXS3kBhseGGk-MybQW7JeSfZ44yT20CjG3iKBVIxpnnuHtO-4MTncLm6Mn4lXS5XtNoMk4Xv7fSB9F1ZVyYw",
                 "widthPx": 1108,
                 "heightPx": 1477,
                 "authorAttributions": [
@@ -232,7 +245,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNu4OJXufn96DxUA-SgC9iA1ioUvV5nSwGKM4Rb!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXGSWXx8TZxWNpUENelfKnTuStcweLzLnOWziAkdTUXvbb31ChkNRhL6q6njUapeuqEjvfBxcyoVfr4kcymLIbK-C2vJQkyOTpFFWS_j8tLeqzO-eiXmYtPjn7DrLj0vwRJ4yIomDk4qsdAXgHh83cxA6ZvUJTUW8hVaPVLYVcpt6UJrkqcgWxdRVf8HrZrdzpas49N9Dd-Bsx56H4ilBsdyGVO3Ks-zJWHr9f58uLe7NV_2CbWSEQE8Q7mKzydeJNMy3ozgIeVaBbCK4cXg2DebZyGDqCFRfE6By3HVUPssw",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUD8c8XkyVSTw51Au6fbwmgxtNimRI-6Jfhrb-RNkN_hLRThSlR0c52IGnttf2M8f4Vf2MvUf4FojvLAPzGtmq_jUpzvPuXGt9GhgUJFm8p-PrDiYmDOQsxFJ5jcYdy3aqN55Sw-51eEX6spMyrxSFr_DZeYWgHMsqUE0vop-FJRUFr68VaozhgwH59Fbp_nLVDOAIxtEqRwNP_wbhpCqnILngEDKHEOHRyySKtBgvj6V9Jjzvc19IR8UTRIk1czG9cNZ-QvcvOoqhozTMSntHx1DZianPX41kHK8XuLegwiA",
                 "widthPx": 1108,
                 "heightPx": 1477,
                 "authorAttributions": [
@@ -246,7 +259,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipN-ZNEfhV6EgAvNGK9LFSW6JkspBqiAS5Z4u_PL!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfW1qs3wGb_eNG3pP1GmmrDSOM6cKB3QluCvR5qMFMvPUcP-qKKRQ7k7mIjEDEONN_n7lOhLnd448FgukdI3OayhkWNOllC1mlCkdrwGxzdM7Y5Guhwgws5MjAlhUYD1meC1y_1kgYKZaM6QXS2sdoGbjnzAubUY4Mi2-q-6lwcOajg-pKw18EolVHsesIlRg6m-f8iegHYg_gpEcEt_rTRgISCa71DZNU9F7Um7wE2dFXlY52eYFMmLitXkS3V7QUg60Pn7xmlcjf522OiHKI__RnXtI4t2xOSZ1OteNhLj6w",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfWU1qDJ_ZhJkY9mKrCXwSHFhuxjobA7dnrIQAEQukp5zn0T8jS_DuNWAdQl6SDwvnxKgH998J6dZppr17j_ZQQVO3IUsyUe7Aulr7xF8hrFx1FtEskjkvSm83a-6Y2Ru9t03NM3TwFXsAMUZObuhB_sGmhLAhj5st4p_tEbokMU6gLFayIhpId7RATXZyW62qPoQ30yIVeue2BduBoqSYebQBognzVfiXTmCX5NUyUJOTemPJl1_0hM4qbG_ycu6PfG5GSxiG7rxbw4ktebOGO8lKYST5Gl4rSXxvc7k8QW1g",
                 "widthPx": 1477,
                 "heightPx": 1108,
                 "authorAttributions": [
@@ -260,7 +273,7 @@
                 "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipP07DTMzdIGBx-yy-R7G9pox8tduAsmfJ0mbN2f!2e10!4m2!3m1!1s0x601e934f75b1b7a3:0x33c1b8e00d0ed25f"
             },
             {
-                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfUmqQIakoZQsulabl1rShwNwJ7NAH4u0X7G5ydOX6oRx2yVEWjowG8fO64vEoN-7uJKQPgoPq6jRQXEWN6PcHCAYEFhVMHO7zM-z480svhvQ-kjFRPniHaMa5fhP9rMsUDl61xZMB_R47-DRsmE9Q1DYKDb9IgG2XFGXja-qLAcyCntnm9-crOBUjEyaPOo7Z6jZ7t3VU7npWpJ5V2MU2rxBZSy0t_RLTku6EcQ9JJIDsL9o5zPN2lqPOk1UqHPPH55lkwsQ9ocbEupKVVXVkLS5QX5fVH0u9qu8P7gFRelCA",
+                "name": "places/ChIJo7exdU-THmARX9IODeC4wTM/photos/ATCDNfXbVx2XVaEEkOK8qivMIAPDu_kzKbtjiZRVGkO5g6KbYlNHYYumWREXExGjURDlroQ9mrCYlx0U1wKHiyJnZduxe6w7ZnUjy-bZAGuEBi4qoIToMb4dLmhvo27A8-V7j4_mVEpK_WWyzAbwu1UcX4DaUjHzFwg7HgNy9Y9MfPNoUdhlBGzTSvHRcZnCa75OiTjtEsrDdrQfjqb3s7gKO0l7eXBCo6hRB3fm-X_Wd5oAZ-17mchFwSvKOETsoQCtUg3M2SFopX9Oy_UH01iXeDZF38Ul-LQxjQcQiqtusB-0uA",
                 "widthPx": 3600,
                 "heightPx": 4800,
                 "authorAttributions": [

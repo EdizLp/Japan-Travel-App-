@@ -1,0 +1,506 @@
+{
+    "Tabelog": {
+        "name": "ベーカリー燈",
+        "rating": 3.63,
+        "address": "兵庫県姫路市本町68平和不動産ビル1F西",
+        "coords": [
+            34.83404107561008,
+            134.69198030044416
+        ],
+        "url": "https://tabelog.com/hyogo/A2805/A280501/28026604/",
+        "reservation_info": "Reservations available",
+        "opening_hours": [
+            {
+                "days": [
+                    "tue",
+                    "wed",
+                    "fri",
+                    "sat"
+                ],
+                "time_slot": "10:00 - 19:00"
+            },
+            {
+                "days": [
+                    "sun"
+                ],
+                "time_slot": "10:00 - 18:00"
+            },
+            {
+                "days": [
+                    "mon",
+                    "thu"
+                ],
+                "time_slot": "Closed"
+            }
+        ],
+        "reservation_availability": "Yes",
+        "operational_info": "Closed on Mondays and Thursdays (except for public holidays). Irregular holidays (announced on Instagram). Business hours and regular holidays are subject to change, so please check with the store before visiting."
+    },
+    "Google": {
+        "id": "ChIJ5fkA6wTgVDURBEx9v33yAa8",
+        "types": [
+            "bakery",
+            "hamburger_restaurant",
+            "american_restaurant",
+            "food_store",
+            "store",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "formattedAddress": "Japan, 〒670-0012 Hyogo, Himeji, Honmachi, ６８ 平和不動産ビル １ 階西",
+        "addressComponents": [
+            {
+                "longText": "１ 階西",
+                "languageCode": "ja"
+            },
+            {
+                "longText": "平和不動産ビル",
+                "shortText": "平和不動産ビル",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "ja"
+            },
+            {
+                "longText": "68",
+                "shortText": "68",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Honmachi",
+                "shortText": "Honmachi",
+                "types": [
+                    "sublocality_level_2",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "ja-Latn"
+            },
+            {
+                "longText": "Himeji",
+                "shortText": "Himeji",
+                "types": [
+                    "locality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Hyogo",
+                "shortText": "Hyogo",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Japan",
+                "shortText": "JP",
+                "types": [
+                    "country",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "670-0012",
+                "shortText": "670-0012",
+                "types": [
+                    "postal_code"
+                ],
+                "languageCode": "en"
+            }
+        ],
+        "location": {
+            "latitude": 34.834043199999996,
+            "longitude": 134.6919713
+        },
+        "viewport": {
+            "low": {
+                "latitude": 34.8327067197085,
+                "longitude": 134.69059056970852
+            },
+            "high": {
+                "latitude": 34.8354046802915,
+                "longitude": 134.6932885302915
+            }
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=12610627053511592964&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "websiteUri": "https://www.instagram.com/bakery_lamp",
+        "regularOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 18,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 2,
+                        "hour": 18,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 18,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 18,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 10,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 18,
+                        "minute": 0
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: Closed",
+                "Tuesday: 10:00 AM – 6:00 PM",
+                "Wednesday: 10:00 AM – 6:00 PM",
+                "Thursday: Closed",
+                "Friday: 10:00 AM – 6:00 PM",
+                "Saturday: 10:00 AM – 6:00 PM",
+                "Sunday: 10:00 AM – 6:00 PM"
+            ],
+            "nextOpenTime": "2026-02-22T01:00:00Z"
+        },
+        "utcOffsetMinutes": 540,
+        "adrFormatAddress": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒670-0012</span> <span class=\"region\">Hyogo</span>, <span class=\"street-address\">Himeji, Honmachi, ６８ 平和不動産ビル</span> １ 階西",
+        "businessStatus": "OPERATIONAL",
+        "priceLevel": "PRICE_LEVEL_MODERATE",
+        "userRatingCount": 1258,
+        "displayName": {
+            "text": "Lamp Bakery",
+            "languageCode": "en"
+        },
+        "currentOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 22
+                        }
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 22
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 1,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 23
+                        }
+                    },
+                    "close": {
+                        "day": 1,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 23
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 25
+                        }
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 25
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 27
+                        }
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 27
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 10,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 28
+                        }
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 18,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 2,
+                            "day": 28
+                        }
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: 10:00 AM – 6:00 PM",
+                "Tuesday: Closed",
+                "Wednesday: 10:00 AM – 6:00 PM",
+                "Thursday: Closed",
+                "Friday: 10:00 AM – 6:00 PM",
+                "Saturday: 10:00 AM – 6:00 PM",
+                "Sunday: 10:00 AM – 6:00 PM"
+            ],
+            "specialDays": [
+                {
+                    "date": {
+                        "year": 2026,
+                        "month": 2,
+                        "day": 23
+                    }
+                },
+                {
+                    "date": {
+                        "year": 2026,
+                        "month": 2,
+                        "day": 24
+                    }
+                }
+            ],
+            "nextOpenTime": "2026-02-22T01:00:00Z"
+        },
+        "primaryType": "bakery",
+        "photos": [
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfVrmdPbA2kawZcdQXXk1-E0gTAEDHG_24mumUO0MkdmlXIJiZ4uaTfrhrs_jnNf3CndbL1t17bzHpPDgmO3mCVmZ8VuiFRiiTPCbpPrRuQdmmyFDSQzhUhhCoBFaDSVRorQ3Pp12Qv5Ov8gagkLiiL8O2g6bdho1GLf31i1gE0mqn1xXUgWbVBLk1lugYifwqHFK0fk8FkbiA_sMQTJwWx9bkSEQAALoIviohOjRB3eGMCENQL65h3D2uh_hC5N02j9_fPXokgMiOXaeYiDnOANHjbWP7lPe3bXV47B87DLeg",
+                "widthPx": 700,
+                "heightPx": 936,
+                "authorAttributions": [
+                    {
+                        "displayName": "Bakery 燈 Lamp",
+                        "uri": "https://maps.google.com/maps/contrib/111387443333485621589",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKtQ7L-P58C8u8ik7UWbTKulUlyrqWas-akp4nV-IXV5eCeAQ=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPsHV28C5auvYReADMJSS9zyL8jvjDxagfal140&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPsHV28C5auvYReADMJSS9zyL8jvjDxagfal140!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfXp04HHfSCBiSHBSPSty3MgFB_-3gtHExn7nvxP48vj0edc7oqbLTjfNAdYmsfovLc9pnF50xNM3Nh8Pd0ZR9jxko5rjItH-u_phbYlKPi1n-wwQ8s4xoFp5U_-3SikFe7B32He81o3PBYbdDq44j30FahKVUcEzIpBaK0_ZI6_eqLcxuZyEXly09jBsF3HyrSVZrPESETIfAap8CkRtS3E9h4JbY_IdrgTqRyCO84u2Yfl9X6nZeoxF_lDRBR33DM-hvFufVMbUKCSBAfZcrbOVz2xqH7PUe8UFrVpwwAhOlxnH2V3tfVjGDpsn2l1gWFrxE4O2Fb3SDCxEwQtoxlJyAiXX9e1Jq05LKgNvd7a2WnFq5Crq1gLUM4JA3Nk3VuHUp6B8i-YBN529KdkgiY8bNwEH5Uh9bFpz6OWWgs49-nN1CHUtfGQIY9tAg",
+                "widthPx": 4800,
+                "heightPx": 3600,
+                "authorAttributions": [
+                    {
+                        "displayName": "Rory Macrae",
+                        "uri": "https://maps.google.com/maps/contrib/117978203937304214140",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWzc4vCTvDcgZNIoUwKYA9AKhfAqk8NSW7VcW2skgZSTbL-VfuG=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAYDFONZ4GmkiiKqPQSOFqU&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAYDFONZ4GmkiiKqPQSOFqU!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfWesGhOxtPFy2vWbyfc_GytnFvr-efKGYn3_XkCVzhO12-Jnc3JUX8TtLj4zfKQRxbRp-cAucZG924z1i3QjnzMv9DvLyTB24_fX8XSGGZ7gZ4Cca3UXGwmJcb2BIj2ZYH5b4VxFY04LxTpcO1leKQz1tsXbE-CETY2f-PjWyHxOOMwo7FKsDMQ5m5JJFcznFUjczWvBuESQGd4zYPOjzOlR3IQp2dgPPyF5Zn6NFjj5Lk-W3Q7uippyQffR-xN2ADc0V7wP_h5X4mtwb4cSzVPeT7gVKZACqeUrEC4gLEuyDqMVe2byGBdWCbsLL6QIDnpC-L1VnGGHLim5oC28L-dD3HAUyRllexfHAz9BoEMGuh8mlwHNPARoHpLa5cJ_L7WnUHFI98VPPJaPb-ciPCMSKqMAE0jWTWQc7yQoDuykGNmEtB3s5sNL-o4_dA8",
+                "widthPx": 4000,
+                "heightPx": 3000,
+                "authorAttributions": [
+                    {
+                        "displayName": "MEMENTO MORI",
+                        "uri": "https://maps.google.com/maps/contrib/100859585598492434884",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVq1PPVD5vGngXXpl4lZfsDJVL1V2tAKPT7HctUpyPXVrrbdoTp=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBv1BsNztXtW1MFUWJ296Fq&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBv1BsNztXtW1MFUWJ296Fq!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfW-_5AXE8IVE32npGtxfGyHlnH8QYcSpKTgDmqkaGx4SeremLr9MW_SGcv7fP1Z7-ul_iO9dcQJTgTdVu_E1zYWUVw3Zb_ClnZZwEZC4-bQITgDvjWcj0dDksIFnzov4livM6C3zUO4_EqeU30W0-aFbg-fnBVvfltbCwvEnSMeJiGS9GQ6O2mBRowqquPiXU3yqn1lHUInBvPp1VHhkVgH80bX5WxOTvxJSXanN7wEBQQz_5T9PMO-_MmsPBYCNkx_RTtazBkS4gN0eLdpOUsC1NIjYiXGiWW6v_n6sk8YnJqMQXCE5Jcw0bFPnJQJWTQ69JftYnV7-Lzni_FJbHJ7Ihevj0hxV6lmLDlETSwh6_BAzq9YKoESu8a5XfmQ10jzlbFP0e2jJRxUAvwkfF8JJPNJb-ff35ShmT6ZeXyB5TQ",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "gucci zabu",
+                        "uri": "https://maps.google.com/maps/contrib/116117718246177341041",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUjPoh2TCaVpG3RKmdL4gfJLlL7l1VoGAeoXFIv8htdkA0V9ooD=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMDwytqIvgE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDwytqIvgE!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfXu163K6b5pgOQTs_Ye4tclNBg2V_ZqhjSgovSE7VKlwtuBTjyMHtLUtyJLxiCsfIfHIlGTTn7KVlqYcj5giHRpqaUgqUqfRtY1hxv1s8OGkxB_b50TwUi3Pc6WTNjKau6WmkTKeMw8xfGkttrwsqN_-jcEyhfh_s8JcSkjj6sRQEOD1MbyonNyyGTn4VQ7iqBShuyQn3CzD4j2mqZmsC1fv0JrGU9fTlouQXQ1QnnnI3E4b-6Oj6iESM1h2ycabJCks4cCgZhNXgU78KvDgHuFsK5FrgqwM03qPlnE6XB0OxyoorW_fPg4oJ2bT-HHytXRYoqQ2GI_hAfNY6y-Dt2foKex8K7_AgnpjwM3OwgD1dUaFp1wVi9fZQCbdl7Szk7lQ80XS474pQ62-FFfmbldXJ0dGH1C6Vl9LI8ai3MlJfiKtV4aRfn3KVg_tp6V",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Rory Macrae",
+                        "uri": "https://maps.google.com/maps/contrib/117978203937304214140",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWzc4vCTvDcgZNIoUwKYA9AKhfAqk8NSW7VcW2skgZSTbL-VfuG=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBHahUyxWoXCIoXskpd5T6B&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBHahUyxWoXCIoXskpd5T6B!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfXa0MaU3Q6xDUqqzRL6qgGPNmhOR6cxV9egdAuZFMkQQDeaee3silUZ4ek7tbxtIs9_VsFSvuPDRvh8njHffnIZtTnr8whp0YciMOeK1V1DMYIzUCvJ2I13nSt12-OjYGvaI0mNfrYhKQd80U3WAqmAifmz73niCbHhhNFj0jlyfbFpqW8xYvbDWzhc1Xv1E0RQyRDzorqm6WJfKSmfC8s7peiStpD9LEy6_dTY9-FgKFTCEWzIp95PX5bErCG9b8_6whqJrJU5kCgJi3Atyqz0x6YmJO_y3Wm-l-TDWwc_4Y4C0RPGlUoHkedwPYcJm-PyT20BotivJ9GyK2_TC2OYfrMtwLkFTFCZO-yQNnQSCTOJ7iKHsv3Eiyqk4B3uRglDD3Lhnwf7tG1YTBd2seWCz3T2r0XLDqiSmGjN4blC88zg89SfUukdHW8WPA4_",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "王瑾媃",
+                        "uri": "https://maps.google.com/maps/contrib/106682863347572125271",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjV_j2ZHNAz1JlYwSscQK5owe09SGUY_iL31bBYHMNSbJaZ0SM4=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhD73ETROqZDjaZmMtmzzP_l&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhD73ETROqZDjaZmMtmzzP_l!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfW77zgCBH6AtmwVx7kNsz1Qs4CuBmIcwBsfbP3E7MPk9KQycHCMIQ3mKa9D9TQGvGchJYreBjffCxoAZye3LR9vbBX6lYiUBOXg7h4bDV36bTR8UzFxmuY0RFXnfmVgmdk39We6GvGODNndL0qiBo_2yP8zlox6KThTVwYkJfBGgqRU66Hv7lBTUM6uw93mKq63iojLCw6FBBocl4it4T-XnfYDQV53e3CPFsDOnzCKRipfNgi0ycCL_Gg0bioaLCcYqrnsFLa-W-QMCNApA8UF7i9rV6Pi0ErTy6JGoHNu_0_XIxRfhLOoiHO_2m-OYItjZzniYspx482G-ocF9VJDP4f4_l-RKHnZapoNI98Xd7aQoPPxdiC6gd03pQcjiAc1p5iyFvV-vlXrHcTSyi4E0wuLH5iSfmEJ49a4i3mj3fSArOJatOAySsro3JSA",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "Yuki",
+                        "uri": "https://maps.google.com/maps/contrib/112343501672944535569",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVFVomENCk2XeZphLtJ0v8Q9o3dFX78W-wHT5pXfdsAYcTXuUc=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhB9SAZOeZoiZ6DNCUr7XEZA&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB9SAZOeZoiZ6DNCUr7XEZA!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfWNFHe3lPbHZper55tUOS3e3ms-rHpgOAwKMil02jh5cPoysLI9rszpOxKrWfs7ICGxJ-p0w5-CcUK07fmyWLsuQlSi8D1EWDYzs-kH_6A_bJi3cWyDyGpphFtTq3K-wzbgeN21QaknUc_BH3EbWy3MXeVDB3xVcm7YQWOVsckA0M_7SUu8TkCrugd-9ze8mWflcN1PS4mZf0xTmVyeI3L_-rznLWPaBeU4q6UVTfyJ40d2Yg1GETd0YGo2zG0WBwszBcEvs9eT3OpQA-IGWC611jx5JS4ErKWNjS2D50f38Fq3Yt8cNZrqsTGaN0CLDvpNpI1lc9oat290KfAvlHo3H9F181_iFICDqt3L9nAYXS_ouseJOQmrzGYMAdDkAY7SyUKCes1kuRzDfdaV3il0W5gVl7tZS-dM_zqgcWO6Z4zaEoJKMKscOEyhpadG",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "白鳥勝巳",
+                        "uri": "https://maps.google.com/maps/contrib/102777364347990512410",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWOsmNsCOy2SgkKPSwvi7uKowhNUpqrHA3ujLKrKG-NBzBXEqA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhCFWwnuFCo0EoieqxruV3MZ&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhCFWwnuFCo0EoieqxruV3MZ!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfUz-P8o1jTn1CW7RxfbmeztQQjEGnnUg8B3mORIwPACzCv_cIuoY4MdHHrOGMuFS4QlGDSljKHS2KBPSX91shPtKXCpoPMIYM7tEK6tLB2h51P8vAfjzNbpvTqanje_1xncRh4_69BGb7N-ZzhZCb3rOtf00PyEtSHyq_mpafpfg-VdtZLm0WEqRrl_bjDFxNqWqx9KaAbT01ZjJupSYpZaMjQPd7ABEFkl-q3uzdj6KIAeBgUUjZs37Sd33SO6YjLIGe2hplexEQeycFSL_8QwaEr4kgT2wOhArJavWC96-DDdHdslmHidKEK5QvxJkiWafSD0lfRghyCRp-16_8_VajmBI9xxmZd9OekfJFjzKYsqH7Losg8iD6yTf87vlAGR52u5RS0ya7c5oUq979zJPQ80M-15Gk034P63SOtchDzx2mRshbPP5Lplrw",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "몽상몽상",
+                        "uri": "https://maps.google.com/maps/contrib/103291678408156596673",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUCPAQLOieyjzQKMKkRitMyHPPffU-_9JWW1vye_CzGSLl3KXA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhDbKaP-KkW9wUUEfnIbLlvO&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhDbKaP-KkW9wUUEfnIbLlvO!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            },
+            {
+                "name": "places/ChIJ5fkA6wTgVDURBEx9v33yAa8/photos/ATCDNfWJAYy9MID5N6SUxHqGhq9aqbKzQs1hNh7mAeyBwAI58nWUWTGqrxISLLW5Kzuupc-Mm7mTUZiQ-blPhJ9UGHa7HLDQrTfFkAEEQFKHpZXrrBK8JJzW38uw4BdLZaxVuSf4ltpNgquycGfbmccyqsUMNjxRgyN84gXhMLhCUHpEgI5Zx70K1La-49TyBFF979wsiFwXFK8hlOiqnIeYVPlGIsov7FVuS6aBNSl04MgpKMPbUQwSvvbmrJ8mrKxiEf2KK-HNLfJ_9kK7ZYmnoTQjSLV4KXc4TXs7tLIn-sbienhls9_CpCU8hdElZG-iqhfiwJltMv4DQDiwL9M5KwVxMG2UeeVKzdHkTIHrEPy3vV6U8NRsw_ZoFxnp1C-kyE5cruQUm-RJerrBOmN5B5Vhh09HgeLoT5FzEIRy-JncspeBP6WuPEMH5380sBhK",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "Yuki",
+                        "uri": "https://maps.google.com/maps/contrib/112343501672944535569",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjVFVomENCk2XeZphLtJ0v8Q9o3dFX78W-wHT5pXfdsAYcTXuUc=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhAbbjDQE8Srvbc9nc4fqWBu&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhAbbjDQE8Srvbc9nc4fqWBu!2e10!4m2!3m1!1s0x3554e004eb00f9e5:0xaf01f27dbf7d4c04"
+            }
+        ]
+    }
+}

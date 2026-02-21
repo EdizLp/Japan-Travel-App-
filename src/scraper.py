@@ -64,14 +64,14 @@ class TabelogScraper:
         return reservation_info
 
     
-    def find_restaurant_rating(self, soup: BeautifulSoup) ->  float | str:
-        """This method returns the restaurant rating as a float, it will return "N/A" if the rating could not be found"""
+    def find_restaurant_rating(self, soup: BeautifulSoup) ->  float:
+        """This method returns the restaurant rating as a float, it will return -1.0 if the rating could not be found"""
 
         restaurant_rating_score = soup.find("span", class_= "rdheader-rating__score-val-dtl") #if soup cannot find the rating then it will return none
         try:
             rating_of_restaurant = float(self._safe_get_text(restaurant_rating_score))
         except ValueError:
-            rating_of_restaurant = "N/A"
+            rating_of_restaurant = -1.0
            
         
         return rating_of_restaurant
@@ -180,17 +180,22 @@ class TabelogScraper:
 
         #This prompt is for gemini
         prompt = f"""
-        TASK: Extract and translate restaurant data to english.
-        SOURCE TEXT:\n
+            TASK: Extract and translate Japanese restaurant data to English.
 
-        Reservation Information: {info["reservation"]}\n
-        Opening Hours: {info["opening_hours"]}
+            SOURCE TEXT:
+            Reservation Info: {info["reservation"]}
+            Opening Hours Raw Text: {info["opening_hours"]}
 
-        INSTRUCTIONS:
-        - Use "N/A" for missing fields.
-        - Use 24-hour time format exclusively.
-        """
+            CRITICAL EXTRACTION RULES:
+            1. MANDATORY STRUCTURE: Every entry in 'opening_hours' MUST be an object. You are FORBIDDEN from returning an empty array if any time data exists.
+            2. DAY MAPPING: You MUST map every time slot to specific days. Use these exact codes: ["mon", "tue", "wed", "thu", "fri", "sat", "sun"].
+            3. NO SKIP RULE: If the text says 'Everyday', you MUST list all 7 day codes. If a day is not mentioned, check 'operational_info' for closing rules.
+            4. SPLIT SHIFTS: If a restaurant has Lunch and Dinner (e.g., 11:00-14:00 and 17:00-21:00), you MUST create TWO separate objects in the 'opening_hours' array.
+            5. FORMATTING: Use 'HH:MM - HH:MM'. If the closing time is missing, use 'HH:MM - N/A'.
 
+            If you cannot find specific hours, do not leave 'opening_hours' empty; instead, use 'N/A' for the time_slot and list all days.
+            """
+        
         config = {"response_mime_type": "application/json"}      #Config for our gemini request
         
         tabelog_translation = self.ai.process_json(prompt, config, self.schema)    
