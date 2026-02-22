@@ -209,9 +209,50 @@ class SupaFormatter:
         list_of_formatted_data = []
         
         for data in list_of_data:
-            print(f"We are on {data['Google']['id']}")
             list_of_formatted_data.append(self.format_master_list(data))
         return list_of_formatted_data
+
+
+
+    def format_supabase_time(self, supa_data:list) -> list:
+        list_of_formatted_times = []
+        
+
+        for place in supa_data:
+            google_id = place.get("google_id")
+
+            for day_int, day in enumerate(self.days):
+                time_period = place.get(f"tabelog_hours_{day}")
+
+                if not time_period: 
+                    continue
+                time_period = time_period.lower()
+                if time_period in ["closed", "n/a"]:
+                    continue
+
+                substring_list = time_period.split("and")
+                for string in substring_list:
+                    if "n/a" not in string:
+                        time_range = self.convert_supa_time(string.strip())
+                        list_of_formatted_times.append({"google_id" : google_id, "day_of_week" : day_int, "time_range" : time_range})
+
+        return list_of_formatted_times
+                   
+
+    def convert_supa_time(self, time_string:str) -> str:
+        time_string = time_string.replace(":", "")
+        time_string_list = time_string.split(" - ")
+        open_time = int(time_string_list[0])
+        closed_time = int(time_string_list[1])
+        if closed_time < open_time:
+            closed_time = closed_time + 2400
+
+        
+        time_range = f"[{open_time}, {closed_time})"
+
+        return time_range
+    
+
 
     def testing(self, full_data):
         """You can choose what specific data u want to test, I believe supabase has a way to check as well but this is almost a pre_check."""

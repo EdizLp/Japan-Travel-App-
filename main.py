@@ -44,6 +44,20 @@ def main() -> None:
 
 
     supaa = SupaMethods(supabase_client)
+    supa_format = SupaFormatter()
+    
+            
+
+    res = supaa._fetch_data("master_restaurant_list", ["google_id", "tabelog_hours_mon","tabelog_hours_tue","tabelog_hours_wed","tabelog_hours_thu","tabelog_hours_fri","tabelog_hours_sat","tabelog_hours_sun"])
+    data = res.data
+    info = supaa._upsert("restaurant_opening_times", supa_format.format_supabase_time(data))
+    print(info)
+
+
+    
+    
+            
+def spare():
     json_list = []
     supa_form = SupaFormatter()
     file_path = f"./data/url_map.json"
@@ -55,19 +69,9 @@ def main() -> None:
  
     
 
-    supa_list_upload = supa_form.format_multiple_lists(json_list)
-    uploaded = supaa._upsert("master_restaurant_list", supa_list_upload)
-    print(uploaded)
-            
-
-    #data = supaa._fetch_data("master_restaurant_list", ["tabelog_hours_mon","tabelog_hours_tue","tabelog_hours_wed","tabelog_hours_thu","tabelog_hours_fri","tabelog_hours_sat","tabelog_hours_sun"])
-    #print(data)
-
-
-    
-    
-            
-
+    #supa_list_upload = supa_form.format_multiple_lists(json_list, format_master_list )
+    #uploaded = supaa._upsert("master_restaurant_list", supa_list_upload)
+    #print(uploaded)
 
 
 if __name__ == '__main__': #Will only run when main is ran, not imported. 

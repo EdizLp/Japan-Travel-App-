@@ -20,20 +20,9 @@
                     "sat",
                     "sun"
                 ],
-                "time_slot": "12:00 - N/A"
-            },
-            {
-                "days": [
-                    "mon",
-                    "tue",
-                    "wed",
-                    "thu",
-                    "fri",
-                    "sat",
-                    "sun"
-                ],
-                "time_slot": "18:00 - 19:00"
+                "time_slot": "12:00 - 19:00"
             }
+            
         ],
         "reservation_availability": "Yes",
         "operational_info": "Irregular holidays"
