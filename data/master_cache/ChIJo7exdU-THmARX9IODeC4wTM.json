@@ -9,8 +9,7 @@
         ],
         "url": "https://tabelog.com/tokyo/A1317/A131702/13319265/",
         "reservation_info": "N/A",
-        "opening_hours": [
-            {
+        "opening_hours": [{
                 "days": [
                     "mon",
                     "tue",
@@ -21,8 +20,7 @@
                     "sun"
                 ],
                 "time_slot": "N/A"
-            }
-        ],
+            }],
         "reservation_availability": "N/A",
         "operational_info": "N/A"
     },

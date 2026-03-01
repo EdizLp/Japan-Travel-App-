@@ -27,8 +27,7 @@ class GooglePlacesManager:
         return response
     
     def find_restaurant_by_coords(self, info = dict) -> dict: 
-        """
-        Given a dictionary that contains the coords and name of a restaurant
+        """Given a dictionary that contains the coords and name of a restaurant
         This will find the google information via the google places api. 
         """
         

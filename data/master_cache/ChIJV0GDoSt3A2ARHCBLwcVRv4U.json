@@ -20,8 +20,9 @@
                     "sat",
                     "sun"
                 ],
-                "time_slot": "16:00 - 00:00"
+                "time_slot": "16:00 - 02:00"
             }
+                
         ],
         "reservation_availability": "Yes",
         "operational_info": "Business hours are subject to change. Please see the restaurant's website calendar for details. Irregular holidays / Event days (see restaurant website for details)."

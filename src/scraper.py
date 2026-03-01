@@ -8,7 +8,9 @@ class TabelogScraper:
         self.ai = ai_manager
     
     def _safe_get_attribute(self, tag: Tag | None, attribute: str) -> str:
-        """Safely gets an attribute (like 'href' or 'src') from a Tag."""
+        """Safely gets an attribute (like 'href' or 'src') from a Tag.
+            Returns "N/A" if nothing found.
+        """
         try:
             attribute_string =  tag[attribute]
         except (ValueError, AttributeError):
@@ -76,10 +78,6 @@ class TabelogScraper:
         
         return rating_of_restaurant
 
-    
-
-
-    
 
 
     def find_restaurant_coords(self, soup: BeautifulSoup) -> tuple | str:
@@ -165,6 +163,8 @@ class TabelogScraper:
             
         
         translated_info = self.translate_information(info_to_translate)
+
+        
         core_information["reservation_availability"] = translated_info["reservations_availability"]
         core_information["reservation_info"] = translated_info["reservation_info"]
         core_information["opening_hours"] = translated_info["opening_hours"]
