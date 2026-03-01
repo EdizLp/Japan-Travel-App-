@@ -8,14 +8,54 @@ const SignUp = () => {
   const [password, setPassword] = useState('');
   const [loading, setLoading] = useState(false);
   const [message, setMessage] = useState('');
+  const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleSignUp = async (e) => {
     e.preventDefault();
-    setLoading(true);
-    const { error } = await supabase.auth.signUp({ email, password });
     
-    if (error) setMessage(error.message);
-    else setMessage('Success! Check your email to confirm.');
+    setMessage('');
+
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      setMessage("Error: Invalid email");
+      setLoading(false);
+      return;
+    }
+
+    if (password !== confirmPassword) {
+      setMessage("Error: Passwords do not match.");
+      return; // Stop the function here
+    }
+    if (password.length < 8) {
+      setMessage("Error: Password must be at least 8 characters.");
+      return;
+    }
+
+
+    const specialCharRegex = /[!@#$%^&*(),.?":{}|<>]/;
+    if (!specialCharRegex.test(password)) {
+      setMessage("Error: Password must contain at least one special character (example: ! @ # $).");
+      return; 
+    }
+    
+    setLoading(true);
+
+    const { data, error } = await supabase.auth.signUp({
+      email: email,
+      password: password,
+    });
+    
+    if (error) {
+      setMessage(`Error: ${error.message}`);
+    } else if (data?.user?.identities?.length === 0) {
+    // Supabase found the email but didn't create a new identity 
+
+      setMessage("Error: This email is already registered. Please login.");
+    } else {
+      setMessage('Success! Please check your email for a confirmation link.');
+    }
+    
     setLoading(false);
   };
 
@@ -33,7 +73,7 @@ const SignUp = () => {
         <div className="login-form-container">
           <h1>Join JapanDB</h1>
           
-          <form onSubmit={handleSignUp}>
+          <form onSubmit={handleSignUp} noValidate>
             <div className="input-group">
               <input 
                 type="email" 
@@ -41,6 +81,9 @@ const SignUp = () => {
                 value={email} 
                 onChange={(e) => setEmail(e.target.value)} 
                 required 
+                className={
+                  message.toLowerCase().includes('email') && message.includes('Error') ? 'input-error' : ''
+                }
               />
             </div>
             <div className="input-group">
@@ -48,17 +91,35 @@ const SignUp = () => {
                 type="password" 
                 placeholder="Create Password" 
                 value={password} 
-                onChange={(e) => setPassword(e.target.value)} 
+                onChange={(e) => setPassword(e.target.value)}
                 required 
+                className={message.toLowerCase().includes('password') ? 'input-error' : ''}
+              />
+            </div>
+            <div className="input-group">
+              <input 
+                type="password" 
+                placeholder="Confirm Password" 
+                value={confirmPassword} 
+                onChange={(e) => setConfirmPassword(e.target.value)} 
+                required 
+                className={message.toLowerCase().includes('password') ? 'input-error' : ''}
               />
             </div>
 
             <button type="submit" className="primary-btn" disabled={loading}>
-              {loading ? 'Creating Account...' : 'Sign Up'}
+              {loading ? <div className="spinner"></div>: 'Sign Up'}
             </button>
           </form>
-
-          {message && <p style={{ color: '#0066ff', marginTop: '10px', textAlign: 'center' }}>{message}</p>}
+        
+          {message &&(
+            <div className="auth-message-container">
+              <p className={message.includes('Error') ? 'error-text' : 'success-text'}>
+                {message}
+              </p>
+              
+            </div>
+          )}
 
           <div className="divider">Or Continue With </div>
 
@@ -68,16 +129,15 @@ const SignUp = () => {
           </button>
 
           <p className="signup-prompt">
-            Already have an account? <a href="/login">Log in</a>
+            Already have an account? <Link to="/login">Login</Link>
           </p>
         </div>
       </div>
 
       {/* Right Side: The Decorative Gradient (Hidden on Mobile) */}
       <div className="login-right">
-        <div style={{ textAlign: 'center', padding: '2rem' }}>
-          <h2>Discover the best of Japan</h2>
-          <p>Your personal restaurant guide.</p>
+        <div className="image-placeholder">
+          [Your 3D Graphic Here]
         </div>
       </div>
     </div>

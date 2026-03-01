@@ -1,0 +1,256 @@
+/* Page Layout */
+.table-page-wrapper {
+  padding: 2rem;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #333;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.table-header {
+  display: flex;
+  justify-content: center; /* Centers the title */
+  align-items: center;
+  position: relative; /* Required to pin the buttons to the right */
+  margin-bottom: 1.5rem;
+}
+
+.table-header h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.table-actions {
+  display: flex;
+  gap: 10px;
+  position: absolute;
+  right: 0; /* Keeps buttons on the right without breaking the centered title */
+}
+.header-title-container {
+  text-align: center;
+}
+
+.header-title-container h1 {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.header-subtitle {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+/* Buttons */
+.btn-primary, .btn-secondary {
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.2s;
+}
+
+.btn-primary {
+  background-color: #000;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+}
+
+.btn-secondary {
+  background-color: #f3f4f6;
+  color: #374151;
+  border: 1px solid #d1d5db;
+}
+
+.btn-secondary:hover {
+  background-color: #e5e7eb;
+}
+
+/* Spreadsheet Container & Table */
+.spreadsheet-container {
+  overflow-x: auto;
+  overflow-y: auto;
+  max-height: 70vh; /* Keeps the table scrollable on smaller screens */
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+  background: white;
+}
+
+.spreadsheet-table {
+  width: 100%;
+  border-collapse: collapse;
+  white-space: nowrap; /* Keeps text from wrapping weirdly like Excel */
+}
+
+/* Headers */
+.spreadsheet-table th {
+  background-color: #f9fafb;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 12px 16px;
+  text-align: center; /* Changed from left to center */
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #4b5563;
+  border-bottom: 2px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+}
+
+/* Cells */
+.spreadsheet-table td {
+  padding: 10px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #e5e7eb;
+  font-size: 0.95rem;
+  color: #111827;
+  text-align: center; 
+}
+
+/* --- NEW: Freezes the first column (Restaurant Name) --- */
+.spreadsheet-table th:nth-child(1),
+.spreadsheet-table td:nth-child(1) {
+  position: sticky;
+  left: 0;
+  background-color: white; /* Keeps text from bleeding through */
+  z-index: 2; /* Keeps it above scrolling cells */
+  border-right: 2px solid #e5e7eb; /* Slightly thicker border to show it's frozen */
+}
+
+/* Ensure the frozen header stays above the frozen cells */
+.spreadsheet-table th:nth-child(1) {
+  z-index: 3; 
+  background-color: #f9fafb;
+}
+
+.spreadsheet-table td:hover {
+  outline: 2px solid #6366f1; /* Bold Indigo Color */
+  outline-offset: -2px; /* Pulls the border INSIDE the cell so it doesn't shift the table */
+  cursor: context-menu;
+}
+
+/* Remove right border on the last column to look cleaner */
+.spreadsheet-table th:last-child,
+.spreadsheet-table td:last-child {
+  border-right: none;
+}
+
+/* Row Hover Effect */
+.spreadsheet-table tbody tr:hover {
+  background-color: #f3f6f9;
+}
+
+/* --- NEW: Right-Click Menu Styles --- */
+.custom-context-menu {
+  position: absolute;
+  background: white;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  padding: 6px 0;
+  z-index: 9999;
+  min-width: 200px;
+}
+
+.menu-item {
+  padding: 10px 16px;
+  font-size: 0.9rem;
+  color: #374151;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menu-item:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+/* --- MODAL & FORM STYLES --- */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 400px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.modal-content h2 {
+  margin-top: 0;
+  margin-bottom: 1.5rem;
+}
+
+.radio-group {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 1.5rem;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #374151;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-input:focus {
+  border-color: #111827;
+  box-shadow: 0 0 0 1px #111827;
+}
+
+/* --- ERROR STATES --- */
+.form-input.input-error {
+  border-color: #ef4444; /* Red border */
+}
+
+.form-input.input-error:focus {
+  border-color: #ef4444; 
+  box-shadow: 0 0 0 1px #ef4444; /* Red highlight on focus */
+}
+
+.error-message {
+  color: #ef4444;
+  font-size: 0.85rem;
+  margin-top: 6px;
+  font-weight: 500;
+}
+
+.modal-actions {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
