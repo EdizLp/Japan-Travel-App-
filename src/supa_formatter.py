@@ -5,7 +5,8 @@ from .utils import list_to_string
 class SupaFormatter:
     """This class handles formatting things to upload to my supabase"""
     def __init__(self):
-        self.export = {}  
+        self.export = {}
+        self.time_export = []  
         self.days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
         self.simple_exports = [
                             ("Google", [
@@ -44,8 +45,13 @@ class SupaFormatter:
         
         return list_to_format
         
-    def _extract_tabe_hours(self, data_source: dict) -> None:
-
+    def extract_tabe_hours(self, data_source: dict) -> dict:
+        """This returns the dictionary containing the opening hours in the form 
+        {"Mon":Operational Hours,
+         "Tue":Operational Hours,
+          ...
+         "Sun":Operational Hours " }
+        """
         opening_hours_dic = {}
         opening_hours = data_source.get("opening_hours")
         if not opening_hours or opening_hours == "N/A":
@@ -62,10 +68,11 @@ class SupaFormatter:
                 opening_hours_dic[days]  = list_to_string( separator=" and ",  my_list=hours_formatted)
             else:
                 opening_hours_dic[days] = "N/A"
-
-        return self.opening_hours_pretty(opening_hours_dic)
+        self.export["opening_hours"] = self.opening_hours_pretty(opening_hours_dic)
+        return opening_hours_dic
     
     def opening_hours_pretty(self, opening_hours_dic):
+        """Returns opening hours for the DB as a string"""
         new_dict = {}
         closed_days = ""
         na_days = ""
@@ -85,7 +92,9 @@ class SupaFormatter:
                 na_days += f"{days}\n{time}"
             else:
                 open_days += f"{days}\n{time}\n\n"
-
+        
+        return (f"{open_days}{closed_days}{na_days}")
+    
     def _extract_tabe_coords(self, data_source: dict) -> bool:
         """This extracts the coordinates scraped from tabelog and formats them as a list"""
         if data_source["coords"] == "N/A":
@@ -104,7 +113,7 @@ class SupaFormatter:
 
         price_level = data_source.get("priceLevel")
         if price_level:
-            self.export["price_level"] = price_level.replace("PRICE_LEVEL_", "").capitalize()
+            self.export["price_level"] = (price_level.replace("PRICE_LEVEL_", "").capitalize()).replace("_", " ")
             return True
 
         return False
@@ -183,14 +192,14 @@ class SupaFormatter:
             for day in self.days:
                 if day_prefix == day:
                     # Split at the first ": " and take everything after it
-                    self.export[f"google_hours_{day}"] = day_string.split(": ", 1)[1]
+                    self.export[f"google_hours_{day.lower()}"] = day_string.split(": ", 1)[1]
                     break
 
         
 
 
 
-    def prep_establishment_data(self, full_data: dict) -> dict:   
+    def convert_to_supa(self, full_data: dict) -> dict:   
         """Formats data pulled from google and tabelog to send to supabase""" 
         self.export = {}
 
@@ -203,8 +212,6 @@ class SupaFormatter:
             for field_tuple in field_list:
                 self._extract_simple_data(source_data, field_tuple)
 
-        ####split this up, this will prep establishment data, it will clear the export, do the time stuff(One part), then do the simple stuff (Another part), then do the odd fields (Split into google and tabelog)
-        #So you'd have 4 parts. from this. Sort this shit out lmao, test it. Make sure its ready to upload. 
         google_data = full_data.get("Google")
         tabe_data = full_data.get("Tabelog")
 
@@ -218,17 +225,24 @@ class SupaFormatter:
             self._convert_google_hours(google_data) 
         if tabe_data:
             self._extract_tabe_coords(tabe_data)
-            self._extract_tabe_hours(tabe_data) 
-    
-        return self.export
+            opening_hours = self.extract_tabe_hours(tabe_data) 
+            self.prep_db_time_filter(google_data["id"], opening_hours)
+
+        return
 
 
-    def format_multiple_lists(self, list_of_data: list) -> list:
-        list_of_formatted_data = []
+    def prep_supa_data(self, list_of_website_data: list) -> list:
+        """Given a list of formatted json data (From Tabelog and Google)
+        return two sets of data ready to upload, one for the main table
+        one for the time index table
+        """
+        master_list_data = []
+        self.time_export = []
         
-        for data in list_of_data:
-            list_of_formatted_data.append(self.prep_establishment_data(data))
-        return list_of_formatted_data
+        for data in list_of_website_data:
+            self.convert_to_supa(data)
+            master_list_data.append(self.export)
+        return master_list_data, self.time_export
 
 
 
@@ -236,7 +250,6 @@ class SupaFormatter:
         """This method takes a google_id and dictionary in the format {Day:Opening hours} and preps it for the time filtering table for db
         Data is ready to upload once it has been returned from here 
         """
-        list_of_formatted_times = []
         
         for day_int, day in enumerate(opening_hours):
             time_period = opening_hours.get(day).lower()
@@ -249,9 +262,8 @@ class SupaFormatter:
             for string in substring_list:
                 if "n/a" not in string:
                     time_range = self.time_period_past_24hr(string.strip())
-                    list_of_formatted_times.append({"google_id" : google_id, "day_of_week" : day_int, "time_range" : time_range})
-        
-        return list_of_formatted_times
+                    self.time_export.append({"google_id" : google_id, "day_of_week" : day_int, "time_range" : time_range})
+
                    
 
     def time_period_past_24hr(self, time_string:str) -> str:
@@ -271,14 +283,6 @@ class SupaFormatter:
         return time_range
     
 
-
-    def testing(self, full_data):
-        """You can choose what specific data u want to test, I believe supabase has a way to check as well but this is almost a pre_check."""
-        google_data = full_data.get("Google")
-        tabe_data = full_data.get("Tabelog")
-        self._extract_tabe_hours(tabe_data)  
-
-        print(self.export)
 
         
 

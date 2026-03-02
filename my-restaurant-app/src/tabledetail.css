@@ -26,6 +26,7 @@
   position: absolute;
   right: 0; /* Keeps buttons on the right without breaking the centered title */
 }
+
 .header-title-container {
   text-align: center;
 }
@@ -80,12 +81,38 @@
   border-radius: 8px;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
   background: white;
+  background-color: #f9fafb; /* same as header / table bg */
+  
 }
 
-.spreadsheet-table {
-  width: 100%;
+/* --- FORCE TABLE LAYOUT FOR RESIZING --- */
+.spreadsheet-table, .master-table {
   border-collapse: collapse;
-  white-space: nowrap; /* Keeps text from wrapping weirdly like Excel */
+  table-layout: fixed; /* THIS IS CRITICAL FOR RESIZING */
+  width: 1px; /
+}
+/* Force cells to respect width and truncate long text */
+.spreadsheet-table th,
+.spreadsheet-table td {
+  min-width: 0;
+  white-space: nowrap;       /* Keeps text strictly on a single line */
+  overflow: hidden;          /* Hides any text that spills past your custom width */
+  text-overflow: ellipsis;   /* Adds the "..." to the end of cut-off text */
+}
+
+/* Ensure the inputs in TableDetail don't overflow the cell when editing */
+.cell-edit-input {
+  width: 100%;
+  box-sizing: border-box;
+}
+/* --- OVERFLOW AND ELLIPSIS FOR ALL CELLS --- */
+.spreadsheet-table th, .spreadsheet-table td,
+.master-table th, .master-table td {
+  min-width: 0;
+  position: relative; /* Required for the absolute resizer */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds the "..." when text is cut off */
+  white-space: nowrap; /* Keeps text from wrapping weirdly */
 }
 
 /* Headers */
@@ -95,7 +122,7 @@
   top: 0;
   z-index: 1;
   padding: 12px 16px;
-  text-align: center; /* Changed from left to center */
+  text-align: center;
   font-weight: 600;
   font-size: 0.9rem;
   color: #4b5563;
@@ -105,6 +132,7 @@
 
 /* Cells */
 .spreadsheet-table td {
+  min-width: 0;
   padding: 10px 16px;
   border-bottom: 1px solid #e5e7eb;
   border-right: 1px solid #e5e7eb;
@@ -113,14 +141,15 @@
   text-align: center; 
 }
 
-/* --- NEW: Freezes the first column (Restaurant Name) --- */
+/* --- OLD: Freezes the first column (Fallback) --- */
 .spreadsheet-table th:nth-child(1),
 .spreadsheet-table td:nth-child(1) {
+  min-width: 0;
   position: sticky;
   left: 0;
-  background-color: white; /* Keeps text from bleeding through */
-  z-index: 2; /* Keeps it above scrolling cells */
-  border-right: 2px solid #e5e7eb; /* Slightly thicker border to show it's frozen */
+  background-color: white; 
+  z-index: 2; 
+  border-right: 2px solid #e5e7eb; 
 }
 
 /* Ensure the frozen header stays above the frozen cells */
@@ -130,6 +159,7 @@
 }
 
 .spreadsheet-table td:hover {
+  min-width: 0;
   outline: 2px solid #6366f1; /* Bold Indigo Color */
   outline-offset: -2px; /* Pulls the border INSIDE the cell so it doesn't shift the table */
   cursor: context-menu;
@@ -138,11 +168,13 @@
 /* Remove right border on the last column to look cleaner */
 .spreadsheet-table th:last-child,
 .spreadsheet-table td:last-child {
+  min-width: 0;
   border-right: none;
 }
 
 /* Row Hover Effect */
-.spreadsheet-table tbody tr:hover {
+.spreadsheet-table tbody tr:hover,
+.master-table tbody tr:hover {
   background-color: #f3f6f9;
 }
 
@@ -182,7 +214,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 1000;
+  z-index: 9999; /* Ensure modals are ALWAYS on top of frozen columns */
 }
 
 .modal-content {
@@ -253,4 +285,284 @@
   gap: 10px;
   justify-content: flex-end;
   margin-top: 2rem;
+}
+
+/* --- MASTER LIST SPECIFIC --- */
+.btn-add {
+  background-color: #10b981; 
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  width: 100%;
+}
+
+.btn-add:hover {
+  background-color: #059669;
+}
+
+.message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 4px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.success-text {
+  background-color: #d1fae5;
+  color: #065f46;
+}
+
+.error-text {
+  background-color: #fee2e2;
+  color: #991b1b;
+}
+
+/* --- MULTI-SELECT & FLOATING BAR --- */
+.checkbox-cell {
+  width: 40px;
+  text-align: center !important;
+  padding: 0 !important; /* Remove default padding so the label can fill the space */
+}
+
+.custom-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  accent-color: #6366f1; /* Indigo color for checkboxes */
+}
+
+.floating-action-bar {
+  position: fixed;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #1f2937; /* Dark gray/black */
+  color: white;
+  padding: 16px 24px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  z-index: 1000;
+  animation: slideUp 0.3s ease-out forwards;
+}
+
+@keyframes slideUp {
+  from { bottom: -100px; opacity: 0; }
+  to { bottom: 30px; opacity: 1; }
+}
+
+.floating-action-bar span {
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.floating-action-bar .btn-primary {
+  background-color: #10b981; /* Green to indicate adding */
+  border: none;
+  box-shadow: none;
+  padding: 8px 20px;
+}
+
+/* Modal Checkbox List */
+.table-checklist {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 15px;
+  max-height: 200px;
+  overflow-y: auto;
+  border: 1px solid #e5e7eb;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #f9fafb;
+}
+
+.table-checkbox-label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  font-weight: 500;
+  color: #374151;
+}
+
+.table-checkbox-label input {
+  width: 16px;
+  height: 16px;
+  accent-color: #6366f1;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  color: white;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btn-danger:hover {
+  background-color: #dc2626;
+}
+
+/* Unify all buttons in the action bar */
+.floating-action-bar .btn-primary,
+.floating-action-bar .btn-danger {
+  box-shadow: none;
+  border-radius: 50px;
+  padding: 8px 24px;
+  font-size: 0.95rem;
+  min-width: 100px;
+}
+.floating-action-bar .btn-primary:hover {
+  background-color: #059669;
+}
+
+/* Makes the entire table cell a clickable zone for the checkbox */
+.checkbox-hit-area {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  min-height: 45px; /* Ensures the hit area is nice and tall */
+  cursor: pointer;
+}
+
+/* --- DOUBLE CLICK EDIT INPUT --- */
+.cell-edit-input {
+  width: 100%;
+  min-width: 80px;
+  padding: 4px 8px;
+  border: 2px solid #6366f1;
+  border-radius: 4px;
+  outline: none;
+  font-family: inherit;
+  font-size: 0.95rem;
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.2);
+}
+
+/* --- CUSTOM RIGHT-CLICK CONTEXT MENU --- */
+.context-menu {
+  position: absolute;
+  background-color: white;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  padding: 5px 0;
+  min-width: 160px;
+  z-index: 1000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+.context-menu-item {
+  padding: 10px 15px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  color: #374151;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.context-menu-item:hover {
+  background-color: #f3f4f6;
+  color: #111827;
+}
+
+.context-menu-item.danger {
+  color: #ef4444;
+  border-top: 1px solid #f3f4f6;
+  margin-top: 5px;
+}
+
+.context-menu-item.danger:hover {
+  background-color: #fef2f2;
+}
+
+.back-link {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  text-decoration: none;
+  color: #6366f1;
+  font-weight: 600;
+  z-index: 50; /* Keep it above everything */
+}
+
+@media (max-width: 900px) {
+  .table-header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 3rem; /* Give room for the back link without mangling it */
+  }
+  .table-header .back-link {
+    left: 20px;
+    transform: none; /* Removed the bad centering hack */
+  }
+}
+
+/* --- FREEZING CHECKBOX + FIRST COLUMN (Issue 2) --- */
+.spreadsheet-table th.sticky-col-1,
+.spreadsheet-table td.sticky-col-1,
+.master-table th.sticky-col-1,
+.master-table td.sticky-col-1 {
+  min-width: 0;
+  position: sticky;
+  left: 0;
+  background-color: white;
+  z-index: 5;
+  width: 40px;
+  min-width: 40px;
+}
+
+.spreadsheet-table th.sticky-col-2,
+.spreadsheet-table td.sticky-col-2,
+.master-table th.sticky-col-2,
+.master-table td.sticky-col-2 {
+  min-width: 0;
+  position: sticky;
+  left: 40px; /* Sits right next to the checkbox */
+  background-color: white;
+  z-index: 5;
+  border-right: 2px solid #e5e7eb; /* Strong visual border */
+}
+
+/* Headers need to stay above the scrolling body cells */
+.spreadsheet-table th.sticky-col-1,
+.spreadsheet-table th.sticky-col-2,
+.master-table th.sticky-col-1,
+.master-table th.sticky-col-2 {
+  z-index: 10;
+  background-color: #f9fafb; /* Keep headers gray */
+}
+
+/* --- COLUMN RESIZER (Issue 5) --- */
+.col-resizer {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 5px;
+  background: rgba(0,0,0,0.0);
+  cursor: col-resize;
+  user-select: none;
+  touch-action: none;
+  z-index: 15;
+}
+
+.col-resizer:hover, .col-resizer.resizing {
+  background: #6366f1;
+  width: 6px;
 }

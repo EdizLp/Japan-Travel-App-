@@ -73,7 +73,7 @@ class TabelogScraper:
         try:
             rating_of_restaurant = float(self._safe_get_text(restaurant_rating_score))
         except ValueError:
-            rating_of_restaurant = -1.0
+            rating_of_restaurant = -1.00
            
         
         return rating_of_restaurant

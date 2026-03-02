@@ -6,6 +6,7 @@ import SignUp from './SignUp';
 import SetupProfile from './SetupProfile';
 import TableDetail from './TableDetail';
 import TablesDashboard from './TablesDashboard';
+import MasterList from './MasterList';
 import './App.css';
 
 
@@ -169,6 +170,12 @@ function App() {
                 <RequireUsername>
                   <TableDetail /> {/* This is your current Tables.jsx file, renamed */}
                 </RequireUsername>
+              </ProtectedRoute>
+            } />
+            {/* The Master Restaurant Database */}
+            <Route path="/master-list" element={
+              <ProtectedRoute>
+                <MasterList />
               </ProtectedRoute>
             } />
           </Routes>

@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { supabase } from './SupabaseClient'; // Make sure this path is correct!
-import { useAuth } from './AuthProvider';   // Make sure this path is correct!
+import { supabase } from './SupabaseClient'; 
+import { useAuth } from './AuthProvider';   
 
 const TablesDashboard = () => {
   const navigate = useNavigate();
