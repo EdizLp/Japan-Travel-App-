@@ -3,17 +3,28 @@ import requests #To send a POST request to google
 
 
 
-
+#clear field mask every time 
 class GooglePlacesManager:
 
     def __init__ (self, api_key: str | None = None):
         self.api_key = api_key 
+        self.fieldmask_entpro  = (
+        "places.id,places.displayName,places.curbsidePickup,places.delivery,"
+        "places.editorialSummary,places.generativeSummary,places.goodForChildren,"
+        "places.goodForGroups,places.goodForWatchingSports,places.liveMusic,"
+        "places.neighborhoodSummary,places.parkingOptions,places.paymentOptions,"
+        "places.outdoorSeating,places.reservable,places.restroom,places.reviews,"
+        "places.reviewSummary,places.servesBeer,places.servesBreakfast,"
+        "places.servesBrunch,places.servesCocktails,places.servesCoffee,places.servesDessert,"
+        "places.servesDinner,places.servesLunch,places.servesVegetarianFood,"
+        "places.servesWine,places.takeout"
+        )
         self.places_url = "https://places.googleapis.com/v1/places:searchText"  #URL For searchText API 
-
+        self.fieldmask = "places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.regularOpeningHours,places.currentOpeningHours,places.websiteUri,places.internationalPhoneNumber,places.businessStatus,places.priceLevel,places.types,places.primaryType,places.googleMapsUri,places.photos,places.addressComponents,places.adrFormatAddress,places.viewport,places.utcOffsetMinutes"
         self.restaurant_headers = { #Dictionary with headers for the HTML Post request for restaurants 
             "Content-Type": "application/json",   #Content Type indicates what format my information is in       
             "X-Goog-Api-Key": self.api_key,
-            "X-Goog-FieldMask": "places.id,places.displayName,places.formattedAddress,places.location,places.rating,places.userRatingCount,places.regularOpeningHours,places.currentOpeningHours,places.websiteUri,places.internationalPhoneNumber,places.businessStatus,places.priceLevel,places.types,places.primaryType,places.googleMapsUri,places.photos,places.addressComponents,places.adrFormatAddress,places.viewport,places.utcOffsetMinutes"
+            "X-Goog-FieldMask": self.fieldmask_entpro #self.fieldmask
         }   #Field mask is the data we want
         
         
@@ -66,7 +77,8 @@ class GooglePlacesManager:
 
         return google_info
 
-
+    def update_call_record(self):
+        pass 
 
 
 

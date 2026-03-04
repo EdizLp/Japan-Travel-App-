@@ -1,0 +1,74 @@
+{
+    "Tabelog": {
+        "name": "回転寿司 根室花まる 銀座店",
+        "rating": 3.45,
+        "address": "東京都中央区銀座5-2-1東急プラザ銀座10F",
+        "coords": [
+            35.672253437915074,
+            139.76242158313482
+        ],
+        "url": "https://tabelog.com/tokyo/A1301/A130101/13193771/",
+        "reservation_info": "Not accepted",
+        "opening_hours": [
+            {
+                "days": [
+                    "mon",
+                    "tue",
+                    "wed",
+                    "thu",
+                    "fri",
+                    "sat",
+                    "sun"
+                ],
+                "time_slot": "11:00 - 23:00"
+            }
+        ],
+        "reservation_availability": "No",
+        "operational_info": "Irregular holidays (same as Tokyu Plaza Ginza)"
+    },
+    "Google": {
+        "id": "ChIJcfcwKaKLGGARZ2Ptk7fUo_c",
+        "displayName": {
+            "text": "Kaitenzushi Nemuro Hanamaru Ginza",
+            "languageCode": "en"
+        },
+        "takeout": true,
+        "delivery": true,
+        "reservable": false,
+        "servesBreakfast": false,
+        "servesLunch": true,
+        "servesDinner": true,
+        "servesBeer": true,
+        "servesBrunch": true,
+        "servesVegetarianFood": false,
+        "outdoorSeating": false,
+        "liveMusic": false,
+        "servesCocktails": false,
+        "servesDessert": true,
+        "servesCoffee": false,
+        "goodForChildren": false,
+        "restroom": true,
+        "goodForWatchingSports": false,
+        "paymentOptions": {
+            "acceptsCreditCards": true,
+            "acceptsDebitCards": true,
+            "acceptsCashOnly": false,
+            "acceptsNfc": true
+        },
+        "parkingOptions": {
+            "paidParkingLot": true
+        },
+        "reviewSummary": {
+            "text": {
+                "text": "People say this sushi restaurant serves fresh, delicious sushi with generous portions of fish. They also highlight the reasonable prices, lively atmosphere, and friendly staff.\n\nOther reviews mention the wait times can be long.",
+                "languageCode": "en-US"
+            },
+            "flagContentUri": "https://www.google.com/local/content/rap/report?postId=5%401:CAIQACodChtyc19oOndreUVyNnJmdUxKUGlNdzE1ZnBnY3c%7CCAIQACorChtyc19oOndreUVyNnJmdUxKUGlNdzE1ZnBnY3cSDAjnnezMBhCgrNbOAQ&d=17924085&t=8",
+            "disclosureText": {
+                "text": "Summarized with Gemini",
+                "languageCode": "en-US"
+            },
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x60188ba22930f771:0xf7a3d4b793ed6367!9m1!1b1"
+        }
+    }
+}

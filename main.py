@@ -49,7 +49,8 @@ def main() -> None:
 
     supaa = SupaMethods(supabase_client)
     supa_format = SupaFormatter()
-    json_to_supa()
+
+    #json_to_supa()
             
 
     
@@ -72,20 +73,24 @@ def main() -> None:
 
 
 
-    # soups = add_all_tests_htmls()
-    # for soup in soups:
+    soups = add_all_tests_htmls()
+    for soup in soups:
 
-    #     info_t = scraper.core_tabelog_information(soup)
-    #     info_g = google_manager.find_restaurant_by_coords(info_t)
-    #     combined = combine_two_dictionaries("Tabelog", "Google", info_t, info_g)
-    #     add_to_records(combined)
+        info_t = scraper.core_tabelog_information(soup)
+        info_g = google_manager.find_restaurant_by_coords(info_t)
+        combined = combine_two_dictionaries("Tabelog", "Google", info_t, info_g)
+        file_path = f"./data/master_cache/testtt.json"
+
+        with open(file_path, 'w', encoding='utf-8') as f:
+            json.dump(combined, f, ensure_ascii=False, indent=4)
+        #add_to_records(combined)
 
 def add_all_tests_htmls() -> list:
     #scraper -> tracker 
     soups = []
-    i = 5
-    while i < 8:
-        soups.append(load_html(f"./tests/bar{i}"))
+    i = 8
+    while i == 8:
+        soups.append(load_html(f"./tests/test{i}"))
         i+=1
     ##### ABOVE LOADS THE HTML AS SOUP OBJECT#######
     return soups
