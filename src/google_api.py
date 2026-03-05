@@ -10,12 +10,12 @@ class GooglePlacesManager:
         self.api_key = api_key 
         self.fieldmask_entpro  = (
         "places.id,places.displayName,places.curbsidePickup,places.delivery,"
-        "places.editorialSummary,places.generativeSummary,places.goodForChildren,"
+        "places.editorialSummary,places.generativeSummary,"
         "places.goodForGroups,places.goodForWatchingSports,places.liveMusic,"
         "places.neighborhoodSummary,places.parkingOptions,places.paymentOptions,"
-        "places.outdoorSeating,places.reservable,places.restroom,places.reviews,"
+        "places.outdoorSeating,places.reservable,places.restroom,"
         "places.reviewSummary,places.servesBeer,places.servesBreakfast,"
-        "places.servesBrunch,places.servesCocktails,places.servesCoffee,places.servesDessert,"
+        "places.servesBrunch,places.servesCocktails,"
         "places.servesDinner,places.servesLunch,places.servesVegetarianFood,"
         "places.servesWine,places.takeout"
         )
