@@ -1,0 +1,550 @@
+{
+    "Tabelog": {
+        "name": "雷寿司",
+        "rating": 3.59,
+        "address": "兵庫県姫路市魚町2第５クリスタルビル 1F",
+        "coords": [
+            34.83153373683344,
+            134.6893597781988
+        ],
+        "url": "https://tabelog.com/hyogo/A2805/A280501/28012934/",
+        "reservation_info": "Reservations accepted",
+        "opening_hours": [
+            {
+                "days": [
+                    "tue",
+                    "wed",
+                    "thu",
+                    "fri",
+                    "sat",
+                    "sun"
+                ],
+                "time_slot": "17:00 - 23:30"
+            },
+            {
+                "days": [
+                    "mon"
+                ],
+                "time_slot": "Closed"
+            }
+        ],
+        "reservation_availability": "Yes",
+        "operational_info": "Closed on Mondays and Tuesdays."
+    },
+    "Google": {
+        "id": "ChIJF9ys7hPgVDUR6KpmCNj1yAA",
+        "types": [
+            "sushi_restaurant",
+            "japanese_restaurant",
+            "restaurant",
+            "food",
+            "point_of_interest",
+            "establishment"
+        ],
+        "internationalPhoneNumber": "+81 90-4281-0439",
+        "formattedAddress": "Japan, 〒670-0905 Hyogo, Himeji, Uomachi, ２番地 第5 クリスタルビル 1F",
+        "addressComponents": [
+            {
+                "longText": "1F",
+                "shortText": "1F",
+                "types": [
+                    "subpremise"
+                ],
+                "languageCode": "ja"
+            },
+            {
+                "longText": "クリスタルビル",
+                "shortText": "クリスタルビル",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "ja"
+            },
+            {
+                "longText": "２番地 第5",
+                "shortText": "２番地 第5",
+                "types": [
+                    "premise"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Uomachi",
+                "shortText": "Uomachi",
+                "types": [
+                    "sublocality_level_2",
+                    "sublocality",
+                    "political"
+                ],
+                "languageCode": "ja-Latn"
+            },
+            {
+                "longText": "Himeji",
+                "shortText": "Himeji",
+                "types": [
+                    "locality",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Hyogo",
+                "shortText": "Hyogo",
+                "types": [
+                    "administrative_area_level_1",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "Japan",
+                "shortText": "JP",
+                "types": [
+                    "country",
+                    "political"
+                ],
+                "languageCode": "en"
+            },
+            {
+                "longText": "670-0905",
+                "shortText": "670-0905",
+                "types": [
+                    "postal_code"
+                ],
+                "languageCode": "en"
+            }
+        ],
+        "location": {
+            "latitude": 34.8315251,
+            "longitude": 134.6893509
+        },
+        "viewport": {
+            "low": {
+                "latitude": 34.8302474697085,
+                "longitude": 134.6880112697085
+            },
+            "high": {
+                "latitude": 34.832945430291495,
+                "longitude": 134.6907092302915
+            }
+        },
+        "rating": 4.3,
+        "googleMapsUri": "https://maps.google.com/?cid=56565303544818408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+        "websiteUri": "http://www.kaminarizushi.jp/",
+        "regularOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 17,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 1,
+                        "hour": 0,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 17,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 0,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 17,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 0,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 4,
+                        "hour": 17,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 0,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 17,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 0,
+                        "minute": 0
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 17,
+                        "minute": 0
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 0,
+                        "minute": 0
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: Closed",
+                "Tuesday: 5:00 PM – 12:00 AM",
+                "Wednesday: 5:00 PM – 12:00 AM",
+                "Thursday: 5:00 PM – 12:00 AM",
+                "Friday: 5:00 PM – 12:00 AM",
+                "Saturday: 5:00 PM – 12:00 AM",
+                "Sunday: 5:00 PM – 12:00 AM"
+            ],
+            "nextOpenTime": "2026-03-10T08:00:00Z"
+        },
+        "utcOffsetMinutes": 540,
+        "adrFormatAddress": "<span class=\"country-name\">Japan</span>, <span class=\"postal-code\">〒670-0905</span> <span class=\"region\">Hyogo</span>, <span class=\"street-address\">Himeji, Uomachi, ２番地 第5 クリスタルビル 1F</span>",
+        "businessStatus": "OPERATIONAL",
+        "priceLevel": "PRICE_LEVEL_EXPENSIVE",
+        "userRatingCount": 166,
+        "displayName": {
+            "text": "Kaminari Sushi",
+            "languageCode": "en"
+        },
+        "takeout": true,
+        "delivery": true,
+        "reservable": true,
+        "servesBreakfast": false,
+        "servesDinner": true,
+        "servesVegetarianFood": false,
+        "currentOpeningHours": {
+            "openNow": false,
+            "periods": [
+                {
+                    "open": {
+                        "day": 0,
+                        "hour": 17,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 15
+                        }
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 23,
+                        "minute": 59,
+                        "truncated": true,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 15
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 2,
+                        "hour": 17,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 10
+                        }
+                    },
+                    "close": {
+                        "day": 3,
+                        "hour": 0,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 11
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 3,
+                        "hour": 17,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 11
+                        }
+                    },
+                    "close": {
+                        "day": 4,
+                        "hour": 0,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 12
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 4,
+                        "hour": 17,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 12
+                        }
+                    },
+                    "close": {
+                        "day": 5,
+                        "hour": 0,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 13
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 5,
+                        "hour": 17,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 13
+                        }
+                    },
+                    "close": {
+                        "day": 6,
+                        "hour": 0,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 14
+                        }
+                    }
+                },
+                {
+                    "open": {
+                        "day": 6,
+                        "hour": 17,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 14
+                        }
+                    },
+                    "close": {
+                        "day": 0,
+                        "hour": 0,
+                        "minute": 0,
+                        "date": {
+                            "year": 2026,
+                            "month": 3,
+                            "day": 15
+                        }
+                    }
+                }
+            ],
+            "weekdayDescriptions": [
+                "Monday: Closed",
+                "Tuesday: 5:00 PM – 12:00 AM",
+                "Wednesday: 5:00 PM – 12:00 AM",
+                "Thursday: 5:00 PM – 12:00 AM",
+                "Friday: 5:00 PM – 12:00 AM",
+                "Saturday: 5:00 PM – 12:00 AM",
+                "Sunday: 5:00 PM – 12:00 AM"
+            ],
+            "nextOpenTime": "2026-03-10T08:00:00Z"
+        },
+        "primaryType": "sushi_restaurant",
+        "photos": [
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfVZwoXHTDNG_iD3SiK4BMCQZJxm4Qadxi_ITFS4Y3Hn35km1meJ-Q405-GgjEPgXnm8HZ5FfVag1xxY_S2Vpk0DkVTF-p0fkvIwMmZs6VApswY93jptUQbYhUQldGRmJ-KRDQJ5DUG8x8ZMsPLhhWaEMFeAs_FR5X7b4GJT8C4o31xHIuLG5gUwMTKMjAS3OTdK-TLxds6dlG7n2ZXEoSc1-nb3RAaa_TJgGo8-Pzpi2MTSfaFu9i75xX-NRenETLlF-b4b17xYJpqkDmKGWwMdthJ1H20cHgOI7ptBpjqdICYRnVmowJr1OZLk1IV70z7W1YZE_8k1fFEVOZV5U9WqGUXWktmkmZd1t3aqYGLTD4tHN9c2mMWTaiC_QJw9t8ON1Xp-T34yd7qfqOEnlX9GzHmQpE9Jh66x5ikKcwNvyOkj7snfcaCdK454APKF",
+                "widthPx": 4800,
+                "heightPx": 2700,
+                "authorAttributions": [
+                    {
+                        "displayName": "東健太郎",
+                        "uri": "https://maps.google.com/maps/contrib/115281947719124925512",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjXVuoo7wsjKP972nm_tOUv6KpTLGdfcx8gkxGVP892-QQVrID9q=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhBlwt6vp6b7ZYnSSgfaCL-w&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhBlwt6vp6b7ZYnSSgfaCL-w!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfUXux4kCYhMg5wxp1NAUQlxmfYgEA_Vsw6axajBZUqKOr21iQs5-LwXDnlgkBrZVdh7xuhXu6QuoXCqgm20EbtDmIK_zRwyCINlRooJbf-4ctbMrv0TkESdB8nKDp4vpXi7UBNywrifzS7CtCGF_wyhexiNn_ZN83SDFgo-keqEJw9lPZJZdG8KpgiQotiLASNHMgcw05Ai4LYLg_sy9qh8QXuRSZ3G1JNq86wxZx4w4jLMN6xmdRap1MpAet9vZfpZaX1cQVILxKM77Tgvoo-alv9d5AULox08DxptlFccGQ",
+                "widthPx": 4032,
+                "heightPx": 3024,
+                "authorAttributions": [
+                    {
+                        "displayName": "雷寿司",
+                        "uri": "https://maps.google.com/maps/contrib/114263789200802584856",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUueO8WPvb5Q6UYH_tYu8RIknQhWPqTPL3Bg-KrbbNB3-eHMnBg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipPHxqn2kryH55DuLWlhKC6FWihCwx5XL-S_oK-v&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipPHxqn2kryH55DuLWlhKC6FWihCwx5XL-S_oK-v!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfXwsu8dpJ-CZg_VIQHLD4dfX17OP4YHI-CH5lbX0QegixbGlrLJIlBMXn8zjqTHuflbU3wDA3_idswXV10I-AVbdHmB9r8AfLTL4IqF0Ets28EJTVvK2iWGZwPVZ6U5eZQ7r8XfFJNm2dL-rUFSqa22HdLXPp5IGeWg1XjevAYtlXtA2e4J-CjxJOOSLzxFxuGqdiMks1Y4Pmtmtp7vKdwg43o291_bAxhfWhKoUb6dRNnYsebLYGdAEhOy21iq_n4pK754HoZ14DT1gWSxCQF4A6C1k0Wglx0dF5v4p50mxQ",
+                "widthPx": 4000,
+                "heightPx": 3000,
+                "authorAttributions": [
+                    {
+                        "displayName": "雷寿司",
+                        "uri": "https://maps.google.com/maps/contrib/114263789200802584856",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUueO8WPvb5Q6UYH_tYu8RIknQhWPqTPL3Bg-KrbbNB3-eHMnBg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNA_2ZtpanKReeH7YUz_Dl1mMQKLHou7f6Awjfi&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNA_2ZtpanKReeH7YUz_Dl1mMQKLHou7f6Awjfi!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfUcZVPyYNGnWIJ_-RLao32Kci1Dml7vWYiIxY5oy8nmx9ouxAUlXuewbd1a8j4-o4Zyc0fL__OV6MMeIbUoTWpc3mPSQMYc2J6iGoYYBsHVrXzfu1lVZfvQuM-XZgdoJbj-y9a1D5WuHgeIhec2fAlGpWZD8eB2nUDpl-oEMci8Tmb3_8tGUM72xRoGlhsMUX1Fd8dIgH1BT7PqXQEwPMgeYvKlc21vGzYMtzLKsMbUw-qNLKSdA5ByQiZ54TSqvFenJ6PH2DzT498XN6tBhRMWjv5eEA9EBFXpZ7PhxjwERRQL1xxw3k7HN-nwtCAppdCs7RlX6xlZIyLOpopcZLn8i2jcLGNZjqHALIR3J0ZsQNC1_IJoh58flPcqU3cBrJR5-hg83a96wWX-HzUT_8sKjyBRuPrl2Mb3-YG3UyE",
+                "widthPx": 1500,
+                "heightPx": 1500,
+                "authorAttributions": [
+                    {
+                        "displayName": "toh woo kim",
+                        "uri": "https://maps.google.com/maps/contrib/112878590562723130367",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocL0Xbr7R2dXNY7p8l8P9qOUCEhg5SNiMGg74W7Ij-ft6vltgMg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgICPq5HkDQ&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgICPq5HkDQ!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfXlDOJaXoWQ1eD-L2bfv3OSqT1_b-tnXhreVG0OEq8hfGq91abBwBDY9li5DaP1YWGQgGoa5iZd7IipaNqdxnXT_JFPeopiOxWa_LAZsgO7D9lVO2J-CrSyeyCH4fKC-JPqLJ5qm3NVVswPOEZKY92xjjoldXqFjwWT2SRJvqYRodJCor7T_bU_QgDvlMD_6mRHpqA0AJ0u_HunhSW0Vcc25qJZTOjj32PkMO4vY9R3n7EZpxCtiFvDn4Z6OLaS3MT41tgiAlQVtkYk69wTKBP0NEHI9La4A_p9zJzbYzY1KXcQBjfaZIVpaWbFZTfdTjdlnntS_kto1_nU40_bspTyZnBMKn9Fxde4H0xPs-oEQ69aMtBLED87RGHb0NlZ9H44F5iLvAHTyiBuEdCRwE-Lv07F_O079reR4-2yqxNMSqY",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "潘じゅん",
+                        "uri": "https://maps.google.com/maps/contrib/104138513060586181827",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIUwgFcx2zRoq4S_OAXfN93249bZGXQgdnp8Mr0iqoRo64JxA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMDI5v_fyQE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDI5v_fyQE!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfW-_EMwN4pdrsRmH-Ppw8ZiugjSU4C56PVRcsctWypm_0kbIdnY7o5P53dOHSeA61NNRjt3CaaITkWkea8FssPImpzMez4UKJFAjunkdrKU8DpPcSMwhS2IpOZdDHJsLUhZvhUGOSdxtoJRZ4qPRoN4yUH8Zty0hXsxDptAP8Pgr7A2LASwTD9nBFvN8iR63Jx1DJkBebSCl3evGxWEnt7gbNXIXueiFrPThpH9n9i4BMH9_gxcyKemZyck8vmYHN7N70rF8EbjPYuwsxDTrShbGxjgLGKy3sRQa64d_3aR3g",
+                "widthPx": 1008,
+                "heightPx": 756,
+                "authorAttributions": [
+                    {
+                        "displayName": "雷寿司",
+                        "uri": "https://maps.google.com/maps/contrib/114263789200802584856",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjUueO8WPvb5Q6UYH_tYu8RIknQhWPqTPL3Bg-KrbbNB3-eHMnBg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sAF1QipNSx2Uk6YSSvrrLFeDR-V4AlJetb1PIAflO7Qum&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sAF1QipNSx2Uk6YSSvrrLFeDR-V4AlJetb1PIAflO7Qum!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfVCzgsM6Ns7KEi9pMMV8sm_RfZVJMWXyBTko9tSlmCoRdHZMa7vD-qJFSNKbU0yKbqn07p0U6qfaMgmEmPHQpUFp-Li19-sW9Rltut2j76IrlotwFMyNGgdduyoNO3T1b1kinEyRZ-VrSTqOnYb440-eSmiwtq94lBH_ik-kshe6_pjRP6IlKQWQrtpTBDdFuYfuGgrJG6eFyr6WzJYHMYFpRuIOLLmx-PFcJujcrbQnVwv4S1zyEG0VnbhErCAMkNsdPqeZI2xwiHgYCy9cVWfQE4nxKSAojRTbB54Lr_B0osqWqCh-PQ7b-XU8nvcWEfoHu4f51aFSc1EHRanCHHl9uI1Kw4B3rur-TUC4TrvciC2E2XEmXcYbowlD-kskSKcS4Zr8DaFjWUzxyoKTwmI6-fv-PdO4azgRp4iIcFyxQ",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "金さん",
+                        "uri": "https://maps.google.com/maps/contrib/110129807480574747799",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKDZp0FkBk5KGVe-meMT5c19WaJojjHa6B9TjW_tz5oadravA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDv-dvNEg&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDv-dvNEg!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfUjQxwv4LJrpcrDSSEUi2sl-T-lP6LQ8QWUo64AAGpZLx8bP0r3zgjYgUq9ZU_TJK50nIVtt-4AqzVKJ4APj3CdwH4_TOpA7CM_S_SUUxLrdzz9VqVA1hhkPGrJH-I_NZE7Kep3m9A3-KJNcCgco2_75wj1xjUJbEn4hdTW0i_tmjaCy63GX64YKayoXPPWgOv57E1GwWIGydfTPnyLk0QlVFIACYtv-r_rOELv2yxSUyrnI55_98Pf-_iFwldcnbd8Bwi7Mwdyymp0XR0ZHRWl3Q_Au4A5frcxtPKClkSs1CXjxHGcwCLoVAPny1y8Q3h5J64cRqbZKEGKhQvsspRQEO49Gfk9driPBkYzH5MYp5ar3M48lcsq4rMK40Y0_Pfn13UPQk-kSP3qvT_v-1GjrqWSp0iXsgBEX5FjexKXmIuNkTL2pfdfJvqJTA",
+                "widthPx": 4624,
+                "heightPx": 3472,
+                "authorAttributions": [
+                    {
+                        "displayName": "飲みニスト0430",
+                        "uri": "https://maps.google.com/maps/contrib/112702713887312374566",
+                        "photoUri": "https://lh3.googleusercontent.com/a-/ALV-UjWHuxqqPVO6XYCncEn943_jMDbE2fP3x61mvg4MLVjsWUjw8cjXUg=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIABIhB1jVxGB5s71JSMs2EoR6Kh&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIABIhB1jVxGB5s71JSMs2EoR6Kh!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfUu-KJEXBK11reVyg_GDWBrBWjIFoorbY62Uv47zsojQdKUfD3WyGhcCArm4-kyjpyRghjkiaUyn5pCTPoH6srb9pO25vNMJ67CmMlEo5R0hT5b077KowQNImRW_PEkZE5SbfDETCP9sarHK2HIQQ-LA59jNPbZru1ktyzFFjbROgDK81Vd6-hIY6bu_tbaRi_Vdqa_vejDF-tKUumCgPnpRR05K-cPYUCLAxoxAfJXG_twL7KTSLUw66zH9180b8zU0Qqqxgy0ZkSsD0Km1LWGAnj6nvcYN03YoABfroLH1nF7VHGDqgTAcKoMA_cpct2M7PGBC7n5lrkQ7EVbwUKtLNAnuNCzXXYuXIyWXoVhB0U4mpVisTIEoBsEWl-GLZuJOvkQx4qKBUX7xceDzAIqhJTDkkj1_H3nEeqpPOhqgWv4",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "潘じゅん",
+                        "uri": "https://maps.google.com/maps/contrib/104138513060586181827",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocIUwgFcx2zRoq4S_OAXfN93249bZGXQgdnp8Mr0iqoRo64JxA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgMDI5v_f6QE&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgMDI5v_f6QE!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            },
+            {
+                "name": "places/ChIJF9ys7hPgVDUR6KpmCNj1yAA/photos/ATCDNfVJxutdhTYl7icCII62VoUoWDICjOUHWmfnwLWDZZIm5nocB1UGZknhP46WdLEHVVn8lUWRmScnR3b-wzjA1EHlIS4L4arQcHaxB1HZKK7mehcXljhUEIeO3yCim9_AuGPFa5rFmHqX7PDb2lB4qKRJ3RMCT1Emhw3WziUfIfB9nvcklm1cYLs8xGhv9RPMd-UTEB8129XM27qSaYjOioDKBFclCovVTC9PdrfnjKn4EiDGm5uL7iONNT3q1FFdZWpmSaEIZ3y6DdlqDtipq1QwIbO3jssHt1ku3_MUoGwv9S4GWOBKoaBRExIvEOZJ_jSEWFCafOH9YmbRdV5wT_PA5OUDhhb7nWpLYVX7z54y64d0NOWIzw55xNbVhCQhc0ssc34ocmdhCHTAJmdwAoFS8cF75qFpnfqjr25pEb4_jg",
+                "widthPx": 3024,
+                "heightPx": 4032,
+                "authorAttributions": [
+                    {
+                        "displayName": "金さん",
+                        "uri": "https://maps.google.com/maps/contrib/110129807480574747799",
+                        "photoUri": "https://lh3.googleusercontent.com/a/ACg8ocKDZp0FkBk5KGVe-meMT5c19WaJojjHa6B9TjW_tz5oadravA=s100-p-k-no-mo"
+                    }
+                ],
+                "flagContentUri": "https://www.google.com/local/imagery/report/?cb_client=maps_api_places.places_api&image_key=!1e10!2sCIHM0ogKEICAgIDv-dvNXA&hl=en",
+                "googleMapsUri": "https://www.google.com/maps/place//data=!3m4!1e2!3m2!1sCIHM0ogKEICAgIDv-dvNXA!2e10!4m2!3m1!1s0x3554e013eeacdc17:0xc8f5d80866aae8"
+            }
+        ],
+        "outdoorSeating": false,
+        "liveMusic": false,
+        "servesCocktails": false,
+        "servesDessert": false,
+        "restroom": true,
+        "goodForWatchingSports": false,
+        "paymentOptions": {
+            "acceptsCreditCards": true,
+            "acceptsCashOnly": false
+        },
+        "reviewSummary": {
+            "text": {
+                "text": "People say this sushi restaurant offers a wide variety of fresh sushi, including seasonal specialties like uni, ikura, and anago, as well as appetizers and small dishes. They highlight the excellent value, with some mentioning the prices are reasonable for the quality and quantity of food. They also like the welcoming and comfortable atmosphere, and the attentive and friendly service from the staff and chef.",
+                "languageCode": "en-US"
+            },
+            "flagContentUri": "https://www.google.com/local/content/rap/report?postId=5%401:CAIQACodChtyc19oOktteFdlRDdrMFp2TWFSUnZVdGZXZVE%7CCAIQACorChtyc19oOktteFdlRDdrMFp2TWFSUnZVdGZXZVESDAjnnezMBhCgrNbOAQ&d=17924085&t=8",
+            "disclosureText": {
+                "text": "Summarized with Gemini",
+                "languageCode": "en-US"
+            },
+            "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x3554e013eeacdc17:0xc8f5d80866aae8!9m1!1b1"
+        }
+    }
+}

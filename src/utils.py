@@ -107,3 +107,15 @@ def list_to_string(separator:str, default_string:str = "", my_list: list = []):
         if my_list:
              return separator.join(my_list)
         return default_string
+
+def string_to_bool(word:str) -> bool | None:
+    """Given the following strings:
+    "Yes" -> True
+    "No" -> False
+    Else -> None
+    """
+    if word.lower() == "yes":
+        return True
+    elif word.lower() == "no":
+        return False
+    return None

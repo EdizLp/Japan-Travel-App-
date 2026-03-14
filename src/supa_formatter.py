@@ -1,13 +1,18 @@
 import string
 from .utils import list_to_string
-
+from collections import namedtuple
 
 class SupaFormatter:
     """This class handles formatting things to upload to my supabase"""
     def __init__(self):
-        self.export = {}
-        self.time_export = []  
+        self.export = {} #basic export for main table
+        self.time_export = []  #export for 24hr time table for filtering (is it open)
+        self.unimportantexport = {} #for unimportant data that won't be used much but we want to capture 
         self.days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
+        self.google_exports = [
+                                ("google_id", "id"), ("phone_number", "internationalPhoneNumber"), ("google_rating", "rating"), ("google_viewport","viewport"),
+                                ("google_url", "googleMapsUri"), ("website","websiteUri"), ("google_address", "formattedAddress"), ("amount_google_ratings", "userRatingCount")
+                                        ]
         self.simple_exports = [
                             ("Google", [
                                 ("google_id", "id"), ("phone_number", "internationalPhoneNumber"), ("google_rating", "rating"), ("google_viewport","viewport"),
@@ -19,6 +24,7 @@ class SupaFormatter:
                                 ("reservation_info", "reservation_info"), ("reservation_availability","reservation_availability" ), ("operational_info", "operational_info")
                                         ])
                             ]
+        #in the format column_name, dict name.
  
     
 

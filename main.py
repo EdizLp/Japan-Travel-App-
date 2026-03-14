@@ -79,7 +79,7 @@ def main() -> None:
         info_t = scraper.core_tabelog_information(soup)
         info_g = google_manager.find_restaurant_by_coords(info_t)
         combined = combine_two_dictionaries("Tabelog", "Google", info_t, info_g)
-        file_path = f"./data/master_cache/testtt.json"
+        file_path = f"./data/master_cache/test9.json"
 
         with open(file_path, 'w', encoding='utf-8') as f:
             json.dump(combined, f, ensure_ascii=False, indent=4)
@@ -88,8 +88,8 @@ def main() -> None:
 def add_all_tests_htmls() -> list:
     #scraper -> tracker 
     soups = []
-    i = 8
-    while i == 8:
+    i = 9
+    while i == 9:
         soups.append(load_html(f"./tests/test{i}"))
         i+=1
     ##### ABOVE LOADS THE HTML AS SOUP OBJECT#######
