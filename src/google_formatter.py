@@ -1,4 +1,44 @@
+from collections import namedtuple
+
+
 def process_google_data(data_source:dict, names_and_keys:list) -> dict: # Each one should return the data to export or None.
+    GoogleFieldMap = namedtuple("FieldMap", ["db_col_name", "json_key", "function"])
+    GOOGLE_MAPPING = [
+    GoogleFieldMap(db_col="google_id", json_key="id", function=extract_simple_data), #google id
+    GoogleFieldMap(db_col="google_id", json_key="internationalPhoneNumber", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="rating", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="viewport", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="googleMapsUri", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="websiteUri", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="formattedAddress", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="userRatingCount", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="delivery", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="goodForWatchingSports", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="liveMusic", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="outdoorSeating", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="reservable", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="servesBreakfast", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="servesCocktails", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="servesDinner", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="servesLunch", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="servesVegetarianFood", function=extract_simple_data),
+    GoogleFieldMap(db_col="google_id", json_key="takeout", function=extract_simple_data),
+    #Not simple
+    GoogleFieldMap(db_col="google_id", json_key="priceLevel", function=extract_simple_data),#price
+    GoogleFieldMap(db_col="google_id", json_key="location", function=extract_simple_data),#coords
+    GoogleFieldMap(db_col="google_id", json_key="displayName", function=extract_simple_data),#english name
+    GoogleFieldMap(db_col="google_id", json_key="primaryType", function=extract_simple_data),#Genre
+    GoogleFieldMap(db_col="google_id", json_key="types", function=extract_simple_data),#type
+    GoogleFieldMap(db_col="google_id", json_key="addressComponents", function=extract_simple_data),#prefecture and city
+    GoogleFieldMap(db_col="google_id", json_key="regularOpeningHours", function=extract_simple_data),#google hours
+    #Not simple and new 
+    GoogleFieldMap(db_col="google_id", json_key="takeout", function=extract_simple_data),#review summary
+    GoogleFieldMap(db_col="google_id", json_key="generativeSummary", function=extract_simple_data),#generative summary
+    GoogleFieldMap(db_col="google_id", json_key="paymentOptions", function=extract_simple_data),#payment options
+    GoogleFieldMap(db_col="google_id", json_key="priceRange", function=extract_simple_data),#price range 
+    GoogleFieldMap(db_col="google_id", json_key="photos", function=extract_simple_data),#photos
+    GoogleFieldMap(db_col="google_id", json_key="businessStatus", function=extract_simple_data)#business status 
+]
     google_extract = {}
     for pairs in names_and_keys:
         data = 

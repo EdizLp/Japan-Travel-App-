@@ -12,18 +12,18 @@ class GooglePlacesManager:
         self.api_key = api_key 
         self.fieldmask_entpro  = (
         "places.id,places.displayName,places.formattedAddress,places.location,places.rating,"
-        "places.userRatingCount,places.regularOpeningHours,places.currentOpeningHours,places.websiteUri,"
+        "places.userRatingCount,places.regularOpeningHours,places.websiteUri,"
         "places.internationalPhoneNumber,places.businessStatus,places.priceLevel,places.types,places.primaryType,"
-        "places.googleMapsUri,places.photos,places.addressComponents,places.adrFormatAddress,"
+        "places.googleMapsUri,places.photos,places.addressComponents,"
         "places.viewport,places.delivery,"
         "places.generativeSummary,"
         "places.goodForWatchingSports,places.liveMusic,"
         "places.paymentOptions,"
         "places.outdoorSeating,places.reservable,"
         "places.reviewSummary,places.servesBreakfast,"
-        "places.servesCocktails,places.servesDessert,"
+        "places.servesCocktails,"
         "places.servesDinner,places.servesLunch,places.servesVegetarianFood,"
-        "places.takeout"
+        "places.takeout, places.priceRange, places.photos"
         )
         self.places_url = "https://places.googleapis.com/v1/places:searchText"  #URL For searchText API 
         self.fieldmask = (
