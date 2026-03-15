@@ -1,6 +1,13 @@
+def process_google_data(data_source:dict, names_and_keys:list) -> dict: # Each one should return the data to export or None.
+    google_extract = {}
+    for pairs in names_and_keys:
+        data = 
+        google_extract[]
+    google_extract[]
 
 
-def extract_simple_data(data_to_export:dict, data_source) -> bool | None:
+
+def extract_simple_data(data_source) -> bool | None:
     """Extracts the exact value given with no need to format the data"""
     data_to_export = data_source.get(field_tuple[1])
     if data_to_export != "N/A" and data_to_export != None:
@@ -9,7 +16,7 @@ def extract_simple_data(data_to_export:dict, data_source) -> bool | None:
         
     return False
 
-def _extract_google_price(data_to_export:dict, data_source: dict) -> bool:
+def _extract_google_price( data_source: dict) -> bool:
         """This extracts the price level changing it from the format:
         PRICE_LEVEL_MODERATE
         to:
@@ -21,7 +28,7 @@ def _extract_google_price(data_to_export:dict, data_source: dict) -> bool:
             return True
 
         return False
-def _extract_google_coords(data_to_export, data_source: dict) -> bool:
+def _extract_google_coords(data_source: dict) -> bool:
         """This extracts the coordinates given by google"""
         location = data_source.get("location")
         if location:
@@ -29,7 +36,7 @@ def _extract_google_coords(data_to_export, data_source: dict) -> bool:
             return True
     
         return False
-def _english_name_extract(data_to_export, data_source: dict) -> bool:
+def _english_name_extract(data_source: dict) -> bool:
     """This extracts the display name given by google, in the rare cases it's not in English that is added on """
     display_name = data_source.get("displayName")
     if display_name:
@@ -40,7 +47,7 @@ def _english_name_extract(data_to_export, data_source: dict) -> bool:
         return True
     return False
 
-def _extract_genre(data_to_export, data_source: dict) -> bool:
+def _extract_genre(data_source: dict) -> bool:
     """This extracts the primaryType field from our google data, formatting it nicely"""
     primary_type =  data_source.get("primaryType")
     
@@ -49,7 +56,7 @@ def _extract_genre(data_to_export, data_source: dict) -> bool:
         return True
     return False
 
-def _extract_type(data_to_export, data_source: dict) -> bool:
+def _extract_type(data_source: dict) -> bool:
 
     type_of_place = data_source.get("types")
     if type_of_place:
@@ -61,7 +68,7 @@ def _extract_type(data_to_export, data_source: dict) -> bool:
             return True
     return False
 
-def _extract_city_prefecture(data_to_export, data_source: dict) -> bool:
+def _extract_city_prefecture(data_source: dict) -> bool:
 
     address_components = data_source.get("addressComponents")
     if address_components:
@@ -79,7 +86,7 @@ def _extract_city_prefecture(data_to_export, data_source: dict) -> bool:
         return True
     return False
 
-def _convert_google_hours(data_to_export, data_source: dict) -> None:
+def _convert_google_hours(data_source: dict) -> None:
 
     opening_hours = data_source.get("regularOpeningHours", {}) #default value {} 
     time_array = opening_hours.get("weekdayDescriptions")
